@@ -121,9 +121,9 @@ class PlaywrightGasBuddyScraper:
             page.goto(f"https://www.gasbuddy.com/home?search={zip_code}", 
                      wait_until="domcontentloaded", timeout=60000)
             
-            # Wait for Cloudflare to pass
+            # Wait for Cloudflare to pass (longer in headless mode)
             print(f"    Waiting for Cloudflare...")
-            time.sleep(10)  # Give Cloudflare time to pass
+            time.sleep(15)  # Give Cloudflare more time in headless
             
             # Debug: check what's on page
             title = page.title()
@@ -274,9 +274,24 @@ class PlaywrightGasBuddyScraper:
         with sync_playwright() as p:
             # Launch browser once for all tests
             # headless=True for production, False for debugging
-            browser = p.chromium.launch(headless=True)
-            context = browser.new_context()
+            browser = p.chromium.launch(
+                headless=True,
+                args=['--disable-blink-features=AutomationControlled']  # Hide automation
+            )
+            # Create context with realistic settings to bypass Cloudflare
+            context = browser.new_context(
+                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                viewport={'width': 1920, 'height': 1080},
+                locale='en-US',
+                timezone_id='America/New_York'
+            )
+            # Remove webdriver property
             page = context.new_page()
+            page.add_init_script("""
+                Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined
+                });
+            """)
             
             for i, zip_code in enumerate(zip_codes, 1):
                 print(f"[{i}/{len(zip_codes)}] ZIP {zip_code}:")

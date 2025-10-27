@@ -1,0 +1,20 @@
+{
+  "test_date": "2025-10-27T11:53:48.736016",
+  "stats": {
+    "zips_scraped": 1,
+    "button_clicks": 0,
+    "stations_found": 0,
+    "errors": 0
+  },
+  "results": [
+    {
+      "zip": "77494",
+      "success": true,
+      "total_expected": 0,
+      "total_found": 0,
+      "stations": [],
+      "button_clicks": 0,
+      "error": null
+    }
+  ]
+}
