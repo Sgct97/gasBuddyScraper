@@ -1,0 +1,805 @@
+{
+  "timestamp": "2025-10-26T18:50:48.987087",
+  "api_calls": [
+    {
+      "timestamp": "2025-10-26T18:50:26.215305",
+      "method": "GET",
+      "url": "https://cdn.gasbuddy.com/vendors~AboutUsPage~AppPage~BrandPage~DoNotSellMyPI~EnterToWinPage~FavoriteStationsListsPage~Favorit~494b0cf6.cebab307ece51e574ebe.css",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:26.216317",
+      "method": "GET",
+      "url": "https://cdn.gasbuddy.com/vendors~AboutUsPage~AppPage~BrandPage~DoNotSellMyPI~EnterToWinPage~FavoriteStationsListsPage~Favorit~494b0cf6.37367dae89164144ac11.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:26.216627",
+      "method": "GET",
+      "url": "https://cdn.gasbuddy.com/vendors~BrandPage~FavoritesListPage~HomePage~MasterStationListPage~RegionPriceStatisticsPage~Regiona~3cb088db.6b13ccba5b8da6b2a585.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:26.326348",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/consent/5912756a-9c9a-429f-9243-93932a946a02/5912756a-9c9a-429f-9243-93932a946a02.json",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:26.394496",
+      "method": "GET",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic,700italic&subset=latin&display=fallback",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://cdn.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:26.797225",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/consent/5912756a-9c9a-429f-9243-93932a946a02/c6526d05-8a74-41f6-a06b-eed7dcc52730/en.json",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:26.839771",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/scripttemplates/202309.1.0/assets/otFlat.json",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:26.840095",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/scripttemplates/202309.1.0/assets/v2/otPcCenter.json",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:26.840207",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/scripttemplates/202309.1.0/assets/otCookieSettingsButton.json",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:27.047052",
+      "method": "GET",
+      "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761519027&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%22470b01e7-24be-4412-9091-15bb1030f299%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A0%2C%22ids%22%3A%7B%7D%7D%0A%7B%22dt%22%3A%22s%22%2C%22ct%22%3A1761519026%2C%22u%22%3A%22eefd5769-b058-4710-91b9-87714775ce5b%22%2C%22nth%22%3A0%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22cid%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22utp%22%3A%22anonymous%22%7D",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:27.193561",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.gasbuddy.com%2F&scrsrc=www.googletagmanager.com&rnd=1443587796.1761519027&dt=GasBuddy%20-%20Cheapest%20Gas%20Station%20Finder%20App%20with%20Money%20Saving%20Benefits&auid=1212852714.1761519027&navt=n&npa=0&gtm=45He5am0v78727790za200zd78727790xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105322302~115480709~115938466~115938469~116210085~116210087~116217636~116217638&tft=1761519027183&tfd=1390&apve=1&apvf=f",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:27.267753",
+      "method": "GET",
+      "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761519027&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%22b311909c-af1f-4c94-98da-c3e6d0a92843%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A1%2C%22ids%22%3A%7B%7D%7D%0A%7B%22ct%22%3A1761519027%2C%22u%22%3A%222194393f-1cb7-4c3e-9779-fefcb2cf7ac9%22%2C%22su%22%3A%22eefd5769-b058-4710-91b9-87714775ce5b%22%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22dt%22%3A%22e%22%2C%22n%22%3A%22Home_Opened%22%2C%22cid%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22utp%22%3A%22anonymous%22%7D",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:27.270378",
+      "method": "GET",
+      "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761519027&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%22e0b57150-38cd-4b4b-9dc1-77b766982988%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A2%2C%22ids%22%3A%7B%7D%7D%0A%7B%22ct%22%3A1761519027%2C%22u%22%3A%228ef81c49-699d-487a-8400-4bfebd1fbb62%22%2C%22su%22%3A%22eefd5769-b058-4710-91b9-87714775ce5b%22%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22dt%22%3A%22e%22%2C%22n%22%3A%22Screen%20Viewed%22%2C%22cid%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22utp%22%3A%22anonymous%22%2C%22attrs%22%3A%7B%22Screen%20Name%22%3A%22Home%22%7D%7D",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:27.356595",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-V2LZ5H9RW6&gtm=45je5am0v899700139z878727790za200zb78727790zd78727790&_p=1761519026775&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1740824424.1761519027&ul=en-us&sr=1920x1080&_ng=1&ir=1&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EA&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105322302~115480709~115616985~115938466~115938469~116217636~116217638&sid=1761519027&sct=1&seg=0&dl=https%3A%2F%2Fwww.gasbuddy.com%2F&dt=GasBuddy%20-%20Cheapest%20Gas%20Station%20Finder%20App%20with%20Money%20Saving%20Benefits&en=page_view&_fv=1&_nsi=1&_ss=1&ep.userId=0&up.19=0&tfd=1548",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:27.372847",
+      "method": "GET",
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/844908342/?random=1761519027365&cv=11&fst=1761519027365&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5am0za200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709~115938466~115938469~116217636~116217638&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.gasbuddy.com%2F&frm=0&tiba=GasBuddy%20-%20Cheapest%20Gas%20Station%20Finder%20App%20with%20Money%20Saving%20Benefits&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1212852714.1761519027&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:27.577701",
+      "method": "POST",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1319732248&t=pageview&_s=1&dl=https%3A%2F%2Fwww.gasbuddy.com%2F&ul=en-us&dt=GasBuddy%20-%20Cheapest%20Gas%20Station%20Finder%20App%20with%20Money%20Saving%20Benefits&sr=1920x1080&vp=1905x1080&_u=YCDACEABBAAAACAAI~&jid=209087462&gjid=583500480&cid=1740824424.1761519027&uid=0&tid=UA-3201164-1&_gid=969085169.1761519027&_r=1&_slc=1&gtm=45He5am0n81N3CG6XKv78727790za200zd78727790&cd19=0&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105322302~115480709~115938466~115938469~116210085~116210087~116217636~116217638&z=970423273",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "content-type": "text/plain",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:27.647310",
+      "method": "GET",
+      "url": "https://www.google.com/pagead/1p-user-list/844908342/?random=1761519027365&cv=11&fst=1761516000000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5am0za200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~115480709~115938466~115938469~116217636~116217638&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.gasbuddy.com%2F&frm=0&tiba=GasBuddy%20-%20Cheapest%20Gas%20Station%20Finder%20App%20with%20Money%20Saving%20Benefits&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1212852714.1761519027&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSfwDCSxrRryn4rXtCGg3a_e4Rhj0rkX4iEaoO-kGD4q7pez0XOhORzF7RK3zDqUW27vJP5sMwyU5KLWPL3-WBdvax7YOrt2YHiR4W43UddsdsW83fF_wzOVWwkcnxIz7_kpFMnijrHSwIj7PQbp89ho0_5LRllm3KlX40JUlwuDY&random=4058829096&rmt_tld=0&ipr=y",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.178822",
+      "method": "GET",
+      "url": "https://www.gasbuddy.com/home?search=90210",
+      "headers": {
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.408980",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-V2LZ5H9RW6&gtm=45je5am0v899700139za200zb78727790zd78727790&_p=1761519026775&gcd=13l3l3l3l1l1&npa=0&dma=0&tcfd=10000&cid=1740824424.1761519027&ul=en-us&sr=1920x1080&_ng=1&ir=1&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105322302~115480709~115616985~115938466~115938469~116217636~116217638&sid=1761519027&sct=1&seg=1&dl=https%3A%2F%2Fwww.gasbuddy.com%2F&dt=GasBuddy%20-%20Cheapest%20Gas%20Station%20Finder%20App%20with%20Money%20Saving%20Benefits&en=user_engagement&ep.userId=0&_et=16046&tfd=17610",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.414597",
+      "method": "GET",
+      "url": "https://cdn.gasbuddy.com/SearchResultsPage.0a4784aabb41540a08f2.css",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.414932",
+      "method": "GET",
+      "url": "https://cdn.gasbuddy.com/vendors~AboutUsPage~AppPage~BrandPage~DoNotSellMyPI~EnterToWinPage~FavoriteStationsListsPage~Favorit~494b0cf6.cebab307ece51e574ebe.css",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.418227",
+      "method": "GET",
+      "url": "https://cdn.gasbuddy.com/vendors~AboutUsPage~AppPage~BrandPage~DoNotSellMyPI~EnterToWinPage~FavoriteStationsListsPage~Favorit~494b0cf6.37367dae89164144ac11.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.419418",
+      "method": "GET",
+      "url": "https://cdn.gasbuddy.com/vendors~BrandPage~FavoritesListPage~HomePage~MasterStationListPage~RegionPriceStatisticsPage~Regiona~3cb088db.6b13ccba5b8da6b2a585.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.419654",
+      "method": "GET",
+      "url": "https://cdn.gasbuddy.com/SearchResultsPage.84a95459efd6452be168.js",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.420220",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/consent/5912756a-9c9a-429f-9243-93932a946a02/5912756a-9c9a-429f-9243-93932a946a02.json",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.420370",
+      "method": "GET",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic,700italic&subset=latin&display=fallback",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://cdn.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.451283",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/consent/5912756a-9c9a-429f-9243-93932a946a02/c6526d05-8a74-41f6-a06b-eed7dcc52730/en.json",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.456591",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/scripttemplates/202309.1.0/assets/otFlat.json",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.456785",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/scripttemplates/202309.1.0/assets/v2/otPcCenter.json",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.456890",
+      "method": "GET",
+      "url": "https://cdn.cookielaw.org/scripttemplates/202309.1.0/assets/otCookieSettingsButton.json",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.678214",
+      "method": "POST",
+      "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.gasbuddy.com%2Fhome&scrsrc=www.googletagmanager.com&rnd=703510237.1761519044&dt=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&auid=1212852714.1761519027&navt=n&npa=0&gtm=45He5am0v78727790za200zd78727790xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480709~115938466~115938468~116210085~116210087~116217636~116217638&tft=1761519043672&tfd=495&apve=1&apvf=f",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.760961",
+      "method": "GET",
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/844908342/?random=1761519043686&cv=11&fst=1761519043686&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5am0za200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115616985~115938466~115938469~116217636~116217638&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D90210&frm=0&tiba=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1212852714.1761519027&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.761293",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-V2LZ5H9RW6&gtm=45je5am0v899700139z878727790za200zb78727790zd78727790&_p=1761519043615&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1740824424.1761519027&ul=en-us&sr=1920x1080&_ng=1&ir=1&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EAAAAAQ&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115938466~115938469~116217636~116217638&sid=1761519027&sct=1&seg=1&dl=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D90210&dt=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&en=page_view&ep.userId=0&up.19=0&tfd=531",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.762360",
+      "method": "POST",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=469591018&t=pageview&_s=1&dl=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D90210&ul=en-us&dt=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&sr=1920x1080&vp=1905x1080&_u=QCCACEABBAAAACAAI~&jid=&gjid=&cid=1740824424.1761519027&uid=0&tid=UA-3201164-1&_gid=969085169.1761519027&_slc=1&gtm=45He5am0n81N3CG6XKv78727790za200zd78727790&cd19=0&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480709~115938466~115938468~116210085~116210087~116217636~116217638&z=1926080012",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "content-type": "text/plain",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.939018",
+      "method": "GET",
+      "url": "https://www.google.com/pagead/1p-user-list/844908342/?random=1761519043686&cv=11&fst=1761516000000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5am0za200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115616985~115938466~115938469~116217636~116217638&u_w=1920&u_h=1080&url=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D90210&frm=0&tiba=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1212852714.1761519027&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSjQEAwksa0c_R7qJvk_bo5KWr9byU4xMmV9x5eKmJqG4qQY4qU9mhC9Z0HT3MDZlgnU0HCkgrVd5y3Q7x8reGQd8F_z9zFEqcofTs1KuYiDrTJ7gZIO2EdIUm8aqBs5FNUAUOAyPQjElVW1xYlGILMT3iyz_T9RgsStfxr24Gi7d0r-Cl0DI-hEM4RKjZz1k&random=485532874&rmt_tld=0&ipr=y",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.940074",
+      "method": "GET",
+      "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761519043&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%22fc352ac2-e251-43fc-bf26-4c783a6bbc10%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A3%2C%22ids%22%3A%7B%7D%7D%0A%7B%22ct%22%3A1761519043%2C%22u%22%3A%22cb8cba2c-c33e-466b-8be6-3016b2d738b2%22%2C%22su%22%3A%22eefd5769-b058-4710-91b9-87714775ce5b%22%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22dt%22%3A%22e%22%2C%22n%22%3A%22Station_Search_Results_Opened%22%2C%22cid%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22utp%22%3A%22anonymous%22%2C%22attrs%22%3A%7B%22Text%22%3A%2290210%22%7D%7D",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:43.958543",
+      "method": "GET",
+      "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761519043&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%2261bc6349-df0b-4be7-8f99-9a2009b64a14%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A4%2C%22ids%22%3A%7B%7D%7D%0A%7B%22ct%22%3A1761519043%2C%22u%22%3A%2281bd680c-6dca-4ed1-89f8-a1545b537288%22%2C%22su%22%3A%22eefd5769-b058-4710-91b9-87714775ce5b%22%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22dt%22%3A%22e%22%2C%22n%22%3A%22Screen%20Viewed%22%2C%22cid%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22utp%22%3A%22anonymous%22%2C%22attrs%22%3A%7B%22Text%22%3A%2290210%22%2C%22Screen%20Name%22%3A%22Station_Search_Results%22%7D%7D",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:44.059778",
+      "method": "GET",
+      "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761519044&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%223d09eb55-3570-4730-88ea-e3530a0bdb87%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A5%2C%22ids%22%3A%7B%7D%7D%0A%7B%22ct%22%3A1761519044%2C%22u%22%3A%22d19cfa8d-0c99-40bc-9e8f-bcd54e479cc2%22%2C%22su%22%3A%22eefd5769-b058-4710-91b9-87714775ce5b%22%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22dt%22%3A%22e%22%2C%22n%22%3A%22Station_Impression%22%2C%22cid%22%3A%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22%2C%22utp%22%3A%22anonymous%22%2C%22attrs%22%3A%7B%220%22%3A%22%7B%5C%22Date%5C%22%3A%5C%222025-10-26T22%3A50%3A43.614Z%5C%22%2C%5C%22Entries%5C%22%3A%5B%7B%5C%22Position%5C%22%3A%5C%220%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%226258%5C%22%7D%5D%7D%22%2C%221%22%3A%22%22%2C%222%22%3A%22%22%2C%223%22%3A%22%22%2C%224%22%3A%22%22%2C%225%22%3A%22%22%2C%226%22%3A%22%22%2C%227%22%3A%22%22%2C%228%22%3A%22%22%2C%229%22%3A%22%22%2C%2210%22%3A%22%22%2C%2211%22%3A%22%22%2C%2212%22%3A%22%22%2C%2213%22%3A%22%22%2C%2214%22%3A%22%22%2C%2215%22%3A%22%22%2C%2216%22%3A%22%22%2C%2217%22%3A%22%22%2C%2218%22%3A%22%22%2C%2219%22%3A%22%22%2C%2220%22%3A%22%22%2C%2221%22%3A%22%22%2C%2222%22%3A%22%22%2C%2223%22%3A%22%22%2C%2224%22%3A%22%22%2C%2225%22%3A%22%22%2C%2226%22%3A%22%22%2C%2227%22%3A%22%22%2C%2228%22%3A%22%22%2C%2229%22%3A%22%22%2C%2230%22%3A%22%22%2C%2231%22%3A%22%22%2C%2232%22%3A%22%22%2C%2233%22%3A%22%22%2C%2234%22%3A%22%22%2C%2235%22%3A%22%22%2C%2236%22%3A%22%22%2C%2237%22%3A%22%22%2C%2238%22%3A%22%22%2C%2239%22%3A%22%22%2C%2240%22%3A%22%22%2C%2241%22%3A%22%22%2C%2242%22%3A%22%22%2C%2243%22%3A%22%22%2C%2244%22%3A%22%22%2C%2245%22%3A%22%22%2C%22UISource%22%3A%22Web%22%2C%22Context%22%3A%22Station%20Search%20Page%22%7D%7D",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:44.143955",
+      "method": "GET",
+      "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=1346160086944777&correlator=2763878772644261&eid=83321073&output=ldjh&gdfp_req=1&vrg=202510210101&ptt=17&impl=fifs&gdpr=0&iu_parts=1025479%2CGasBuddy_Search_300x250&enc_prev_ius=%2F0%2F1&prev_iu_szs=300x250&ifi=1&dids=div-gpt-ad-1428529431626-5&adfs=4226063610&sfv=1-0-45&eri=1&sc=1&cookie_enabled=1&abxe=1&dt=1761519044133&lmt=1761519044&adxs=1163&adys=160&biw=1905&bih=1080&scr_x=0&scr_y=0&btvi=0&ucis=1&oid=2&u_his=3&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=30&u_sd=1&u_tz=-240&dmc=8&bc=31&nvt=1&uach=WyJtYWNPUyIsIjEwXzE1XzciLCJ4ODYiLCIiLCIxNDAuMC43MzM5LjE2IixudWxsLDAsbnVsbCwiNjQiLFtbIk5vdD1BP0JyYW5kIiwiMjQuMC4wLjAiXSxbIkNocm9taXVtIiwiMTQwLjAuNzMzOS4xNiJdXSwwXQ..&url=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D90210&vis=1&psz=360x0&msz=300x0&fws=132&ohw=1905&topics=1&tps=1&htps=10&nt=1&dlt=1761519043407&idt=17&prev_scp=amznbid%3D2%26amznp%3D2&adks=387008361&frm=20&eoidce=1&pgls=CAk.&td=1&egid=23112&tdf=2",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:44.180119",
+      "method": "GET",
+      "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=1346160086944777&correlator=1817801528785568&eid=83321073&output=ldjh&gdfp_req=1&vrg=202510210101&ptt=17&impl=fifs&gdpr=0&iu_parts=1025479%2CGasBuddy_Search_728x90&enc_prev_ius=%2F0%2F1&prev_iu_szs=728x90%7C970x250&ifi=2&dids=div-gpt-ad-1428529431626-2&adfs=3824012984&sfv=1-0-45&eri=1&sc=1&cookie_enabled=1&abxe=1&dt=1761519044147&lmt=1761519044&adxs=589&adys=104&biw=1905&bih=1080&scr_x=0&scr_y=0&btvi=0&ucis=2&oid=2&u_his=3&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=30&u_sd=1&u_tz=-240&dmc=8&bc=31&nvt=1&uach=WyJtYWNPUyIsIjEwXzE1XzciLCJ4ODYiLCIiLCIxNDAuMC43MzM5LjE2IixudWxsLDAsbnVsbCwiNjQiLFtbIk5vdD1BP0JyYW5kIiwiMjQuMC4wLjAiXSxbIkNocm9taXVtIiwiMTQwLjAuNzMzOS4xNiJdXSwwXQ..&url=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D90210&vis=1&psz=1849x0&msz=728x0&fws=132&ohw=1905&topics=3&tps=3&htps=10&nt=1&dlt=1761519043407&idt=17&prev_scp=amznbid%3D2%26amznp%3D2&adks=1043125495&frm=20&eoidce=1&pgls=CAk.&td=1&egid=23112&tdf=2",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:44.633469",
+      "method": "GET",
+      "url": "https://www.google.com/recaptcha/api2/aframe",
+      "headers": {
+        "referer": "https://www.gasbuddy.com/",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "post_data": null
+    },
+    {
+      "timestamp": "2025-10-26T18:50:48.714459",
+      "method": "POST",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-V2LZ5H9RW6&gtm=45je5am0v899700139za200zb78727790zd78727790&_p=1761519043615&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1740824424.1761519027&ul=en-us&sr=1920x1080&_ng=1&ir=1&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115938466~115938469~116217636~116217638&sid=1761519027&sct=1&seg=1&dl=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D90210&dt=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&en=view_search_results&ep.userId=0&ep.search_term=90210&tfd=5532",
+      "headers": {
+        "sec-ch-ua-platform": "\"macOS\"",
+        "referer": "https://www.gasbuddy.com/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "post_data": null
+    }
+  ],
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "value": "8ZEZG9X9sXJFPrhu_1krdBlTEbBdOl9fL6u2PSSysv0-1761519026-1.0.1.1-RKVemJ51Wr8m5c3H4BZlAEr9VdNhU94L2.qoB9G5MioC_4Z7bbFYFPDpeicg42kPZ7JYta.rOtQCFuAbdgXhG0.gPLrCW2gjPQ78S23w9Xk",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1761520826.196753,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "VklXWxGMd51.b9E02nd4Znq5ghY1QxVzRdfkr4hKMI0-1761519026274-0.0.1.1-604800000",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ab",
+      "value": "0001%3AYCSHjnZmwUbF2ERMIVY2sSOrOvsIyY1x",
+      "domain": ".agkn.com",
+      "path": "/",
+      "expires": 1793055026.374206,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Sun+Oct+26+2025+18%3A50%3A26+GMT-0400+(Eastern+Daylight+Time)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=c54b75b2-8a08-4e1a-8857-9ecaaec3bdd8&interactionCount=0&landingPath=https%3A%2F%2Fwww.gasbuddy.com%2F&groups=C0004%3A0%2CC0003%3A0%2CC0002%3A0%2CC0001%3A1",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1793055026,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_loc_ne",
+      "value": "false",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079026.966092,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_loc_dat",
+      "value": "false",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079026.966212,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_loc_iu",
+      "value": "%22b1c3d566-f6a6-4e62-b8ea-a726f87cbfdb%22",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079026.966464,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_loc_ids",
+      "value": "{}",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079026.974153,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_loc_pa",
+      "value": "1761519026",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079026.974923,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_loc_csu",
+      "value": "%22eefd5769-b058-4710-91b9-87714775ce5b%22",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079026.976626,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_loc_cst",
+      "value": "1761519026",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079026.976765,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_loc_csi",
+      "value": "1",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079026.976923,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_loc_cd",
+      "value": "[]",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079026.977981,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_loc_fl",
+      "value": "[%22Home%22]",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079027.067917,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1212852714.1761519027",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1769295027,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_loc_ct",
+      "value": "1761519027.268",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079027.268813,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_loc_csq",
+      "value": "3",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079027.269586,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_V2LZ5H9RW6",
+      "value": "GS2.1.s1761519027$o1$g0$t1761519027$j60$l0$h0",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079027.339911,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1740824424.1761519027",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1796079027.469375,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.969085169.1761519027",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1761605427,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-3201164-1",
+      "value": "1",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1761519087,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1761519927.64323,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "FCNEC",
+      "value": "%5B%5B%22AKsRol9eDegqWqMxpOjgkXo3gmRTbIKtySLvYwpmyUv1xkSB6RlXpu1-x_xwivAl0-YSyE502MRpTwyOk_OpdefOz0sd6wFSr0lP6OtA_nIY8gcYzV6Ui2SMPptAToPB65OXWrqq9kgoGrM1gkxj_RzBibuemb5CfA%3D%3D%22%5D%5D",
+      "domain": ".gasbuddy.com",
+      "path": "/",
+      "expires": 1793055028,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "local_storage": {
+    "lastShownMemberNameModal": "none",
+    "aps:3615:idVendors/enabled": "[\"liveRamp\",\"pubcommon\"]",
+    "nextHomeScreenCardInterval": "",
+    "_pubcid_exp": "Mon, 26 Oct 2026 22:50:27 GMT",
+    "gb_preferred_locale": "null",
+    "shownHomeScreenCards": "[]",
+    "_gcl_ls": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"creationTimeMs\":1761519027182},\"expires\":1769295027182}}",
+    "apstagCxMEnabled": "1",
+    "loglevel": "WARN",
+    "aps:3615:deviceSignal/sua": "{\"architecture\":\"x86\",\"bitness\":\"64\",\"mobile\":0,\"model\":\"\",\"source\":2,\"platform\":{\"brand\":\"macOS\",\"version\":[\"10_15_7\"]},\"browsers\":[{\"brand\":\"Not=A?Brand\",\"version\":[\"24\",\"0\",\"0\",\"0\"]},{\"brand\":\"Chromium\",\"version\":[\"140\",\"0\",\"7339\",\"16\"]}]}",
+    "_pubcid": "3d12a269-50e1-4743-b7c8-d8922fb75b13"
+  },
+  "summary": {
+    "total_api_calls": 42,
+    "has_graphql": false,
+    "has_rest_api": true,
+    "auth_required": false
+  }
+}

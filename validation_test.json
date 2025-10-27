@@ -1,0 +1,307 @@
+{
+  "total_stations": 49,
+  "collection_date": "2025-10-26 19:11:39",
+  "methods_used": [
+    "zip_search",
+    "city_search",
+    "sequential_scan",
+    "state_pages"
+  ],
+  "stations": [
+    {
+      "id": "282",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "6258",
+      "found_by_methods": [
+        "zip_search"
+      ]
+    },
+    {
+      "id": "7984",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "8198",
+      "found_by_methods": [
+        "zip_search"
+      ]
+    },
+    {
+      "id": "18355",
+      "found_by_methods": [
+        "zip_search"
+      ]
+    },
+    {
+      "id": "18356",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "24333",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "28249",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "44327",
+      "found_by_methods": [
+        "zip_search"
+      ]
+    },
+    {
+      "id": "44331",
+      "found_by_methods": [
+        "zip_search"
+      ]
+    },
+    {
+      "id": "56227",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "56261",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "56263",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "63533",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "67714",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "67718",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "68443",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "72228",
+      "found_by_methods": [
+        "zip_search"
+      ]
+    },
+    {
+      "id": "72303",
+      "found_by_methods": [
+        "zip_search",
+        "city_search"
+      ]
+    },
+    {
+      "id": "73720",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "73730",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "73737",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "73741",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "73865",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "75415",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "81150",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "85096",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "85238",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "85245",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "85428",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "85459",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "85496",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "85581",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "90235",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "90304",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "99024",
+      "found_by_methods": [
+        "zip_search"
+      ]
+    },
+    {
+      "id": "106360",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "112364",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "143146",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "147580",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "155915",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "156714",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "161748",
+      "found_by_methods": [
+        "zip_search"
+      ]
+    },
+    {
+      "id": "163891",
+      "found_by_methods": [
+        "zip_search"
+      ]
+    },
+    {
+      "id": "166773",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "186777",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "187190",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "204729",
+      "found_by_methods": [
+        "city_search"
+      ]
+    },
+    {
+      "id": "210712",
+      "found_by_methods": [
+        "city_search"
+      ]
+    }
+  ]
+}

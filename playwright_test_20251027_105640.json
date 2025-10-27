@@ -1,0 +1,20 @@
+{
+  "test_date": "2025-10-27T10:56:40.871791",
+  "stats": {
+    "zips_scraped": 0,
+    "button_clicks": 0,
+    "stations_found": 0,
+    "errors": 1
+  },
+  "results": [
+    {
+      "zip": "77494",
+      "success": false,
+      "total_expected": 0,
+      "total_found": 0,
+      "stations": [],
+      "button_clicks": 0,
+      "error": "No Apollo state found"
+    }
+  ]
+}

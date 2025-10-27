@@ -1,0 +1,51 @@
+{
+  "test_date": "2025-10-26T19:38:06.261538",
+  "stats": {
+    "zips_scraped": 0,
+    "api_calls": 5,
+    "stations_found": 0,
+    "errors": 5
+  },
+  "results": [
+    {
+      "zip": "33773",
+      "success": false,
+      "total_stations": 0,
+      "stations": [],
+      "pages_fetched": 0,
+      "error": "HTTP 400"
+    },
+    {
+      "zip": "77494",
+      "success": false,
+      "total_stations": 0,
+      "stations": [],
+      "pages_fetched": 0,
+      "error": "HTTP 400"
+    },
+    {
+      "zip": "30318",
+      "success": false,
+      "total_stations": 0,
+      "stations": [],
+      "pages_fetched": 0,
+      "error": "HTTP 400"
+    },
+    {
+      "zip": "92101",
+      "success": false,
+      "total_stations": 0,
+      "stations": [],
+      "pages_fetched": 0,
+      "error": "HTTP 400"
+    },
+    {
+      "zip": "33139",
+      "success": false,
+      "total_stations": 0,
+      "stations": [],
+      "pages_fetched": 0,
+      "error": "HTTP 400"
+    }
+  ]
+}

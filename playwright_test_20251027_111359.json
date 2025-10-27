@@ -1,0 +1,653 @@
+{
+  "test_date": "2025-10-27T11:13:59.909066",
+  "stats": {
+    "zips_scraped": 1,
+    "button_clicks": 1,
+    "stations_found": 34,
+    "errors": 0
+  },
+  "results": [
+    {
+      "zip": "77494",
+      "success": true,
+      "total_expected": 34,
+      "total_found": 34,
+      "stations": [
+        {
+          "id": "164144",
+          "name": "Costco",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "33064",
+          "name": "Murphy USA",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "129751",
+          "name": "H-E-B",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "186216",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "162972",
+          "name": "Circle K",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "196571",
+          "name": "H-E-B",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "47770",
+          "name": "Exxon",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "195040",
+          "name": "Buc-ee's",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "169369",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "47768",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "205959",
+          "name": "7-Eleven",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "196257",
+          "name": "Walmart",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "34044",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "158694",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "194152",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "93362",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "156835",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "133531",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "127474",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "8826",
+          "name": "Texaco",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "34043",
+          "name": "Chevron",
+          "address": "23307 Cinco Ranch Blvd",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.67,
+              "posted_time": "2025-10-27T01:41:38.012Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "105703",
+          "name": "Shell",
+          "address": "25645 Westheimer Pkwy",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.79,
+              "posted_time": "2025-10-27T11:59:18.762Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.79,
+              "posted_time": "2025-10-27T11:59:18.746Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 3.14,
+              "posted_time": "2025-10-27T11:59:18.777Z",
+              "reporter": "DataFeed"
+            }
+          ]
+        },
+        {
+          "id": "39138",
+          "name": "Shell",
+          "address": "23255 Kingsland Blvd",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.89,
+              "posted_time": "2025-10-27T12:04:15.945Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 3.59,
+              "posted_time": "2025-10-27T12:04:15.961Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.79,
+              "posted_time": "2025-10-27T12:04:15.967Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 3.69,
+              "posted_time": "2025-10-27T12:04:15.983Z",
+              "reporter": "DataFeed"
+            }
+          ]
+        },
+        {
+          "id": "187355",
+          "name": "Exxon",
+          "address": "1540 Katy Gap Rd",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "177143",
+          "name": "Chevron",
+          "address": "23450 Kingsland Blvd",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "159945",
+          "name": "Shell",
+          "address": "26149 Katy Fwy",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "193581",
+          "name": "Shell",
+          "address": "23903 Katy Fwy",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "47767",
+          "name": "Chevron",
+          "address": "5603B Hwy Blvd",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "166163",
+          "name": "Shell",
+          "address": "4007 FM-1463",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "194176",
+          "name": "Shell",
+          "address": "740 Katy-Fort Bend Rd",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "105915",
+          "name": "Valero",
+          "address": "653 Pin Oak Rd",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "204412",
+          "name": "Sunoco",
+          "address": "5505 Hwy Blvd",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "31290",
+          "name": "H-E-B",
+          "address": "6701 S Fry Rd",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "135628",
+          "name": "Shell",
+          "address": "2620 FM-1463",
+          "city": "Katy",
+          "state": "TX",
+          "zip": "77494",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        }
+      ],
+      "button_clicks": 1,
+      "error": null
+    }
+  ]
+}

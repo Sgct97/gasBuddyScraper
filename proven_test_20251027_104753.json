@@ -1,0 +1,465 @@
+{
+  "test_date": "2025-10-27T10:47:53.539216",
+  "stats": {
+    "zips_scraped": 1,
+    "html_requests": 3,
+    "graphql_requests": 2,
+    "stations_found": 7,
+    "errors": 2
+  },
+  "results": [
+    {
+      "zip": "33773",
+      "success": true,
+      "total_expected": 7,
+      "total_found": 7,
+      "stations": [
+        {
+          "id": "99024",
+          "name": "CITGO",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "161748",
+          "name": "Marley's House Smoke And Gas",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "72228",
+          "name": "Exxon",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "8198",
+          "name": "Mobil",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "18355",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "163891",
+          "name": "7-Eleven",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "72303",
+          "name": "Wawa",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        }
+      ],
+      "pages_fetched": 1,
+      "error": null
+    },
+    {
+      "zip": "77494",
+      "success": false,
+      "total_expected": 34,
+      "total_found": 20,
+      "stations": [
+        {
+          "id": "164144",
+          "name": "Costco",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "33064",
+          "name": "Murphy USA",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "129751",
+          "name": "H-E-B",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "162972",
+          "name": "Circle K",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "186216",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "196571",
+          "name": "H-E-B",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "47770",
+          "name": "Exxon",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "47768",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "205959",
+          "name": "7-Eleven",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "195040",
+          "name": "Buc-ee's",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "169369",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "196257",
+          "name": "Walmart",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "34044",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "194152",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "93362",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "158694",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "156835",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "133531",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "127474",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "8826",
+          "name": "Texaco",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        }
+      ],
+      "pages_fetched": 1,
+      "error": "GraphQL: HTTP 400"
+    },
+    {
+      "zip": "30318",
+      "success": false,
+      "total_expected": 33,
+      "total_found": 20,
+      "stations": [
+        {
+          "id": "139046",
+          "name": "76",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "208123",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "16021",
+          "name": "BP",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "97288",
+          "name": "Chevron",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "165317",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "200999",
+          "name": "QuikTrip",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "198019",
+          "name": "RaceTrac",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "194733",
+          "name": "QuikTrip",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "205998",
+          "name": "Chevron",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "86076",
+          "name": "Chevron",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "202983",
+          "name": "Chevron",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "30204",
+          "name": "BP",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "190328",
+          "name": "BP",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "102736",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "127612",
+          "name": "Texaco",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "113401",
+          "name": "Mobil",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "113361",
+          "name": "BP",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "193903",
+          "name": "CITGO",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "199737",
+          "name": "76",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "145021",
+          "name": "Mobil",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        }
+      ],
+      "pages_fetched": 1,
+      "error": "GraphQL: HTTP 400"
+    }
+  ]
+}

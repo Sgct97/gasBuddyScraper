@@ -1,0 +1,201 @@
+{
+  "test_date": "2025-10-27T11:04:29.141239",
+  "stats": {
+    "zips_scraped": 0,
+    "button_clicks": 1,
+    "stations_found": 0,
+    "errors": 0
+  },
+  "results": [
+    {
+      "zip": "77494",
+      "success": false,
+      "total_expected": 34,
+      "total_found": 20,
+      "stations": [
+        {
+          "id": "164144",
+          "name": "Costco",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "33064",
+          "name": "Murphy USA",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "129751",
+          "name": "H-E-B",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "162972",
+          "name": "Circle K",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "186216",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "196571",
+          "name": "H-E-B",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "195040",
+          "name": "Buc-ee's",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "196257",
+          "name": "Walmart",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "47768",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "47770",
+          "name": "Exxon",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "205959",
+          "name": "7-Eleven",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "169369",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "158694",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "194152",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "93362",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "34044",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "156835",
+          "name": "Kroger",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "133531",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "127474",
+          "name": "Shell",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        },
+        {
+          "id": "8826",
+          "name": "Texaco",
+          "address": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "prices": []
+        }
+      ],
+      "button_clicks": 1,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,1415 @@
+{
+  "test_date": "2025-10-26T19:25:09.430383",
+  "stats": {
+    "requests_made": 17,
+    "requests_succeeded": 4,
+    "requests_failed": 0,
+    "rate_limit_hits": 6,
+    "cloudflare_blocks": 0,
+    "stations_found": 21,
+    "zips_with_pagination": 7
+  },
+  "results": [
+    {
+      "zip": "33773",
+      "total_stations": 7,
+      "stations": [
+        {
+          "id": "99024",
+          "name": "CITGO",
+          "address": "12397 Seminole Blvd",
+          "city": "Largo",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.87,
+              "posted_time": "2025-10-26T19:17:50.369Z",
+              "reporter": "Bodie2015"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 3.32,
+              "posted_time": "2025-10-26T12:17:08.977Z",
+              "reporter": "LanguageMan1"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.77,
+              "posted_time": "2025-10-26T12:17:09.024Z",
+              "reporter": "LanguageMan1"
+            }
+          ]
+        },
+        {
+          "id": "8198",
+          "name": "Mobil",
+          "address": "12601 Starkey Rd",
+          "city": "Largo",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.85,
+              "posted_time": "2025-10-25T10:50:33.152Z",
+              "reporter": "Lugene56"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 3.43,
+              "posted_time": "2025-10-26T11:22:25.941Z",
+              "reporter": "Lugene56"
+            }
+          ]
+        },
+        {
+          "id": "163891",
+          "name": "7-Eleven",
+          "address": "11787 66th St N",
+          "city": "Largo",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.89,
+              "posted_time": "2025-10-26T12:34:47.845Z",
+              "reporter": "largobob"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 3.39,
+              "posted_time": "2025-10-26T12:34:47.860Z",
+              "reporter": "largobob"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.69,
+              "posted_time": "2025-10-26T12:34:47.876Z",
+              "reporter": "largobob"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 3.55,
+              "posted_time": "2025-10-26T12:34:47.892Z",
+              "reporter": "largobob"
+            }
+          ]
+        },
+        {
+          "id": "72228",
+          "name": "Exxon",
+          "address": "11800 66th St N",
+          "city": "Largo",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.89,
+              "posted_time": "2025-10-26T12:35:05.936Z",
+              "reporter": "largobob"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 3.39,
+              "posted_time": "2025-10-26T12:35:05.983Z",
+              "reporter": "largobob"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.69,
+              "posted_time": "2025-10-26T12:35:06.014Z",
+              "reporter": "largobob"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 3.55,
+              "posted_time": "2025-10-26T12:35:06.046Z",
+              "reporter": "largobob"
+            }
+          ]
+        },
+        {
+          "id": "18355",
+          "name": "Shell",
+          "address": "12574 66th St N",
+          "city": "Largo",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.99,
+              "posted_time": "2025-10-26T12:28:33.070Z",
+              "reporter": "largobob"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 3.49,
+              "posted_time": "2025-10-26T12:28:33.101Z",
+              "reporter": "largobob"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.99,
+              "posted_time": "2025-10-26T12:28:33.132Z",
+              "reporter": "largobob"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 3.59,
+              "posted_time": "2025-10-26T12:28:33.148Z",
+              "reporter": "largobob"
+            }
+          ]
+        },
+        {
+          "id": "72303",
+          "name": "Wawa",
+          "address": "8910 Ulmerton Rd",
+          "city": "Largo",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.89,
+              "posted_time": "2025-10-25T22:38:12.883Z",
+              "reporter": "CntryAngel3"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 3.29,
+              "posted_time": "2025-10-26T20:20:06.335Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.39,
+              "posted_time": "2025-10-26T20:20:06.335Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 3.59,
+              "posted_time": "2025-10-25T22:38:12.914Z",
+              "reporter": "CntryAngel3"
+            }
+          ]
+        },
+        {
+          "id": "161748",
+          "name": "Marley's House Smoke And Gas",
+          "address": "9640 Ulmerton Rd",
+          "city": "Largo",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        }
+      ],
+      "pages_needed": 1,
+      "success": true,
+      "error": null
+    },
+    {
+      "zip": "90210",
+      "total_stations": 1,
+      "stations": [
+        {
+          "id": "6258",
+          "name": "76",
+          "address": "427 N Crescent Dr",
+          "city": "Beverly Hills",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 5.39,
+              "posted_time": "2025-10-26T18:16:01.107Z",
+              "reporter": "daverw6"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 5.54,
+              "posted_time": "2025-10-26T18:16:01.123Z",
+              "reporter": "daverw6"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 5.69,
+              "posted_time": "2025-10-26T18:16:01.138Z",
+              "reporter": "daverw6"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 5.75,
+              "posted_time": "2025-10-26T18:16:01.154Z",
+              "reporter": "daverw6"
+            }
+          ]
+        }
+      ],
+      "pages_needed": 1,
+      "success": true,
+      "error": null
+    },
+    {
+      "zip": "92101",
+      "total_stations": 8,
+      "stations": [
+        {
+          "id": "28540",
+          "name": "Petromerica",
+          "address": "1548 F St",
+          "city": "San Diego",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 4.49,
+              "posted_time": "2025-10-26T04:14:52.571Z",
+              "reporter": "Buddy_15tmra60"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 4.79,
+              "posted_time": "2025-10-26T04:14:52.634Z",
+              "reporter": "Buddy_15tmra60"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 4.89,
+              "posted_time": "2025-10-26T04:14:52.712Z",
+              "reporter": "Buddy_15tmra60"
+            }
+          ]
+        },
+        {
+          "id": "36289",
+          "name": "Brikho",
+          "address": "1606 Market St",
+          "city": "San Diego",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 4.99,
+              "posted_time": "2025-10-25T09:57:29.071Z",
+              "reporter": "tootallscully"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 5.19,
+              "posted_time": "2025-10-25T09:57:29.242Z",
+              "reporter": "tootallscully"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 5.29,
+              "posted_time": "2025-10-25T09:57:29.476Z",
+              "reporter": "tootallscully"
+            }
+          ]
+        },
+        {
+          "id": "35674",
+          "name": "ARCO",
+          "address": "1619 G St",
+          "city": "San Diego",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 5.09,
+              "posted_time": "2025-10-25T09:59:53.043Z",
+              "reporter": "tootallscully"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 5.29,
+              "posted_time": "2025-10-25T09:59:53.357Z",
+              "reporter": "tootallscully"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 5.49,
+              "posted_time": "2025-10-25T09:59:54.408Z",
+              "reporter": "tootallscully"
+            }
+          ]
+        },
+        {
+          "id": "34836",
+          "name": "Chevron",
+          "address": "1666 1st Ave",
+          "city": "San Diego",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 5.69,
+              "posted_time": "2025-10-26T19:10:21.254Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 5.89,
+              "posted_time": "2025-10-25T18:56:45.225Z",
+              "reporter": "Owner"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 5.99,
+              "posted_time": "2025-10-25T18:56:45.225Z",
+              "reporter": "Owner"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 5.19,
+              "posted_time": "2025-10-25T18:56:45.241Z",
+              "reporter": "Owner"
+            },
+            {
+              "fuel_type": "e85",
+              "price": 3.09,
+              "posted_time": "2025-10-25T18:56:45.257Z",
+              "reporter": "Owner"
+            }
+          ]
+        },
+        {
+          "id": "7990",
+          "name": "Shell",
+          "address": "2521 Pacific Hwy",
+          "city": "San Diego",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 5.99,
+              "posted_time": "2025-10-25T22:48:05.541Z",
+              "reporter": "Jimbo619"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 6.09,
+              "posted_time": "2025-10-25T22:48:05.556Z",
+              "reporter": "Jimbo619"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 6.29,
+              "posted_time": "2025-10-25T22:48:05.572Z",
+              "reporter": "Jimbo619"
+            }
+          ]
+        },
+        {
+          "id": "28410",
+          "name": "Shell",
+          "address": "1011 A St",
+          "city": "San Diego",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 5.89,
+              "posted_time": "2025-10-26T21:10:54.718Z",
+              "reporter": "yellowd100"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 5.99,
+              "posted_time": "2025-10-26T21:10:54.734Z",
+              "reporter": "yellowd100"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 6.19,
+              "posted_time": "2025-10-26T21:10:54.749Z",
+              "reporter": "yellowd100"
+            }
+          ]
+        },
+        {
+          "id": "199473",
+          "name": "Valero",
+          "address": "2499 Pacific Hwy",
+          "city": "San Diego",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 5.89,
+              "posted_time": "2025-10-25T20:40:51.323Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 5.99,
+              "posted_time": "2025-10-24T09:29:25.373Z",
+              "reporter": "tootallscully"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 6.19,
+              "posted_time": "2025-10-24T09:29:25.455Z",
+              "reporter": "tootallscully"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 6.09,
+              "posted_time": "2025-10-24T09:29:25.511Z",
+              "reporter": "tootallscully"
+            },
+            {
+              "fuel_type": "e85",
+              "price": 3.99,
+              "posted_time": "2025-10-24T09:29:25.620Z",
+              "reporter": "tootallscully"
+            }
+          ]
+        },
+        {
+          "id": "26193",
+          "name": "Mobil",
+          "address": "2045 Pacific Hwy",
+          "city": "San Diego",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        }
+      ],
+      "pages_needed": 1,
+      "success": true,
+      "error": null
+    },
+    {
+      "zip": "33139",
+      "total_stations": 5,
+      "stations": [
+        {
+          "id": "52307",
+          "name": "Shell",
+          "address": "845 5th St",
+          "city": "Miami Beach",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "118424",
+          "name": "Chevron",
+          "address": "1453 Alton Rd",
+          "city": "Miami Beach",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "143412",
+          "name": "Valero",
+          "address": "331 23rd St",
+          "city": "Miami Beach",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "85725",
+          "name": "Marathon",
+          "address": "945 5th St",
+          "city": "Miami Beach",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "198908",
+          "name": "Exxon",
+          "address": "1840 Alton Rd",
+          "city": "Miami Beach",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        }
+      ],
+      "pages_needed": 1,
+      "success": true,
+      "error": null
+    },
+    {
+      "zip": "77494",
+      "total_stations": 34,
+      "stations": [
+        {
+          "id": "164144",
+          "name": "Costco",
+          "address": "23645 Katy Fwy",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.22,
+              "posted_time": "2025-10-26T18:41:21.907Z",
+              "reporter": "alice8347"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 2.72,
+              "posted_time": "2025-10-26T18:41:21.923Z",
+              "reporter": "alice8347"
+            }
+          ]
+        },
+        {
+          "id": "186216",
+          "name": "Kroger",
+          "address": "1712 Spring Green Blvd ",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.34,
+              "posted_time": "2025-10-26T15:17:48.609Z",
+              "reporter": "Buddy_1tuhtka1"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.74,
+              "posted_time": "2025-10-26T15:17:48.625Z",
+              "reporter": "Buddy_1tuhtka1"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.14,
+              "posted_time": "2025-10-26T15:17:48.641Z",
+              "reporter": "Buddy_1tuhtka1"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.89,
+              "posted_time": "2025-10-26T15:17:48.656Z",
+              "reporter": "Buddy_1tuhtka1"
+            }
+          ]
+        },
+        {
+          "id": "33064",
+          "name": "Murphy USA",
+          "address": "25104 Market Place Dr.",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.32,
+              "posted_time": "2025-10-26T22:23:27.633Z",
+              "reporter": "stovetopsue"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.82,
+              "posted_time": "2025-10-26T22:23:27.649Z",
+              "reporter": "stovetopsue"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.22,
+              "posted_time": "2025-10-26T22:23:27.665Z",
+              "reporter": "stovetopsue"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.83,
+              "posted_time": "2025-10-26T22:30:51.589Z",
+              "reporter": "Owner"
+            },
+            {
+              "fuel_type": "e85",
+              "price": 2.17,
+              "posted_time": "2025-10-26T22:23:27.680Z",
+              "reporter": "stovetopsue"
+            },
+            {
+              "fuel_type": "e15",
+              "price": 2.27,
+              "posted_time": "2025-10-26T22:30:51.605Z",
+              "reporter": "Owner"
+            }
+          ]
+        },
+        {
+          "id": "195040",
+          "name": "Buc-ee's",
+          "address": "27700 Katy Fwy",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.33,
+              "posted_time": "2025-10-26T21:59:10.674Z",
+              "reporter": "gumiperez"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.74,
+              "posted_time": "2025-10-26T04:41:47.430Z",
+              "reporter": "javi2904"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.14,
+              "posted_time": "2025-10-25T16:39:04.275Z",
+              "reporter": "CarsonFord"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.89,
+              "posted_time": "2025-10-26T16:50:48.609Z",
+              "reporter": "masontx1"
+            },
+            {
+              "fuel_type": "e15",
+              "price": 3.54,
+              "posted_time": "2025-10-25T16:39:04.290Z",
+              "reporter": "CarsonFord"
+            }
+          ]
+        },
+        {
+          "id": "162972",
+          "name": "Circle K",
+          "address": "2617 FM-1463",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.33,
+              "posted_time": "2025-10-25T21:19:58.672Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.93,
+              "posted_time": "2025-10-25T21:19:58.688Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.33,
+              "posted_time": "2025-10-25T21:19:58.688Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.89,
+              "posted_time": "2025-10-25T21:19:58.672Z",
+              "reporter": "DataFeed"
+            }
+          ]
+        },
+        {
+          "id": "196257",
+          "name": "Walmart",
+          "address": "26814 FM-1093",
+          "city": "Fulshear",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.35,
+              "posted_time": "2025-10-26T17:13:58.962Z",
+              "reporter": "visitor"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.6,
+              "posted_time": "2025-10-24T23:35:09.404Z",
+              "reporter": "kmartaggie"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 2.85,
+              "posted_time": "2025-10-24T23:35:09.420Z",
+              "reporter": "kmartaggie"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.89,
+              "posted_time": "2025-10-24T23:35:09.435Z",
+              "reporter": "kmartaggie"
+            }
+          ]
+        },
+        {
+          "id": "34044",
+          "name": "Kroger",
+          "address": "1550 W Grand Pkwy S",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.35,
+              "posted_time": "2025-10-26T04:02:26.183Z",
+              "reporter": "sherwoodgas2012"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.79,
+              "posted_time": "2025-10-24T14:24:07.334Z",
+              "reporter": "Desertfly"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.19,
+              "posted_time": "2025-10-24T14:24:07.334Z",
+              "reporter": "Desertfly"
+            }
+          ]
+        },
+        {
+          "id": "47770",
+          "name": "Exxon",
+          "address": "550 W Grand Pkwy S",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.35,
+              "posted_time": "2025-10-26T18:17:17.549Z",
+              "reporter": "BlueSteel_69"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 3.39,
+              "posted_time": "2025-10-26T18:17:17.565Z",
+              "reporter": "BlueSteel_69"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.79,
+              "posted_time": "2025-10-26T18:17:17.581Z",
+              "reporter": "BlueSteel_69"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 3.09,
+              "posted_time": "2025-10-26T18:17:17.604Z",
+              "reporter": "BlueSteel_69"
+            }
+          ]
+        },
+        {
+          "id": "196571",
+          "name": "H-E-B",
+          "address": "4950 FM-1463",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.37,
+              "posted_time": "2025-10-25T14:01:38.597Z",
+              "reporter": "OU48RoadWarrior"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.87,
+              "posted_time": "2025-10-25T14:01:38.613Z",
+              "reporter": "OU48RoadWarrior"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.27,
+              "posted_time": "2025-10-25T14:01:38.628Z",
+              "reporter": "OU48RoadWarrior"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.93,
+              "posted_time": "2025-10-25T14:01:38.628Z",
+              "reporter": "OU48RoadWarrior"
+            }
+          ]
+        },
+        {
+          "id": "158694",
+          "name": "Shell",
+          "address": "6750 FM-1463",
+          "city": "Fulshear",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.39,
+              "posted_time": "2025-10-26T15:12:39.623Z",
+              "reporter": "Buddy_h53r11zn"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "205959",
+          "name": "7-Eleven",
+          "address": "1250 Pin Oak Rd",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.39,
+              "posted_time": "2025-10-26T18:16:55.660Z",
+              "reporter": "BlueSteel_69"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.89,
+              "posted_time": "2025-10-26T18:16:55.676Z",
+              "reporter": "BlueSteel_69"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.29,
+              "posted_time": "2025-10-26T18:16:55.676Z",
+              "reporter": "BlueSteel_69"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.83,
+              "posted_time": "2025-10-26T18:16:55.691Z",
+              "reporter": "BlueSteel_69"
+            }
+          ]
+        },
+        {
+          "id": "47768",
+          "name": "Shell",
+          "address": "1350 Pin Oak Rd",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.59,
+              "posted_time": "2025-10-26T15:39:34.685Z",
+              "reporter": "2aruba"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 3.23,
+              "posted_time": "2025-10-26T19:13:12.427Z",
+              "reporter": "dmendez12"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.73,
+              "posted_time": "2025-10-26T19:13:12.490Z",
+              "reporter": "dmendez12"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.89,
+              "posted_time": "2025-10-26T19:13:12.505Z",
+              "reporter": "dmendez12"
+            }
+          ]
+        },
+        {
+          "id": "156835",
+          "name": "Kroger",
+          "address": "25050 FM-1093",
+          "city": "Richmond",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.49,
+              "posted_time": "2025-10-26T13:22:12.320Z",
+              "reporter": "Desertfly"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.89,
+              "posted_time": "2025-10-26T13:22:12.337Z",
+              "reporter": "Desertfly"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.29,
+              "posted_time": "2025-10-26T13:22:12.352Z",
+              "reporter": "Desertfly"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.94,
+              "posted_time": "2025-10-26T13:22:12.363Z",
+              "reporter": "Desertfly"
+            }
+          ]
+        },
+        {
+          "id": "93362",
+          "name": "Shell",
+          "address": "25833 Cinco Ranch Blvd",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.45,
+              "posted_time": "2025-10-26T22:10:26.390Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.73,
+              "posted_time": "2025-10-25T02:10:45.210Z",
+              "reporter": "DataFeed"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "194152",
+          "name": "Kroger",
+          "address": "9806 Gaston Rd",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.45,
+              "posted_time": "2025-10-25T20:07:10.369Z",
+              "reporter": "CalifornianTexa"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.85,
+              "posted_time": "2025-10-25T18:54:10.922Z",
+              "reporter": "2aruba"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.25,
+              "posted_time": "2025-10-25T18:54:10.937Z",
+              "reporter": "2aruba"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.99,
+              "posted_time": "2025-10-25T18:54:10.937Z",
+              "reporter": "2aruba"
+            }
+          ]
+        },
+        {
+          "id": "133531",
+          "name": "Shell",
+          "address": "9630 Spring Green Blvd",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.53,
+              "posted_time": "2025-10-26T13:22:04.868Z",
+              "reporter": "Desertfly"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 3.33,
+              "posted_time": "2025-10-26T13:22:04.884Z",
+              "reporter": "Desertfly"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.73,
+              "posted_time": "2025-10-26T13:22:04.901Z",
+              "reporter": "Desertfly"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.99,
+              "posted_time": "2025-10-26T13:22:04.916Z",
+              "reporter": "Desertfly"
+            }
+          ]
+        },
+        {
+          "id": "8826",
+          "name": "Texaco",
+          "address": "24985 Katy Fwy",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.59,
+              "posted_time": "2025-10-25T21:32:07.399Z",
+              "reporter": "Wickjame"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "127474",
+          "name": "Shell",
+          "address": "4140 Spring Green Blvd",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.53,
+              "posted_time": "2025-10-26T15:38:43.130Z",
+              "reporter": "2aruba"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 3.33,
+              "posted_time": "2025-10-26T15:38:43.130Z",
+              "reporter": "2aruba"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.73,
+              "posted_time": "2025-10-26T15:38:43.147Z",
+              "reporter": "2aruba"
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 2.99,
+              "posted_time": "2025-10-26T15:38:43.185Z",
+              "reporter": "2aruba"
+            }
+          ]
+        },
+        {
+          "id": "31290",
+          "name": "H-E-B",
+          "address": "6701 S Fry Rd",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 2.37,
+              "posted_time": "2025-10-25T03:08:29.228Z",
+              "reporter": "navyaggie"
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 2.87,
+              "posted_time": "2025-10-25T03:08:29.243Z",
+              "reporter": "navyaggie"
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 3.27,
+              "posted_time": "2025-10-25T03:08:29.252Z",
+              "reporter": "navyaggie"
+            }
+          ]
+        },
+        {
+          "id": "193581",
+          "name": "Shell",
+          "address": "23903 Katy Fwy",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "135628",
+          "name": "Shell",
+          "address": "2620 FM-1463",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        },
+        {
+          "id": "187355",
+          "name": "Exxon",
+          "address": "1540 Katy Gap Rd",
+          "city": "Katy",
+          "prices": [
+            {
+              "fuel_type": "regular_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "midgrade_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "premium_gas",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            },
+            {
+              "fuel_type": "diesel",
+              "price": 0,
+              "posted_time": null,
+              "reporter": null
+            }
+          ]
+        }
+      ],
+      "pages_needed": 7,
+      "success": false,
+      "error": "Rate limited (429)"
+    },
+    {
+      "zip": "30318",
+      "total_stations": 0,
+      "stations": [],
+      "pages_needed": 0,
+      "success": false,
+      "error": "Rate limited (429)"
+    },
+    {
+      "zip": "60614",
+      "total_stations": 0,
+      "stations": [],
+      "pages_needed": 0,
+      "success": false,
+      "error": "Rate limited (429)"
+    },
+    {
+      "zip": "98101",
+      "total_stations": 0,
+      "stations": [],
+      "pages_needed": 0,
+      "success": false,
+      "error": "Rate limited (429)"
+    },
+    {
+      "zip": "02108",
+      "total_stations": 0,
+      "stations": [],
+      "pages_needed": 0,
+      "success": false,
+      "error": "Rate limited (429)"
+    },
+    {
+      "zip": "33301",
+      "total_stations": 0,
+      "stations": [],
+      "pages_needed": 0,
+      "success": false,
+      "error": "Rate limited (429)"
+    }
+  ]
+}

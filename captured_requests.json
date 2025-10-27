@@ -1,0 +1,212 @@
+[
+  {
+    "url": "https://cdn.gasbuddy.com/vendors~AboutUsPage~AppPage~BrandPage~DoNotSellMyPI~EnterToWinPage~FavoriteStationsListsPage~Favorit~494b0cf6.cebab307ece51e574ebe.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://cdn.gasbuddy.com/vendors~AboutUsPage~AppPage~BrandPage~DoNotSellMyPI~EnterToWinPage~FavoriteStationsListsPage~Favorit~494b0cf6.37367dae89164144ac11.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://cdn.gasbuddy.com/vendors~BrandPage~FavoritesListPage~HomePage~MasterStationListPage~RegionPriceStatisticsPage~Regiona~3cb088db.6b13ccba5b8da6b2a585.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,400italic,700italic&subset=latin&display=fallback",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://cdn.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761521675&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%2249171219-ff11-45c6-8337-bbfc5061f5d8%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%2275ff9a3e-129a-42d0-a0a6-ad9364345261%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A0%2C%22ids%22%3A%7B%7D%7D%0A%7B%22dt%22%3A%22s%22%2C%22ct%22%3A1761521675%2C%22u%22%3A%224d74a05a-baf5-485a-b88b-bfa2dcffec49%22%2C%22nth%22%3A0%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22cid%22%3A%2275ff9a3e-129a-42d0-a0a6-ad9364345261%22%2C%22utp%22%3A%22anonymous%22%7D",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761521675&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%22e4cdeab8-7ecd-4cf1-98d2-602dc5a73bd1%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%2275ff9a3e-129a-42d0-a0a6-ad9364345261%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A1%2C%22ids%22%3A%7B%7D%7D%0A%7B%22ct%22%3A1761521675%2C%22u%22%3A%2272cd854b-a44e-43cd-9a02-9f169ac77bf8%22%2C%22su%22%3A%224d74a05a-baf5-485a-b88b-bfa2dcffec49%22%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22dt%22%3A%22e%22%2C%22n%22%3A%22Station_Search_Results_Opened%22%2C%22cid%22%3A%2275ff9a3e-129a-42d0-a0a6-ad9364345261%22%2C%22utp%22%3A%22anonymous%22%2C%22attrs%22%3A%7B%22Text%22%3A%2277494%22%7D%7D",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761521675&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%229b7816eb-81aa-4366-b680-61220be136e6%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%2275ff9a3e-129a-42d0-a0a6-ad9364345261%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A2%2C%22ids%22%3A%7B%7D%7D%0A%7B%22ct%22%3A1761521675%2C%22u%22%3A%22c97898a3-91f6-4357-800f-da5b80cd02e0%22%2C%22su%22%3A%224d74a05a-baf5-485a-b88b-bfa2dcffec49%22%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22dt%22%3A%22e%22%2C%22n%22%3A%22Screen%20Viewed%22%2C%22cid%22%3A%2275ff9a3e-129a-42d0-a0a6-ad9364345261%22%2C%22utp%22%3A%22anonymous%22%2C%22attrs%22%3A%7B%22Text%22%3A%2277494%22%2C%22Screen%20Name%22%3A%22Station_Search_Results%22%7D%7D",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.gasbuddy.com%2Fhome&scrsrc=www.googletagmanager.com&rnd=191038187.1761521675&dt=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&auid=2059194176.1761521675&navt=n&npa=0&gtm=45He5am0v78727790za200zd78727790xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105322302~115480710~115938465~115938468~116217636~116217638&tft=1761521675486&tfd=1550&apve=1&apvf=f",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761521675&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%22a0c07734-27b9-4b5e-8c46-76e589b8f911%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%2275ff9a3e-129a-42d0-a0a6-ad9364345261%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A3%2C%22ids%22%3A%7B%7D%7D%0A%7B%22ct%22%3A1761521675%2C%22u%22%3A%22d47b2255-56cc-4591-ba09-36620fff9018%22%2C%22su%22%3A%224d74a05a-baf5-485a-b88b-bfa2dcffec49%22%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22dt%22%3A%22e%22%2C%22n%22%3A%22Station_Impression%22%2C%22cid%22%3A%2275ff9a3e-129a-42d0-a0a6-ad9364345261%22%2C%22utp%22%3A%22anonymous%22%2C%22attrs%22%3A%7B%220%22%3A%22%7B%5C%22Date%5C%22%3A%5C%222025-10-26T23%3A34%3A35.071Z%5C%22%2C%5C%22Entries%5C%22%3A%5B%7B%5C%22Position%5C%22%3A%5C%220%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22164144%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%221%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%2233064%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%222%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22162972%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%223%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22186216%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%224%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22195040%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%225%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22196257%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%226%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%2247768%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%227%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22205959%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%228%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%2234044%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%229%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%2247770%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2210%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22158694%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2211%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22196571%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2212%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%2293362%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2213%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22194152%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2214%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22156835%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2215%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%228826%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2216%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22133531%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2217%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22127474%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2218%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%2231290%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2219%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%2247767%5C%22%7D%5D%7D%22%2C%221%22%3A%22%22%2C%222%22%3A%22%22%2C%223%22%3A%22%22%2C%224%22%3A%22%22%2C%225%22%3A%22%22%2C%226%22%3A%22%22%2C%227%22%3A%22%22%2C%228%22%3A%22%22%2C%229%22%3A%22%22%2C%2210%22%3A%22%22%2C%2211%22%3A%22%22%2C%2212%22%3A%22%22%2C%2213%22%3A%22%22%2C%2214%22%3A%22%22%2C%2215%22%3A%22%22%2C%2216%22%3A%22%22%2C%2217%22%3A%22%22%2C%2218%22%3A%22%22%2C%2219%22%3A%22%22%2C%2220%22%3A%22%22%2C%2221%22%3A%22%22%2C%2222%22%3A%22%22%2C%2223%22%3A%22%22%2C%2224%22%3A%22%22%2C%2225%22%3A%22%22%2C%2226%22%3A%22%22%2C%2227%22%3A%22%22%2C%2228%22%3A%22%22%2C%2229%22%3A%22%22%2C%2230%22%3A%22%22%2C%2231%22%3A%22%22%2C%2232%22%3A%22%22%2C%2233%22%3A%22%22%2C%2234%22%3A%22%22%2C%2235%22%3A%22%22%2C%2236%22%3A%22%22%2C%2237%22%3A%22%22%2C%2238%22%3A%22%22%2C%2239%22%3A%22%22%2C%2240%22%3A%22%22%2C%2241%22%3A%22%22%2C%2242%22%3A%22%22%2C%2243%22%3A%22%22%2C%2244%22%3A%22%22%2C%2245%22%3A%22%22%2C%22UISource%22%3A%22Web%22%2C%22Context%22%3A%22Station%20Search%20Page%22%7D%7D",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1916413719&t=pageview&_s=1&dl=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D77494&ul=en-us&dt=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&sr=1280x720&vp=1265x720&_u=YGBACEABBAAAACAAI~&jid=337048074&gjid=523949554&cid=413890022.1761521676&uid=0&tid=UA-3201164-1&_gid=1635433684.1761521676&_r=1&_slc=1&gtm=45He5am0n81N3CG6XKv78727790za200zd78727790&cd19=0&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105322302~115480710~115938465~115938468~116217636~116217638&z=16863283",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "content-type": "text/plain",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-V2LZ5H9RW6&gtm=45je5am0v899700139z878727790za200zb78727790zd78727790&_p=1761521675072&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=413890022.1761521676&ul=en-us&sr=1280x720&_ng=1&ir=1&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=14.4.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EA&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115938465~115938469~116217636~116217638&sid=1761521675&sct=1&seg=0&dl=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D77494&dt=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&en=page_view&_fv=1&_ss=1&ep.userId=0&up.19=0&tfd=1709",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/844908342/?random=1761521675681&cv=11&fst=1761521675681&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5am0h1za200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115616986~115938465~115938468~116217636~116217638&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D77494&frm=0&tiba=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2059194176.1761521675&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=14.4.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://www.google.com/pagead/1p-user-list/844908342/?random=1761521675681&cv=11&fst=1761519600000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5am0h1za200xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115616986~115938465~115938468~116217636~116217638&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D77494&frm=0&tiba=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2059194176.1761521675&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=14.4.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=3&is_vtc=1&cid=CAQSfwDCSxrRLMHBrM1gWyrp0QA_ooiFyqGrA-AGQIR8Z48sdmv7mLtJOLv_xkG0OM_Ho84H2igIrQx2fPiQ4yWQa7YTDumcuopO2KJ8pc4gfaEn14V1pyQ-PDqQ-xRq4ERMEdVPixNfxQDk436jmLn10wKFmw3ApqA5Y8zG0YZ8MhI&random=1566717426&rmt_tld=0&ipr=y",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://www.google.com/recaptcha/api2/aframe",
+    "method": "GET",
+    "headers": {
+      "referer": "https://www.gasbuddy.com/",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\""
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-V2LZ5H9RW6&gtm=45je5am0v899700139za200zb78727790zd78727790&_p=1761521675072&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=413890022.1761521676&ul=en-us&sr=1280x720&_ng=1&ir=1&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=14.4.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EEAAAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~115480710~115938465~115938469~116217636~116217638&sid=1761521675&sct=1&seg=0&dl=https%3A%2F%2Fwww.gasbuddy.com%2Fhome%3Fsearch%3D77494&dt=GasBuddy%20-%20Find%20The%20Nearest%20Gas%20Stations%20%26%20Cheapest%20Prices%20%7C%20Save%20On%20Gas&en=view_search_results&ep.userId=0&ep.search_term=77494&_et=15&tfd=6726",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  },
+  {
+    "url": "https://www.gasbuddy.com/graphql",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/home?search=77494",
+      "gbcsrf": "1.Z0y9kkk939pT+lfE",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0",
+      "apollo-require-preflight": "true",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "accept": "*/*",
+      "content-type": "application/json"
+    },
+    "post_data": "{\"operationName\":\"LocationBySearchTerm\",\"variables\":{\"fuel\":1,\"lang\":\"en\",\"search\":\"77494\",\"cursor\":\"20\"},\"query\":\"query LocationBySearchTerm($brandId: Int, $cursor: String, $fuel: Int, $lang: String, $lat: Float, $lng: Float, $maxAge: Int, $search: String) {\\n  locationBySearchTerm(\\n    lat: $lat\\n    lng: $lng\\n    search: $search\\n    priority: \\\"locality\\\"\\n  ) {\\n    countryCode\\n    displayName\\n    latitude\\n    longitude\\n    regionCode\\n    stations(\\n      brandId: $brandId\\n      cursor: $cursor\\n      fuel: $fuel\\n      lat: $lat\\n      lng: $lng\\n      maxAge: $maxAge\\n      priority: \\\"locality\\\"\\n    ) {\\n      count\\n      cursor {\\n        next\\n        __typename\\n      }\\n      results {\\n        address {\\n          country\\n          line1\\n          line2\\n          locality\\n          postalCode\\n          region\\n          __typename\\n        }\\n        badges(lang: $lang) {\\n          badgeId\\n          callToAction\\n          campaignId\\n          clickTrackingUrl\\n          description\\n          detailsImageUrl\\n          detailsImpressionTrackingUrls\\n          imageUrl\\n          impressionTrackingUrls\\n          targetUrl\\n          title\\n          __typename\\n        }\\n        brands {\\n          brandId\\n          brandingType\\n          imageUrl\\n          name\\n          __typename\\n        }\\n        distance\\n        emergencyStatus {\\n          hasDiesel {\\n            nickname\\n            reportStatus\\n            updateDate\\n            __typename\\n          }\\n          hasGas {\\n            nickname\\n            reportStatus\\n            updateDate\\n            __typename\\n          }\\n          hasPower {\\n            nickname\\n            reportStatus\\n            updateDate\\n            __typename\\n          }\\n          __typename\\n        }\\n        enterprise\\n        fuels\\n        hasActiveOutage\\n        id\\n        isFuelmanSite\\n        name\\n        offers {\\n          discounts {\\n            grades\\n            highlight\\n            pwgbDiscount\\n            receiptDiscount\\n            __typename\\n          }\\n          highlight\\n          id\\n          types\\n          use\\n          __typename\\n        }\\n        payStatus {\\n          isPayAvailable\\n          __typename\\n        }\\n        prices {\\n          cash {\\n            nickname\\n            postedTime\\n            price\\n            formattedPrice\\n            __typename\\n          }\\n          credit {\\n            nickname\\n            postedTime\\n            price\\n            formattedPrice\\n            __typename\\n          }\\n          discount\\n          fuelProduct\\n          __typename\\n        }\\n        priceUnit\\n        ratingsCount\\n        starRating\\n        __typename\\n      }\\n      __typename\\n    }\\n    trends {\\n      areaName\\n      country\\n      today\\n      todayLow\\n      trend\\n      __typename\\n    }\\n    __typename\\n  }\\n}\"}"
+  },
+  {
+    "url": "https://webanalytics.localytics.com/api/v2/applications/7efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240/uploads/image.gif?client_date=1761521681&callback=z&data=%7B%22dt%22%3A%22h%22%2C%22u%22%3A%22505c4bef-30f0-45c9-b061-0510f33b7a06%22%2C%22attrs%22%3A%7B%22dt%22%3A%22a%22%2C%22au%22%3A%227efdfbeaf4a5d97b2a141cd-793120c6-6733-11e7-261f-007c928ca240%22%2C%22iu%22%3A%2275ff9a3e-129a-42d0-a0a6-ad9364345261%22%2C%22lv%22%3A%22web_4.2.0%22%2C%22dmo%22%3A%22MacIntel%22%2C%22dll%22%3A%22EN-US%22%2C%22dma%22%3A%22Google%20Inc.%22%2C%22tz%22%3A14400%2C%22tzid%22%3A%22America%2FNew_York%22%2C%22ne%22%3Afalse%2C%22push%22%3Anull%7D%2C%22seq%22%3A4%2C%22ids%22%3A%7B%7D%7D%0A%7B%22ct%22%3A1761521681%2C%22u%22%3A%2275233980-970a-4270-9510-4ea65b802d40%22%2C%22su%22%3A%224d74a05a-baf5-485a-b88b-bfa2dcffec49%22%2C%22mc%22%3Anull%2C%22mm%22%3Anull%2C%22ms%22%3Anull%2C%22dt%22%3A%22e%22%2C%22n%22%3A%22Station_Impression%22%2C%22cid%22%3A%2275ff9a3e-129a-42d0-a0a6-ad9364345261%22%2C%22utp%22%3A%22anonymous%22%2C%22attrs%22%3A%7B%220%22%3A%22%7B%5C%22Date%5C%22%3A%5C%222025-10-26T23%3A34%3A41.741Z%5C%22%2C%5C%22Entries%5C%22%3A%5B%7B%5C%22Position%5C%22%3A%5C%2220%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22187355%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2221%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22105703%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2222%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22159945%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2223%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22177143%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2224%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%2239138%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2225%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22169369%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2226%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22204412%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2227%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22105915%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2228%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22129751%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2230%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22166163%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2231%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22194176%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2232%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%2234043%5C%22%7D%2C%7B%5C%22Position%5C%22%3A%5C%2233%5C%22%2C%5C%22PriceHist_ID%5C%22%3A%5C%22-1%5C%22%2C%5C%22Station_ID%5C%22%3A%5C%22135628%5C%22%7D%5D%7D%22%2C%221%22%3A%22%22%2C%222%22%3A%22%22%2C%223%22%3A%22%22%2C%224%22%3A%22%22%2C%225%22%3A%22%22%2C%226%22%3A%22%22%2C%227%22%3A%22%22%2C%228%22%3A%22%22%2C%229%22%3A%22%22%2C%2210%22%3A%22%22%2C%2211%22%3A%22%22%2C%2212%22%3A%22%22%2C%2213%22%3A%22%22%2C%2214%22%3A%22%22%2C%2215%22%3A%22%22%2C%2216%22%3A%22%22%2C%2217%22%3A%22%22%2C%2218%22%3A%22%22%2C%2219%22%3A%22%22%2C%2220%22%3A%22%22%2C%2221%22%3A%22%22%2C%2222%22%3A%22%22%2C%2223%22%3A%22%22%2C%2224%22%3A%22%22%2C%2225%22%3A%22%22%2C%2226%22%3A%22%22%2C%2227%22%3A%22%22%2C%2228%22%3A%22%22%2C%2229%22%3A%22%22%2C%2230%22%3A%22%22%2C%2231%22%3A%22%22%2C%2232%22%3A%22%22%2C%2233%22%3A%22%22%2C%2234%22%3A%22%22%2C%2235%22%3A%22%22%2C%2236%22%3A%22%22%2C%2237%22%3A%22%22%2C%2238%22%3A%22%22%2C%2239%22%3A%22%22%2C%2240%22%3A%22%22%2C%2241%22%3A%22%22%2C%2242%22%3A%22%22%2C%2243%22%3A%22%22%2C%2244%22%3A%22%22%2C%2245%22%3A%22%22%2C%22UISource%22%3A%22Web%22%2C%22Context%22%3A%22Station%20Search%20Page%22%7D%7D",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"macOS\"",
+      "referer": "https://www.gasbuddy.com/",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+  }
+]
