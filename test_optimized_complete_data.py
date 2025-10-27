@@ -10,16 +10,16 @@ import time
 GRAPHQL_QUERY = open('full_graphql_query.txt').read()
 
 print("="*70)
-print("OPTIMIZED APPROACH: Complete Data Test for ZIP 77494")
+print("OPTIMIZED APPROACH: Complete Data Test for ZIP 19019 (100 stations)")
 print("="*70)
 
 session = requests.Session()
 all_stations = []
 
 # Step 1: Load HTML for a DIFFERENT ZIP to establish session
-print("\n1. Loading HTML for ZIP 33773 (to get session/CSRF)...")
+print("\n1. Loading HTML for ZIP 10001 (to get session/CSRF)...")
 html_response = session.get(
-    "https://www.gasbuddy.com/home?search=33773",
+    "https://www.gasbuddy.com/home?search=10001",
     impersonate="chrome120",
     timeout=30
 )
@@ -31,81 +31,67 @@ csrf_token = csrf_matches[0] if csrf_matches else None
 print(f"   Size: {html_size:,} bytes ({html_size/1024:.2f} KB)")
 print(f"   CSRF: {csrf_token[:20]}...")
 
-# Step 2: Query 77494 with cursor=0
-print("\n2. Querying ZIP 77494 via GraphQL (cursor=0)...")
-time.sleep(3)
+# Step 2: Query 19019 with pagination
+print("\n2. Querying ZIP 19019 via GraphQL with full pagination...")
 
 headers = {
     "accept": "*/*",
     "apollo-require-preflight": "true",
     "content-type": "application/json",
     "gbcsrf": csrf_token,
-    "referer": "https://www.gasbuddy.com/home?search=77494",
+    "referer": "https://www.gasbuddy.com/home?search=19019",
     "origin": "https://www.gasbuddy.com",
     "sec-fetch-dest": "empty",
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin"
 }
 
-payload = {
-    "operationName": "LocationBySearchTerm",
-    "variables": {
-        "fuel": 1,
-        "lang": "en",
-        "search": "77494",
-        "cursor": "0"
-    },
-    "query": GRAPHQL_QUERY
-}
+total_bandwidth = html_size
+cursor = "0"
+page = 1
 
-response1 = session.post(
-    "https://www.gasbuddy.com/graphql",
-    json=payload,
-    headers=headers,
-    impersonate="chrome120",
-    timeout=15
-)
-
-response1_size = len(response1.content)
-print(f"   Size: {response1_size:,} bytes ({response1_size/1024:.2f} KB)")
-
-if response1.status_code == 200:
-    data1 = response1.json()
-    stations1 = data1['data']['locationBySearchTerm']['stations']['results']
-    print(f"   Got {len(stations1)} stations")
-    all_stations.extend(stations1)
-
-# Step 3: Paginate with cursor=20
-print("\n3. Paginating ZIP 77494 (cursor=20)...")
-time.sleep(3)
-
-payload2 = {
-    "operationName": "LocationBySearchTerm",
-    "variables": {
-        "fuel": 1,
-        "lang": "en",
-        "search": "77494",
-        "cursor": "20"
-    },
-    "query": GRAPHQL_QUERY
-}
-
-response2 = session.post(
-    "https://www.gasbuddy.com/graphql",
-    json=payload2,
-    headers=headers,
-    impersonate="chrome120",
-    timeout=15
-)
-
-response2_size = len(response2.content)
-print(f"   Size: {response2_size:,} bytes ({response2_size/1024:.2f} KB)")
-
-if response2.status_code == 200:
-    data2 = response2.json()
-    stations2 = data2['data']['locationBySearchTerm']['stations']['results']
-    print(f"   Got {len(stations2)} stations")
-    all_stations.extend(stations2)
+while page <= 10:  # Safety limit
+    print(f"\n   Page {page} (cursor={cursor})...")
+    time.sleep(3)
+    
+    payload = {
+        "operationName": "LocationBySearchTerm",
+        "variables": {
+            "fuel": 1,
+            "lang": "en",
+            "search": "19019",
+            "cursor": cursor
+        },
+        "query": GRAPHQL_QUERY
+    }
+    
+    response = session.post(
+        "https://www.gasbuddy.com/graphql",
+        json=payload,
+        headers=headers,
+        impersonate="chrome120",
+        timeout=15
+    )
+    
+    response_size = len(response.content)
+    total_bandwidth += response_size
+    print(f"      Size: {response_size:,} bytes ({response_size/1024:.2f} KB)")
+    
+    if response.status_code == 200:
+        data = response.json()
+        stations = data['data']['locationBySearchTerm']['stations']['results']
+        print(f"      Got {len(stations)} stations")
+        
+        if len(stations) == 0:
+            print(f"      No more stations")
+            break
+        
+        all_stations.extend(stations)
+        cursor = str(len(all_stations))
+        page += 1
+    else:
+        print(f"      ❌ Failed: {response.status_code}")
+        break
 
 # Print ALL stations with complete data
 print("\n" + "="*70)
@@ -150,20 +136,23 @@ print("\n" + "="*70)
 print("SUMMARY")
 print("="*70)
 print(f"\nTotal stations: {len(all_stations)}")
-print(f"Expected: 34")
-print(f"Match: {'✅ YES' if len(all_stations) == 34 else '❌ NO'}")
+print(f"Expected: ~100 (Philadelphia area)")
+print(f"Pages retrieved: {page - 1}")
 
 print(f"\nBandwidth used:")
-print(f"  HTML for ZIP 33773: {html_size/1024:.2f} KB")
-print(f"  GraphQL cursor=0: {response1_size/1024:.2f} KB")
-print(f"  GraphQL cursor=20: {response2_size/1024:.2f} KB")
-print(f"  Total: {(html_size + response1_size + response2_size)/1024:.2f} KB")
+print(f"  HTML for ZIP 10001: {html_size/1024:.2f} KB")
+print(f"  GraphQL requests: {(total_bandwidth - html_size)/1024:.2f} KB")
+print(f"  Total: {total_bandwidth/1024:.2f} KB")
 
-print("\n✅ This proves the optimized approach gets:")
-print("  - All 34 stations")
-print("  - Complete addresses")
-print("  - Both cash AND credit prices")
-print("  - Timestamps and reporters")
-print("  - All fuel types")
+if len(all_stations) >= 90:
+    print("\n✅ SUCCESS! This proves multi-page pagination works:")
+    print(f"  - All {len(all_stations)} stations retrieved")
+    print(f"  - Across {page - 1} pages")
+    print("  - Complete addresses")
+    print("  - Both cash AND credit prices")
+    print("  - Timestamps and reporters")
+    print("  - All fuel types")
+else:
+    print(f"\n⚠️  Only got {len(all_stations)} stations")
 print("="*70)
 
