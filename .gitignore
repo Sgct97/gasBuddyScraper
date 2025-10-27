@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test output files
+*_output.txt
+full_station_output.txt
+optimized_test_output.txt
+
+# Keep important files
+!requirements.txt
+!full_graphql_query.txt
