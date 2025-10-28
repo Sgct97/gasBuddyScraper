@@ -47,10 +47,6 @@ ZIP_FILE = 'droplet1_zips.txt'  # First half of ZIPs
 MAX_RETRIES = 3
 
 # Run-specific files (set at runtime with timestamp)
-RUN_ID = None
-PROGRESS_FILE = None
-COMPLETED_FILE = None
-FAILED_FILE = None
 CURRENT_RUN_FILE = 'current_run_droplet1.txt'
 
 # Thread-local storage for sessions
@@ -61,7 +57,6 @@ state_lock = threading.Lock()
 session_start_time = None
 total_completed = 0
 total_failed = 0
-csv_filename = None  # Set at runtime
 
 def get_session():
     if not hasattr(thread_local, "session"):
