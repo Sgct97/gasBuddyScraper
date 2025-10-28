@@ -290,16 +290,37 @@ def scrape_zip(zip_code, csrf_token, worker_id, proxy_url, retry_count=0):
 # ============================================================================
 
 if __name__ == "__main__":
+    # ENTERPRISE SAFETY: PID lock to prevent double-starts
+    PID_FILE = '/opt/gasbuddy/scraper_droplet2.pid'
+    
+    if os.path.exists(PID_FILE):
+        with open(PID_FILE, 'r') as f:
+            old_pid = f.read().strip()
+        # Check if process is still running
+        try:
+            os.kill(int(old_pid), 0)  # Signal 0 = check if process exists
+            print(f"❌ ERROR: Scraper already running (PID {old_pid})")
+            print(f"   If you're sure it's not running, delete: {PID_FILE}")
+            exit(1)
+        except (OSError, ValueError):
+            # Process doesn't exist, remove stale PID file
+            os.remove(PID_FILE)
+            print(f"   Removed stale PID file (old PID: {old_pid})")
+    
+    # Write our PID
+    with open(PID_FILE, 'w') as f:
+        f.write(str(os.getpid()))
+    
     start_time = datetime.now()
     
     # Initialize CSV filename for incremental writing
     csv_filename = f"data/gasbuddy_droplet2_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-    import os
     os.makedirs('data', exist_ok=True)
     
     print("="*70)
     print("🚀 PRODUCTION GASBUDDY SCRAPER - DROPLET 2")
     print("="*70)
+    print(f"PID: {os.getpid()}")
     print(f"ZIP Range: 20,744-41,487 (second half)")
     print(f"Proxies: {PROXY_HOST}:8011-8020")
     print(f"Started: {start_time.strftime('%Y-%m-%d %H:%M:%S')}\n")
@@ -328,29 +349,11 @@ if __name__ == "__main__":
     start_time_scraping = time.time()
     
     with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
-        # ENTERPRISE MONITORING: Verify workers started correctly
-        time.sleep(2)  # Give threads time to spawn
-        import subprocess
-        thread_count = int(subprocess.check_output(
-            "ps -eLf | grep production_scraper | grep -v grep | wc -l",
-            shell=True
-        ).decode().strip())
-        expected_min_threads = NUM_WORKERS + 5  # Workers + main + overhead
-        
-        print(f"🔍 WORKER VERIFICATION:")
-        print(f"   Expected: ≥{expected_min_threads} threads")
-        print(f"   Actual: {thread_count} threads")
-        
-        if thread_count < expected_min_threads:
-            print(f"   ⚠️  WARNING: Only {thread_count} threads detected!")
-            print(f"   ⚠️  Expected at least {expected_min_threads} for {NUM_WORKERS} workers")
-            print(f"   ⚠️  Performance may be degraded!")
-        else:
-            print(f"   ✅ All workers initialized successfully\n")
-        
         # Submit all ZIPs to workers with proper proxy rotation
         future_to_zip = {}
         last_health_check = time.time()
+        import subprocess
+        worker_verification_done = False
         
         for i, zip_code in enumerate(zip_codes_to_scrape):
             # Check if session needs refresh before submitting
@@ -366,6 +369,28 @@ if __name__ == "__main__":
             
             future = executor.submit(scrape_zip, zip_code, csrf_token, worker_id, proxy_url)
             future_to_zip[future] = zip_code
+            
+            # ENTERPRISE MONITORING: Verify workers after first batch submitted
+            if not worker_verification_done and len(future_to_zip) >= NUM_WORKERS:
+                time.sleep(3)  # Give threads time to spawn
+                thread_count = int(subprocess.check_output(
+                    "ps -eLf | grep production_scraper | grep -v grep | wc -l",
+                    shell=True
+                ).decode().strip())
+                expected_min_threads = NUM_WORKERS + 5
+                
+                print(f"\n🔍 WORKER VERIFICATION (after {len(future_to_zip)} tasks submitted):")
+                print(f"   Expected: ≥{expected_min_threads} threads")
+                print(f"   Actual: {thread_count} threads")
+                
+                if thread_count < expected_min_threads:
+                    print(f"   ⚠️  WARNING: Only {thread_count} threads detected!")
+                    print(f"   ⚠️  Expected at least {expected_min_threads} for {NUM_WORKERS} workers")
+                    print(f"   ⚠️  This may indicate a threading issue!")
+                else:
+                    print(f"   ✅ All {NUM_WORKERS} workers active\n")
+                
+                worker_verification_done = True
         
         # Process results as they complete
         for future in as_completed(future_to_zip):
@@ -464,6 +489,13 @@ if __name__ == "__main__":
     print(f"Completed ZIPs logged: {COMPLETED_FILE}")
     print(f"Failed ZIPs logged: {FAILED_FILE}")
     print(f"{'='*70}\n")
+    
+    # ENTERPRISE SAFETY: Clean up PID file
+    try:
+        os.remove(PID_FILE)
+        print("🔒 PID lock released")
+    except:
+        pass
 
 # Old test code below - keeping for reference but not executed
 """
