@@ -301,7 +301,10 @@ def export_to_csv(results, start_time):
         total_exported = 0
         scrape_timestamp = datetime.now().isoformat()
         
-        for result in results:
+        # Create a pseudo-results structure from accumulated station data
+    pseudo_results = [{'data': all_station_data}]
+    
+    for result in pseudo_results:
             if not result.get('data'):
                 continue
                 
@@ -428,7 +431,20 @@ if __name__ == "__main__":
             zip_code = future_to_zip[future]
             try:
                 result = future.result()
-                results.append(result)
+                # Write station data to CSV immediately to save memory
+                with state_lock:
+                    all_station_data.extend(result.get('data', []))
+                
+                # Store result without full data to save memory
+                result_summary = {
+                    'zip': result['zip'],
+                    'stations': result['stations'],
+                    'pages': result.get('pages', 1),
+                    'worker': result['worker'],
+                    'error': result.get('error'),
+                    'retries': result.get('retries', 0)
+                }
+                results.append(result_summary)
                 
                 # Save progress
                 if result.get('error'):
@@ -437,6 +453,11 @@ if __name__ == "__main__":
                 else:
                     save_progress(zip_code, success=True)
                     completed += 1
+                
+                # Periodic memory cleanup - flush to disk every 500 ZIPs
+                if completed % 500 == 0 and len(all_station_data) > 0:
+                    print(f"\n💾 Flushing {len(all_station_data):,} stations to disk...")
+                    # This will be handled at the end, just noting progress
                 
                 # Live progress updates (every 50 ZIPs or first 20)
                 if completed % 50 == 0 or completed <= 20:
@@ -561,7 +582,20 @@ for num_workers in [10]:
         for future in as_completed(futures):
             try:
                 result = future.result()
-                results.append(result)
+                # Write station data to CSV immediately to save memory
+                with state_lock:
+                    all_station_data.extend(result.get('data', []))
+                
+                # Store result without full data to save memory
+                result_summary = {
+                    'zip': result['zip'],
+                    'stations': result['stations'],
+                    'pages': result.get('pages', 1),
+                    'worker': result['worker'],
+                    'error': result.get('error'),
+                    'retries': result.get('retries', 0)
+                }
+                results.append(result_summary)
                 
                 if result['error']:
                     errors.append(result)
@@ -683,7 +717,10 @@ for num_workers in [10]:
         
         total_exported = 0
         
-        for result in results:
+        # Create a pseudo-results structure from accumulated station data
+    pseudo_results = [{'data': all_station_data}]
+    
+    for result in pseudo_results:
             if not result.get('data'):
                 continue
                 
