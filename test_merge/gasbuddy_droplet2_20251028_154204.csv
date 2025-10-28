@@ -1,0 +1,27 @@
+station_id,station_name,brand,address_line1,city,state,zip,latitude,longitude,regular_cash_price,regular_cash_posted_time,regular_cash_reporter,regular_credit_price,regular_credit_posted_time,regular_credit_reporter,midgrade_cash_price,midgrade_credit_price,premium_cash_price,premium_credit_price,diesel_cash_price,diesel_credit_price,has_convenience_store,has_car_wash,has_restrooms,accepts_credit_cards,rating,scraped_at
+35019,Marathon,,218 East Main ,Edmore,MI,48829,,,3.14,2025-10-28T11:53:38.552Z,lthies55,3.14,2025-10-28T11:53:38.612Z,lthies55,,,,,3.49,3.49,,,,,4.1,2025-10-28T15:42:11.254417
+32611,Admiral,,1102 E Main St,Edmore,MI,48829,,,,,,3.15,2025-10-28T11:53:53.529Z,lthies55,,,,,,3.57,,,,,3.7,2025-10-28T15:42:11.254417
+35020,The Depot,,1104 E Main St,Edmore,MI,48829,,,,,,3.17,2025-10-28T11:54:10.751Z,lthies55,,,,,,3.57,,,,,4.6,2025-10-28T15:42:11.254417
+195230,Costco,,2540 E Saginaw Hwy,East Lansing,MI,48823,,,,,,2.99,2025-10-28T15:41:56.188Z,mustang642,,,,,,,,,,,4.5,2025-10-28T15:42:12.376356
+12519,BP,,2139 Haslett Rd,Haslett,MI,48840,,,3.05,2025-10-28T11:07:04.839Z,5mbj7mgrkh,3.15,2025-10-28T11:07:04.855Z,5mbj7mgrkh,,,,,3.99,4.09,,,,,4.2,2025-10-28T15:42:12.376356
+254,Shell,,1831 E Grand River Ave,East Lansing,MI,48823,,,,,,3.06,2025-10-28T14:42:41.353Z,bruce553333,,,,,,,,,,,4.4,2025-10-28T15:42:12.376356
+1223,Speedway,,111 W Lake Lansing Rd,East Lansing,MI,48823,,,,,,3.09,2025-10-28T14:13:54.642Z,Buddy_gqdnq3mp,,,,,,3.89,,,,,4.2,2025-10-28T15:42:12.376356
+1228,Marathon,,3010 E Lake Lansing Rd,East Lansing,MI,48823,,,,,,3.05,2025-10-28T15:34:37.241Z,Punai,,,,,,3.89,,,,,4.6,2025-10-28T15:42:12.376356
+1281,Marathon,,1198 S Harrison Rd,East Lansing,MI,48823,,,,,,3.05,2025-10-28T12:06:35.555Z,jpaluch,,,,,,3.89,,,,,4.5,2025-10-28T15:42:12.376356
+15044,Speedway,,7765 E Old MI-78,East Lansing,MI,48823,,,,,,3.17,2025-10-28T14:41:09.807Z,Buddy_gqdnq3mp,,,,,,3.89,,,,,4.1,2025-10-28T15:42:12.376356
+146501,Meijer,,7149 E Saginaw St,East Lansing,MI,48823,,,,,,3.17,2025-10-28T14:42:13.535Z,Buddy_gqdnq3mp,,,,,,3.89,,,,,4.2,2025-10-28T15:42:12.376356
+907,Marathon,,1435 E Grand River Ave,East Lansing,MI,48823,,,,,,3.24,2025-10-28T14:43:43.214Z,bruce553333,,,,,,,,,,,2.8,2025-10-28T15:42:12.376356
+1224,Mobil,,1500 Haslett Rd,East Lansing,MI,48823,,,3.24,2025-10-28T15:38:47.907Z,Buddy_gqdnq3mp,3.29,2025-10-28T15:38:47.922Z,Buddy_gqdnq3mp,,,,,3.79,3.79,,,,,4.2,2025-10-28T15:42:12.376356
+882,Admiral,,1120 E Grand River Ave,East Lansing,MI,48823,,,,,,3.29,2025-10-26T23:31:59.600Z,philippucillo,,,,,,,,,,,3.4,2025-10-28T15:42:12.376356
+11560,CITGO,,978 Williamston Rd,Dansville,MI,48819,,,,,,0,,,,,,,,0,,,,,3.4,2025-10-28T15:42:12.509793
+11967,Swan Fuel Service,,1615 E Mason St,Dansville,MI,48819,,,,,,0,,,,,,,,0,,,,,3.9,2025-10-28T15:42:12.509793
+12218,Marathon,,919 S Main St,Eaton Rapids,MI,48827,,,,,,2.94,2025-10-28T08:24:27.631Z,koolkatt269,,,,,,,,,,,3.6,2025-10-28T15:42:12.592582
+12386,Speedway,,1202 S Main St,Eaton Rapids,MI,48827-1956,,,,,,2.94,2025-10-28T08:24:08.171Z,koolkatt269,,,,,,3.89,,,,,4.4,2025-10-28T15:42:12.592582
+19375,Quality Dairy,,118 S Main St,Eaton Rapids,MI,49092,,,,,,2.97,2025-10-28T08:25:42.240Z,koolkatt269,,,,,,,,,,,3.5,2025-10-28T15:42:12.592582
+12385,Family Fare,,1415 S Main St,Eaton Rapids,MI,48827-1959,,,,,,3.29,2025-10-26T19:17:15.625Z,Kisseelynn0,,,,,,0,,,,,4.6,2025-10-28T15:42:12.592582
+22009,Meijer,,12875 Old US-27,DeWitt,MI,48820,,,,,,3.05,2025-10-27T23:34:31.607Z,#12#_Sanvan,,,,,,3.69,,,,,4.2,2025-10-28T15:42:12.660534
+14919,Speedway,,14004 US-27,DeWitt,MI,48820,,,,,,3.09,2025-10-28T15:37:48.983Z,Swindle0519E,,,,,,3.89,,,,,3.8,2025-10-28T15:42:12.660534
+14920,Speedway,,13155 S US-27,DeWitt,MI,48820,,,,,,3.09,2025-10-27T21:39:53.019Z,ZayneWolf,,,,,,3.99,,,,,4.4,2025-10-28T15:42:12.660534
+17214,Marathon,,12997 S US-27,DeWitt,MI,48820,,,,,,3.09,2025-10-27T10:39:15.377Z,HawkPilot,,,,,,3.39,,,,,4.3,2025-10-28T15:42:12.660534
+12219,Mobil,,364 Creyts Rd,Dimondale,MI,48821,,,,,,2.98,2025-10-27T16:44:47.557Z,visitor,,,,,,,,,,,4.7,2025-10-28T15:42:13.200128
+2363,Marathon,,7262 Lansing Rd,Dimondale,MI,48821,,,3.14,2025-10-27T11:25:25.429Z,AllGold,3.14,2025-10-27T11:25:25.429Z,AllGold,,,,,3.89,3.89,,,,,3.6,2025-10-28T15:42:13.200128
