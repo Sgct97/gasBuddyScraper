@@ -1,0 +1,105 @@
+======================================================================
+TESTING: LARGE SCALE SCRAPING WITH PROXIES
+======================================================================
+
+Testing with 20 ZIPs...
+
+1. Establishing session via proxy with anti-detection...
+   Session established via isp.oxylabs.io:8001
+   CSRF: 1.tHxK8OiQ2SShdWSN...
+
+======================================================================
+TEST: 10 concurrent workers
+======================================================================
+   [15:34:56] 1/20 (5%) | Rate: 0.4 ZIP/s | Stations: 0 | Errors: 0 | ETA: 1m
+   [15:34:56] 2/20 (10%) | Rate: 0.8 ZIP/s | Stations: 0 | Errors: 0 | ETA: 0m
+   [15:34:56] 3/20 (15%) | Rate: 1.1 ZIP/s | Stations: 0 | Errors: 0 | ETA: 0m
+   [15:34:57] 4/20 (20%) | Rate: 1.4 ZIP/s | Stations: 0 | Errors: 0 | ETA: 0m
+   [15:34:57] 5/20 (25%) | Rate: 1.6 ZIP/s | Stations: 0 | Errors: 0 | ETA: 0m
+   [15:34:58] 6/20 (30%) | Rate: 1.3 ZIP/s | Stations: 0 | Errors: 0 | ETA: 0m
+   [15:34:59] 7/20 (35%) | Rate: 1.4 ZIP/s | Stations: 1 | Errors: 0 | ETA: 0m
+   [15:34:59] 8/20 (40%) | Rate: 1.5 ZIP/s | Stations: 1 | Errors: 0 | ETA: 0m
+   [15:35:00] 9/20 (45%) | Rate: 1.4 ZIP/s | Stations: 3 | Errors: 0 | ETA: 0m
+   [15:35:00] 10/20 (50%) | Rate: 1.5 ZIP/s | Stations: 10 | Errors: 0 | ETA: 0m
+   [15:35:01] 11/20 (55%) | Rate: 1.6 ZIP/s | Stations: 25 | Errors: 0 | ETA: 0m
+   [15:35:01] 12/20 (60%) | Rate: 1.7 ZIP/s | Stations: 30 | Errors: 0 | ETA: 0m
+   [15:35:02] 13/20 (65%) | Rate: 1.7 ZIP/s | Stations: 30 | Errors: 0 | ETA: 0m
+   [15:35:03] 14/20 (70%) | Rate: 1.5 ZIP/s | Stations: 64 | Errors: 0 | ETA: 0m
+   [15:35:04] 15/20 (75%) | Rate: 1.4 ZIP/s | Stations: 84 | Errors: 0 | ETA: 0m
+   [15:35:31] 20/20 (100%) | Rate: 0.5 ZIP/s | Stations: 394 | Errors: 0 | ETA: 0m
+
+======================================================================
+RESULTS: 10 workers
+======================================================================
+Total time: 37.6s (0.6 minutes)
+Total stations: 394
+ZIPs completed: 20/20
+Rate limits (429): 0
+Other errors: 0
+Throughput: 0.53 ZIPs/second
+Average per ZIP: 1.9s
+
+✅ No rate limits with 10 workers!
+
+📊 Extrapolated to 42,000 ZIPs (all US ZIPs):
+   Estimated time: 21.9 hours per scrape
+   Daily (2x): 43.9 hours
+   With 10 proxies rotating
+   Bandwidth per scrape: 31.6 GB
+   Bandwidth per month (60x): 1893.8 GB
+   💰 Cost @ $16/month unlimited: $16/month flat rate!
+
+📄 PAGINATION ANALYSIS:
+   ZIPs requiring pagination: 3/20
+   Max pages for single ZIP: 9
+
+   Top 5 ZIPs by page count:
+      ZIP 02101: 161 stations across 9 pages
+      ZIP 19019: 139 stations across 7 pages
+      ZIP 77494: 34 stations across 2 pages
+
+📦 SAMPLE DATA (showing 5 random stations with prices):
+
+   Sample 1 - ZIP 64101:
+      Name: Conoco
+      Address: 1509 W 12th St, Kansas City, MO
+      ID: 74043
+      Regular (credit): $2.79 by 1jeffro1
+
+   Sample 2 - ZIP 46201:
+      Name: ARCO
+      Address: 3005 E 10th St, Indianapolis, IN
+      ID: 17103
+      Regular (credit): $2.85 by RicanMamiof2
+
+   Sample 3 - ZIP 33125:
+      Name: U-Gas
+      Address: 2695 W Flagler St, Miami, FL
+      ID: 101820
+      Regular (credit): $2.89 by visitor
+
+   Sample 4 - ZIP 33773:
+      Name: Mobil
+      Address: 12601 Starkey Rd, Largo, FL
+      ID: 8198
+      Regular (cash): $2.85 by Lugene56
+
+   Sample 5 - ZIP 75201:
+      Name: Shell
+      Address: 2324 McKinney Ave, Dallas, TX
+      ID: 44327
+      Regular gas: No recent price reports
+
+💾 EXPORTING TO CSV...
+   ✅ Exported 394 stations to gasbuddy_data_20251027_153531.csv
+
+======================================================================
+CONCLUSIONS
+======================================================================
+
+✅ Key findings will show:
+  1. Optimal worker count for 30K ZIPs
+  2. Whether 10 proxies are sufficient
+  3. Expected completion time
+  4. Rate limiting behavior at scale
+======================================================================

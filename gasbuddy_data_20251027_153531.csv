@@ -1,0 +1,395 @@
+station_id,station_name,brand,address_line1,city,state,zip,latitude,longitude,regular_cash_price,regular_cash_posted_time,regular_cash_reporter,regular_credit_price,regular_credit_posted_time,regular_credit_reporter,midgrade_cash_price,midgrade_credit_price,premium_cash_price,premium_credit_price,diesel_cash_price,diesel_credit_price,has_convenience_store,has_car_wash,has_restrooms,accepts_credit_cards,rating
+6258,76,,427 N Crescent Dr,Beverly Hills,CA,90210-4815,,,,,,5.39,2025-10-26T18:16:01.107Z,daverw6,,,,,,5.75,,,,,4.2
+44327,Shell,,2324 McKinney Ave,Dallas,TX,75201,,,,,,0,,,,,,,,0,,,,,2.4
+44331,Texaco,,2607 San Jacinto St,Dallas,TX,75201,,,,,,0,,,,,,,,,,,,,4
+111256,Sunoco,,1317 9th St NW,Washington,DC,20001,,,,,,2.98,2025-10-27T11:59:07.487Z,DataFeed,,,,,,0,,,,,3.4
+106456,BP,,2830 Sherman Ave NW,Washington,DC,20001-3922,,,3.16,2025-10-26T18:25:01.761Z,tags94,3.16,2025-10-26T18:25:01.776Z,tags94,,,,,0,0,,,,,3.1
+125824,Exxon,,22 Florida Ave NW,Washington,DC,20001,,,,,,0,,,,,,,,0,,,,,3.5
+112414,Valero,,420 Rhode Island Ave NW,Washington,DC,20001,,,0,,,0,,,,,,,,,,,,,3.2
+100309,Marathon,,1739 New Jersey Ave NW,Washington,DC,20001-2430,,,,,,0,,,,,,,,0,,,,,3.9
+104820,Exxon,,306 Rhode Island Ave NW,Washington,DC,20001-1827,,,,,,0,,,,,,,,,,,,,3.2
+107429,Crown,,908 Florida Ave NW,Washington,DC,20001,,,,,,0,,,,,,,,,,,,,3.1
+131651,Marathon,,1390 NW 27th Ave,Miami,FL,33125,,,,,,2.79,2025-10-27T11:57:42.730Z,DataFeed,,,,,,,,,,,4.2
+52282,Shell,,2701 W Flagler St,Miami,FL,33135-1334,,,,,,2.89,2025-10-27T16:46:34.542Z,miamigal82,,,,,,,,,,,4.4
+52301,Valero,,1705 NW 7th St,Miami,FL,33125-3501,,,,,,2.89,2025-10-27T11:52:07.252Z,rob20rx7,,,,,,,,,,,4
+133125,Mobil,,695 NW 27th Ave  ,Miami,FL,33125,,,,,,2.89,2025-10-27T16:18:05.468Z,briannj,,,,,,3.44,,,,,4.2
+133122,Marathon,,2075 NW 7th St,Miami,FL,33125,,,,,,2.89,2025-10-26T16:52:11.077Z,crestrepo71,,,,,,,,,,,3.9
+122335,Marathon,,2442 W Flagler St,Miami,FL,33135,,,,,,2.89,2025-10-26T08:45:08.280Z,visitor,,,,,,0,,,,,4.7
+101820,U-Gas,,2695 W Flagler St,Miami,FL,33135-1334,,,,,,2.89,2025-10-26T08:47:03.681Z,visitor,,,,,,,,,,,3.4
+52292,Shell,,1201 NW 7th St,Miami,FL,33125-3701,,,,,,2.99,2025-10-26T02:07:24.881Z,rcarball,,,,,,,,,,,3.9
+159703,7-Eleven,,1951 NW 17th Ave,Miami,FL,33142,,,,,,2.88,2025-10-25T22:48:17.241Z,bevgenlane,,,,,,3.48,,,,,3.8
+133120,Sunflex Fuels,,1599 W Flagler St,Miami,FL,33135,,,0,,,0,,,,,,,,,,,,,3.1
+133124,Marathon,,2735 NW 7th St,Miami,FL,33126,,,,,,0,,,,,,,,,,,,,3.6
+149192,Westar,,2188 NW 20th St,Miami,FL,33125,,,0,,,0,,,,,,,0,0,,,,,4
+152784,Chevron,,1688 NW 27th Ave,Miami,FL,33125,,,0,,,0,,,,,,,,,,,,,4.5
+122543,Sunshine Fuels,,1055 NW 27th Ave,Miami,FL,33125,,,,,,0,,,,,,,,0,,,,,3.8
+158698,Sunshine Fuels,,1910 NW 7th St,Miami,FL,33125,,,,,,0,,,,,,,,,,,,,3.8
+96262,Chevron,,4919 Main St,Houston,TX,77002-9719,,,0,,,2.99,2025-10-25T22:40:15.933Z,DataFeed,,,,,0,0,,,,,4.2
+68540,76,,2220 Main St,Houston,TX,77004,,,,,,0,,,,,,,,0,,,,,2.9
+89614,Valero,,3117 Main St,Houston,TX,77002-9311,,,0,,,0,,,,,,,,,,,,,3.3
+34207,Chevron,,2222 Louisiana St,Houston,TX,77002,,,0,,,0,,,,,,,,,,,,,3.5
+88382,Sunoco,,2111 Fannin St,Houston,TX,77002,,,0,,,0,,,,,,,0,0,,,,,3.1
+164144,Costco,,23645 Katy Fwy,Katy,TX,77494,,,,,,2.22,2025-10-27T17:01:45.957Z,Owner,,,,,,,,,,,4.8
+33064,Murphy USA,,25104 Market Place Dr.,Katy,TX,77494,,,,,,2.32,2025-10-27T18:31:28.205Z,Owner,,,,,,2.83,,,,,4.2
+129751,H-E-B,,25625 Katy Fwy,Katy,TX,77494,,,,,,2.32,2025-10-27T11:04:16.581Z,2aruba,,,,,,2.83,,,,,4.3
+162972,Circle K,,2617 FM-1463,Katy,TX,77494,,,,,,2.33,2025-10-27T05:19:24.957Z,GR1300,,,,,,2.89,,,,,4
+186216,Kroger,,1712 Spring Green Blvd ,Katy,TX,77494,,,,,,2.34,2025-10-27T13:53:50.027Z,Desertfly,,,,,,2.89,,,,,4
+196571,H-E-B,,4950 FM-1463,Katy,TX,77494,,,,,,2.35,2025-10-27T13:52:56.773Z,Desertfly,,,,,,2.93,,,,,4.5
+47770,Exxon,,550 W Grand Pkwy S,Katy,TX,77494,,,,,,2.35,2025-10-26T18:17:17.549Z,BlueSteel_69,,,,,,3.09,,,,,4.2
+195040,Buc-ee's,,27700 Katy Fwy,Katy,TX,77494,,,,,,2.33,2025-10-27T17:23:47.573Z,earcos1,,,,,,2.89,,,,,4.9
+205959,7-Eleven,,1250 Pin Oak Rd,Katy,TX,77494,,,,,,2.39,2025-10-27T13:54:00.273Z,Desertfly,,,,,,2.83,,,,,4.4
+169369,Shell,,26150 Katy Fwy,Katy,TX,77494,,,,,,2.39,2025-10-27T14:10:18.133Z,DataFeed,,,,,,0,,,,,4.3
+196257,Walmart,,26814 FM-1093,Fulshear,TX,77494,,,,,,2.35,2025-10-27T13:53:05.956Z,Desertfly,,,,,,2.89,,,,,4.3
+47768,Shell,,1350 Pin Oak Rd,Katy,TX,77494,,,2.39,2025-10-27T11:03:46.293Z,2aruba,2.59,2025-10-27T11:03:46.324Z,2aruba,,,,,2.89,2.89,,,,,3.5
+158694,Shell,,6750 FM-1463,Fulshear,TX,77441,,,,,,2.39,2025-10-27T13:53:16.118Z,Desertfly,,,,,,2.99,,,,,4.2
+93362,Shell,,25833 Cinco Ranch Blvd,Katy,TX,77494,,,,,,2.45,2025-10-26T22:10:26.390Z,DataFeed,,,,,,0,,,,,4.5
+159945,Shell,,26149 Katy Fwy,Katy,TX,77494,,,,,,2.45,2025-10-27T16:40:19.983Z,DataFeed,,,,,,0,,,,,4.2
+193581,Shell,,23903 Katy Fwy,Katy,TX,77494,,,,,,2.49,2025-10-27T17:40:55.609Z,DataFeed,,,,,,0,,,,,4.6
+156835,Kroger,,25050 FM-1093,Richmond,TX,77406,,,,,,2.49,2025-10-27T13:50:23.870Z,Desertfly,,,,,,2.94,,,,,4.6
+194152,Kroger,,9806 Gaston Rd,Katy,TX,77494,,,,,,2.45,2025-10-27T13:53:24.640Z,Desertfly,,,,,,2.99,,,,,4.3
+34044,Kroger,,1550 W Grand Pkwy S,Katy,TX,77494,,,,,,2.35,2025-10-26T04:02:26.183Z,sherwoodgas2012,,,,,,,,,,,4
+133531,Shell,,9630 Spring Green Blvd,Katy,TX,77494,,,,,,2.53,2025-10-27T13:50:58.025Z,Desertfly,,,,,,2.99,,,,,4.7
+127474,Shell,,4140 Spring Green Blvd,Katy,TX,77494,,,,,,2.53,2025-10-27T11:04:53.930Z,Buddy_1tuhtka1,,,,,,2.99,,,,,3.7
+8826,Texaco,,24985 Katy Fwy,Katy,TX,77494,,,2.49,2025-10-25T21:32:07.351Z,Wickjame,2.59,2025-10-27T11:07:15.823Z,2aruba,,,,,0,0,,,,,3.8
+34043,Chevron,,23307 Cinco Ranch Blvd,Katy,TX,77494,,,0,,,2.67,2025-10-27T01:41:38.012Z,DataFeed,,,,,0,0,,,,,3.6
+105703,Shell,,25645 Westheimer Pkwy,Katy,TX,77494,,,,,,2.79,2025-10-27T11:59:18.762Z,DataFeed,,,,,,3.14,,,,,4.5
+187355,Exxon,,1540 Katy Gap Rd,Katy,TX,77494,,,0,,,2.79,2025-10-27T16:40:30.804Z,DataFeed,,,,,0,0,,,,,4.2
+39138,Shell,,23255 Kingsland Blvd,Katy,TX,77494,,,,,,2.89,2025-10-27T17:10:55.041Z,DataFeed,,,,,,3.69,,,,,1.9
+177143,Chevron,,23450 Kingsland Blvd,Katy,TX,77494,,,0,,,0,,,,,,,0,0,,,,,4
+105915,Valero,,653 Pin Oak Rd,Katy,TX,77494,,,0,,,0,,,,,,,0,0,,,,,2.9
+204412,Sunoco,,5505 Hwy Blvd,Katy,TX,77494,,,0,,,0,,,,,,,0,0,,,,,1.9
+31290,H-E-B,,6701 S Fry Rd,Katy,TX,77494,,,,,,0,,,,,,,,,,,,,4.5
+47767,Chevron,,5603B Hwy Blvd,Katy,TX,77494,,,0,,,0,,,,,,,,,,,,,2.8
+166163,Shell,,4007 FM-1463,Katy,TX,77494,,,,,,0,,,,,,,,0,,,,,4
+135628,Shell,,2620 FM-1463,Katy,TX,77494,,,,,,0,,,,,,,,0,,,,,3.8
+194176,Shell,,740 Katy-Fort Bend Rd,Katy,TX,77494,,,,,,0,,,,,,,,0,,,,,4.6
+117814,Mobil,,448 N Sherman Dr,Indianapolis,IN,46201,,,,,,2.79,2025-10-27T01:01:32.237Z,demoe939,,,,,,,,,,,2.8
+38673,Valero,,3816 E Michigan St,Indianapolis,IN,46201,,,,,,2.79,2025-10-27T01:01:00.129Z,demoe939,,,,,,0,,,,,3.2
+87209,East Side Pantry,,4023 E 10th St,Indianapolis,IN,46201,,,,,,2.79,2025-10-27T00:11:25.700Z,RWalsman73,,,,,,,,,,,2.5
+17109,Kroger,,4445 E 10th St,Indianapolis,IN,46201,,,,,,2.79,2025-10-27T17:18:45.814Z,SYCAMOREGRAD,,,,,,3.89,,,,,3.3
+10350,Marathon,,3802 E 13th St,Indianapolis,IN,46201,,,,,,2.79,2025-10-27T12:07:20.361Z,DataFeed,,,,,,0,,,,,2.8
+17105,Speedway,,1640 E Washington St,Indianapolis,IN,46201,,,,,,2.89,2025-10-27T19:19:46.670Z,indy102,,,,,,3.99,,,,,2.2
+2268,Marathon,,1435 E Washington St,Indianapolis,IN,46201,,,2.89,2025-10-27T19:19:53.042Z,indy102,2.89,2025-10-27T19:19:53.057Z,indy102,,,,,,,,,,,2.1
+196158,GoLo,,2040 E Washington St,Indianapolis,IN,46201,,,2.89,2025-10-27T19:19:24.493Z,indy102,2.89,2025-10-27T19:19:24.509Z,indy102,,,,,,,,,,,2
+17106,Mobil,,3155 E English Ave,Indianapolis,IN,46201,,,,,,2.89,2025-10-27T19:17:34.821Z,indy102,,,,,,,,,,,3.2
+199537,Amoco,,3749 E Washington St,Indianapolis,IN,46201,,,,,,2.89,2025-10-27T19:21:44.566Z,indy102,,,,,,3.99,,,,,3.5
+115755,GetGo,,5061 E Washington St,Indianapolis,IN,46201,,,,,,2.89,2025-10-27T19:01:16.468Z,Owner,,,,,,3.79,,,,,3.7
+201858,CITGO,,4415 E Washington St,Indianapolis,IN,46201,,,2.84,2025-10-27T17:27:10.248Z,Buddy_123987,2.89,2025-10-27T17:27:10.248Z,Buddy_123987,,,,,,,,,,,3.4
+17103,ARCO,,3005 E 10th St,Indianapolis,IN,46201,,,,,,2.85,2025-10-27T11:41:11.984Z,RicanMamiof2,,,,,,,,,,,3.2
+6245,Marathon,,1001 N Rural St,Indianapolis,IN,46201,,,,,,2.89,2025-10-27T11:41:03.097Z,RicanMamiof2,,,,,,,,,,,2.8
+15725,Speedway,,2012 E English Ave,Indianapolis,IN,46201,,,2.89,2025-10-27T19:19:12.298Z,indy102,2.89,2025-10-27T19:19:12.314Z,indy102,,,,,3.69,3.69,,,,,3.2
+130567,Marathon,,1845 E Michigan St,Indianapolis,IN,46201,,,,,,2.89,2025-10-27T19:19:35.631Z,indy102,,,,,,,,,,,2.4
+30464,Sunoco,,3747 E English Ave,Indianapolis,IN,46203,,,,,,2.95,2025-10-27T17:27:46.623Z,Buddy_123987,,,,,,,,,,,3
+194831,Conoco,,1008 N Emerson Ave,Indianapolis,IN,46219,,,0,,,2.99,2025-10-27T00:13:16.153Z,RWalsman73,,,,,,,,,,,3.4
+88970,Shell,,3801 E New York St,Indianapolis,IN,46201,,,0,,,0,,,,,,,,,,,,,2.6
+17099,Clark,,2103 E 10th St,Indianapolis,IN,46201 ,,,,,,0,,,,,,,,,,,,,3.3
+74043,Conoco,,1509 W 12th St,Kansas City,MO,64101,,,,,,2.79,2025-10-27T15:28:07.982Z,1jeffro1,,,,,,3.49,,,,,4.1
+17497,Clark,,2200 N Prospect Ave,Milwaukee,WI,53202,,,,,,2.99,2025-10-27T12:06:23.985Z,DataFeed,,,,,,,,,,,3.9
+66936,Jetz,,1425 N Farwell Ave,Milwaukee,WI,53202,,,,,,0,,,,,,,,,,,,,3.2
+99024,CITGO,,12397 Seminole Blvd,Largo,FL,33778,,,2.73,2025-10-27T18:32:55.683Z,CntryAngel3,2.83,2025-10-27T18:32:55.745Z,CntryAngel3,,,,,,,,,,,3.7
+161748,Marley's House Smoke And Gas,,9640 Ulmerton Rd,Largo,FL,33771,,,,,,2.75,2025-10-27T15:48:27.522Z,fiveo1882,,,,,,,,,,,3.4
+72303,Wawa,,8910 Ulmerton Rd,Largo,FL,33771,,,,,,2.85,2025-10-27T17:24:30.550Z,fiveo1882,,,,,,3.59,,,,,4.8
+72228,Exxon,,11800 66th St N,Largo,FL,33773,,,,,,2.87,2025-10-27T11:27:17.008Z,largobob,,,,,,3.55,,,,,3.9
+163891,7-Eleven,,11787 66th St N,Largo,FL,33773,,,,,,2.87,2025-10-27T11:29:18.010Z,largobob,,,,,,3.55,,,,,3.8
+18355,Shell,,12574 66th St N,Largo,FL,33773-3439,,,2.89,2025-10-27T11:25:53.366Z,largobob,2.99,2025-10-27T11:25:53.375Z,largobob,,,,,3.49,3.59,,,,,3.9
+8198,Mobil,,12601 Starkey Rd,Largo,FL,33773,,,2.85,2025-10-26T11:22:25.910Z,Lugene56,2.85,2025-10-25T10:50:33.152Z,Lugene56,,,,,3.43,3.43,,,,,3.3
+177977,Chevron,,731 N Farmersville Blvd,Farmersville,CA,93223-1219,,,0,,,0,,,,,,,0,0,,,,,4
+99828,Sinclair,,1456 N Farmersville Blvd,Farmersville,CA,93223-1028,,,0,,,0,,,,,,,,,,,,,3.9
+153277,VP Racing Fuels,,138 W Visalia Rd,Farmersville,CA,93223,,,0,,,0,,,,,,,,,,,,,3.3
+139342,E Con Gasoline,,146 N Farmersville Rd,Farmersville,CA,93223-1520,,,0,,,0,,,,,,,,,,,,,3.4
+139091,Fastrip ,,101 W Visalia Rd,Farmersville,CA,93223,,,3.79,2025-10-25T19:48:25.320Z,Ashh_Ashhh2,3.91,2025-10-25T19:48:25.364Z,Ashh_Ashhh2,,,,,4.49,4.61,,,,,4.2
+32651,Sinclair,,898 E Visalia Rd,California,CA        ,93223-1741,,,0,,,0,,,,,,,0,0,,,,,3.5
+32652,Shell,,430 W Noble Ave,Farmersville,CA,93223-2504,,,0,,,4.89,2025-10-25T21:40:52.907Z,DataFeed,,,,,0,0,,,,,4.7
+199146,Sinclair,,15490 E Mineral King Ave,Visalia,CA,93292,,,0,,,0,,,,,,,0,0,,,,,4.6
+81344,Express Mini-Mart,,3332 E Mineral King Ave,Visalia,CA,93292-7056,,,3.95,2025-10-26T05:16:39.461Z,arman23,4.05,2025-10-26T05:16:39.476Z,arman23,,,,,,,,,,,3.8
+26043,Shell,,1935 S Lovers Ln,Visalia,CA,93292-5627,,,0,,,0,,,,,,,0,0,,,,,4.6
+187941,ARCO,,600 S Lovers Ln,Visalia,CA,93292,,,0,,,0,,,,,,,4.89,4.99,,,,,4.2
+67689,Chevron,,831 S Lovers Ln,Visalia,CA,93292-3247,,,4.79,2025-10-27T04:49:48.307Z,visitor,0,,,,,,,,,,,,,4.1
+36428,7-Eleven,,518 S Lovers Ln,Visalia,CA,93292-3223,,,0,,,4.69,2025-10-26T16:27:03.793Z,DataFeed,,,,,,,,,,,4.1
+71095,Sinclair,,515 S Lovers Ln,Visalia,CA,93292-3222,,,0,,,0,,,,,,,0,0,,,,,4.2
+200396,Shell,,3709 E Houston Ave,Visalia,CA,93292,,,0,,,0,,,,,,,0,0,,,,,4.7
+134074,Valero,,501 W Visalia Rd,Exeter,CA,93221-1021,,,0,,,0,,,,,,,0,0,,,,,3.7
+134073,Sinclair,,445 W Visalia Rd,Exeter,CA,93221-1021,,,,,,0,,,,,,,,0,,,,,3.8
+91060,Exeter Mini Mart,,100 W Pine St,Exeter,CA,93221-1613,,,0,,,0,,,,,,,,,,,,,3.7
+20830,Speedway,,1375 E Mineral King Ave,Visalia,CA,93292-6934,,,4.19,2025-10-26T22:29:27.508Z,zhuoll,4.79,2025-10-26T16:27:51.278Z,DataFeed,,,,,4.89,4.99,,,,,4.3
+137201,Shell,,537 E Pine St,Exeter,CA,93221-1813,,,0,,,4.89,2025-10-26T22:10:40.167Z,DataFeed,,,,,,,,,,,4.3
+151079,Sierra Cellars,,309 S Kaweah Ave,Exeter,CA,93221-1200,,,0,,,0,,,,,,,0,0,,,,,4.4
+145247,VP Racing Fuels,,520 S Kaweah Ave,Exeter,CA,93221-1830,,,0,,,0,,,,,,,0,0,,,,,4
+137203,Chevron,,19558 Ave 296,Exeter,CA,93221-9780,,,0,,,0,,,,,,,0,0,,,,,4.7
+174674,USA Gasoline,,526 S Kaweah Ave,Exeter,CA,93221-1830,,,0,,,0,,,,,,,,,,,,,3.7
+175057,Pacific Pride,,205 N Ben Maddox Way,Visalia,CA,93292-6632,,,,,,4.09,2025-10-25T23:11:39.602Z,wee_strom,,,,,,5.05,,,,,3.9
+36525,Pik-n-Go Market,,1122 N Ben Maddox Way,Visalia,CA,93277-3900,,,,,,3.89,2025-10-27T18:48:28.681Z,visitor,,,,,,,,,,,2.9
+68286,Sinclair,,1301 E Houston Ave,Visalia,CA,93292-3945,,,0,,,0,,,,,,,,,,,,,4.1
+68233,EZ Pick N Go,,400 E Tulare Ave,Visalia,CA,93277-4944,,,0,,,0,,,,,,,,,,,,,2.6
+67981,Valero,,1236 E Houston Ave,Visalia,CA,93292-3844,,,4.69,2025-10-26T22:31:25.285Z,zhuoll,4.79,2025-10-26T22:31:25.285Z,zhuoll,,,,,4.89,4.99,,,,,4.1
+145771,76,,1550 N Ben Maddox Way,Visalia,CA,93292-7224,,,,,,4.29,2025-10-26T22:31:55.791Z,zhuoll,,,,,,,,,,,4.7
+26045,Victorian Market,,249 E Tulare Ave,Visalia,CA,93277-4939,,,4.09,2025-10-27T03:59:39.362Z,Peenut001,4.19,2025-10-27T03:59:39.487Z,Peenut001,,,,,0,0,,,,,3.1
+67713,Chevron,,410 E Mineral King Ave,Visalia,CA,93291-6922,,,0,,,5.19,2025-10-26T03:40:28.423Z,DataFeed,,,,,0,0,,,,,4.9
+39893,7-Eleven,,111 W Walnut Ave,Visalia,CA,93277-5366,,,0,,,4.25,2025-10-27T02:25:34.595Z,DataFeed,,,,,,,,,,,3.7
+67938,Prince Food & Gas,,133 W Walnut Ave,Visalia,CA,93277-5366,,,,,,4.07,2025-10-26T15:26:32.631Z,Simran2007,,,,,,,,,,,3.4
+178354,Mota's Gas and Tires,,32435 Rd 160,Ivanhoe,CA,93235-1619,,,,,,0,,,,,,,,,,,,,3.9
+68251,76,,100 W Mineral King Ave,Visalia,CA,93291-6926,,,4.69,2025-10-26T22:30:06.633Z,zhuoll,4.89,2025-10-26T22:30:06.664Z,zhuoll,,,,,,,,,,,4.6
+35972,Shell,,450 W Caldwell Ave,Visalia,CA,93277-7808,,,0,,,0,,,,,,,0,0,,,,,4.3
+199629,ARCO,,419 W Caldwell Ave,Visalia,CA,93277,,,0,,,0,,,,,,,,,,,,,4.4
+91435,Lee's Mini Mart,,540 N Court St,Visalia,CA,93291-4913,,,,,,3.98,2025-10-27T14:48:35.066Z,sona1981pola,,,,,,,,,,,3
+35220,Ivanhoe Mini Mart,,15841 Ave 328,Ivanhoe,CA,93235-1513,,,0,,,0,,,,,,,0,0,,,,,3.8
+174996,Speedy Mart,,16010  328,Ivanhoe,CA,93235-1602,,,,,,0,,,,,,,,,,,,,1.7
+137237,Two Village Market,,1301 N Court St,Visalia,CA,93291-3506,,,,,,0,,,,,,,,,,,,,3.5
+85367,Valero,,1440 N Dinuba Blvd,Visalia,CA,93291-2911,,,0,,,0,,,,,,,0,0,,,,,4.5
+150783,Circle 7,,2020 N Dinuba Blvd,Visalia,CA,93291-2013,,,,,,3.99,2025-10-27T06:25:28.968Z,TheGreatOne1810,,,,,,,,,,,4.2
+70945,Costco,,1405 W Cameron Ave,Visalia,CA,93277-9527,,,,,,4.09,2025-10-27T17:01:41.965Z,Owner,,,,,,4.89,,,,,4.7
+148893,Four Seasons Market,,443 N Giddings St,Visalia,CA,93291-4742,,,0,,,0,,,,,,,,,,,,,4.1
+85366,Shop & Go,,2411 N Dinuba Blvd,Visalia,CA,93291-9208,,,3.89,2025-10-26T15:48:38.284Z,Karrot_93291,3.99,2025-10-26T15:48:38.418Z,Karrot_93291,,,,,,,,,,,3.6
+79127,Valero,,1929 S Central St,Visalia,CA,93277-4419,,,0,,,0,,,,,,,,,,,,,3.7
+20829,Flyers,,1930 S Mooney Blvd,Visalia,CA,93277-4450,,,3.99,2025-10-27T16:20:16.896Z,Buddy_rzd14cat,4.19,2025-10-27T16:20:16.896Z,Buddy_rzd14cat,,,,,,,,,,,4.3
+20828,Shell,,2736 S Mooney Blvd,Visalia,CA,93277-6266,,,4.89,2025-10-27T19:32:18.242Z,Brvncrzy1,5.09,2025-10-27T19:32:18.367Z,Brvncrzy1,,,,,0,0,,,,,3.8
+192144,ARCO,,2910 N Dinuba Blvd,Visalia,CA,93291,,,4.09,2025-10-27T02:39:16.611Z,Buddy_d73hvh5k,0,,,,,,,0,0,,,,,4.6
+68289,76,,2825 S Mooney Blvd,Visalia,CA,93277-7354,,,0,,,0,,,,,,,,,,,,,4
+67988,Valero,,3611 S Mooney Blvd,Visalia,CA,93277-8066,,,4.59,2025-10-27T19:33:38.421Z,Brvncrzy1,4.79,2025-10-27T19:33:38.552Z,Brvncrzy1,,,,,0,0,,,,,4
+72434,Chevron,,500 S Mooney Blvd,Visalia,CA,93277-2222,,,,,,5.79,2025-10-27T04:51:25.938Z,zhuoll,,,,,,,,,,,4.2
+23337,Double D Mini Mart,,1500 W Houston Ave,Visalia,CA,93291-2743,,,0,,,0,,,,,,,4.99,5.09,,,,,2.9
+75314,Visalia Liquor,,2407 W Whitendale Ave,Visalia,CA,93277-6125,,,3.99,2025-10-27T15:03:00.281Z,Buddy_j7r515x4,3.99,2025-10-27T18:07:38.062Z,Buddy_vjctmafj,,,,,,,,,,,3.4
+145249,Texaco,,21695 Ave 296,Exeter,CA,93221-9408,,,0,,,0,,,,,,,,,,,,,4.4
+165944,Valero,,2118 W Riggin Ave,Visalia,CA,93277-9327,,,4.39,2025-10-27T15:02:56.256Z,Jalapeno398,4.59,2025-10-27T15:52:23.761Z,SABI NAGRA,,,,,4.99,5.09,,,,,4.7
+26042,Valero,,700 S Demaree St,Visalia,CA,93277-1705,,,4.79,2025-10-27T04:51:29.439Z,zhuoll,4.99,2025-10-27T04:51:29.439Z,zhuoll,,,,,,,,,,,4
+71245,Chevron,,3717 W Caldwell Ave,Visalia,CA,93277-9235,,,4.99,2025-10-27T15:10:33.145Z,Jalapeno398,5.19,2025-10-27T15:10:33.161Z,Jalapeno398,,,,,,,,,,,4.1
+85364,Spirit,,32586 Rd 124,Visalia,CA,93291-9062,,,,,,3.99,2025-10-27T00:38:42.761Z,jlgaleana,,,,,,,,,,,3.2
+123461,A-1 Food & Gas,,32792 Rd 124,Visalia,CA,93291-9066,,,,,,0,,,,,,,,,,,,,2.8
+85371,Shell,,12373 Ave 328,Visalia,CA,93291-9087,,,4.79,2025-10-27T00:39:12.079Z,jlgaleana,4.99,2025-10-27T00:39:12.095Z,jlgaleana,,,,,5.49,5.69,,,,,4.2
+198114,Chevron,,1330 N Demaree St,Visalia,CA,93291,,,4.79,2025-10-27T04:51:05.158Z,zhuoll,4.99,2025-10-27T04:51:05.173Z,zhuoll,,,,,4.99,5.19,,,,,4.6
+92664,Patriot,,105 N Chinowith St,Visalia,CA,93291-5425,,,0,,,3.99,2025-10-26T17:07:17.934Z,KushedOut_93277,,,,,,,,,,,4.1
+103100,Valero,,14002 Ave 232,Tulare,CA,93274-9325,,,0,,,0,,,,,,,0,0,,,,,3.4
+68204,Valero,,4445 W Noble Ave,Visalia,CA,93277-1635,,,,,,4.69,2025-10-27T04:49:51.710Z,zhuoll,,,,,,,,,,,3.6
+135570,Chevron,,5215 W Walnut Ave,Visalia,CA,93277-3466,,,4.99,2025-10-27T18:17:12.537Z,Brvncrzy1,5.19,2025-10-27T18:17:12.663Z,Brvncrzy1,,,,,,,,,,,4.5
+68271,Chevron,,110 N Akers St,Visalia,CA,93291-5177,,,4.99,2025-10-27T16:55:35.004Z,Brvncrzy1,5.19,2025-10-27T16:55:35.004Z,Brvncrzy1,,,,,5.49,5.59,,,,,4.1
+72454,Valero,,5345 W Cypress Ave,Visalia,CA,93277-8338,,,4.59,2025-10-27T18:13:32.721Z,Brvncrzy1,4.69,2025-10-27T18:13:32.849Z,Brvncrzy1,,,,,,,,,,,3.6
+81929,76,,5205 W Goshen Ave,Visalia,CA,93291-8619,,,4.79,2025-10-27T04:51:15.787Z,zhuoll,4.99,2025-10-27T15:51:39.663Z,SABI NAGRA,,,,,5.39,5.59,,,,,3.8
+206382,Circle K,,2140 E Prosperity Ave,Tulare,CA,93274,,,,,,4.09,2025-10-26T23:50:34.808Z,Jonaaaaaa,,,,,,0,,,,,4.6
+35495,ARCO,,1088 N Mooney Blvd,Tulare,CA,93274-2417,,,3.99,2025-10-27T18:16:54.212Z,ManuelJimenez,4.09,2025-10-27T18:16:54.353Z,ManuelJimenez,,,,,,,,,,,4
+102147,Chevron,,20370 Ave 232,Lindsay,CA,93247-8246,,,0,,,0,,,,,,,0,0,,,,,2.9
+79768,Speedway,,1100 E Prosperity Ave,Tulare,CA,93274-8029,,,,,,4.19,2025-10-26T16:27:53.318Z,DataFeed,,,,,,5.05,,,,,4.1
+75590,Chevron,,1105 E Prosperity Ave,Tulare,CA,93274-8030,,,0,,,5.19,2025-10-27T04:20:17.654Z,DataFeed,,,,,0,0,,,,,3.6
+102142,A-1 Food Mart,,697 N Westwood Ave,Lindsay,CA,93247-1829,,,,,,0,,,,,,,,,,,,,3.4
+82138,ARCO,,3002 N M St,Tulare,CA,93274-8352,,,0,,,4.29,2025-10-27T18:11:19.028Z,DataFeed,,,,,0,5.19,,,,,4.1
+75589,Chevron,,1394 N Cherry Ct,Tulare,CA,93274-2252,,,0,,,5.19,2025-10-25T22:10:49.838Z,DataFeed,,,,,0,0,,,,,4
+75588,Sinclair,,1275 N Blackstone St,Tulare,CA,93274-2349,,,0,,,0,,,,,,,0,0,,,,,3.7
+21228,Shell,,2959 N M St,Tulare,CA,93274,,,0,,,4.69,2025-10-26T04:40:44.724Z,DataFeed,,,,,0,0,,,,,4.3
+21225,Shell,,1700 E Tulare Ave,Tulare,CA,93274-3154,,,0,,,0,,,,,,,,,,,,,3.4
+205936,Gasoline Alley,,274 W Naranjo Blvd,Woodlake,CA,93286,,,,,,0,,,,,,,,,,,,,2
+103868,76,,235 N Fremont Dr,Lindsay,CA,93247-9458,,,0,,,4.69,2025-10-27T19:10:43.538Z,DataFeed,,,,,0,0,,,,,3.6
+35361,ARCO,,951 W Hermosa St,Lindsay,CA,93247-1852,,,0,,,4.13,2025-10-25T19:40:51.870Z,DataFeed,,,,,0,5.13,,,,,3.8
+91054,Stop-n-Go,,137 S Valencia Ave,Woodlake,CA,93286-1711,,,,,,0,,,,,,,,,,,,,4.7
+91413,Sinclair,,100 N Valencia Blvd,Woodlake,CA,93286-1439,,,,,,0,,,,,,,,0,,,,,4.3
+102140,Willies Market,,690 N Elmwood Ave,Lindsay,CA,93247-2025,,,0,,,0,,,,,,,0,0,,,,,3.2
+91058,Chevron,,380 N Valencia Ave,Woodlake,CA,93286-1244,,,,,,4.95,2025-10-25T20:40:39.332Z,DataFeed,,,,,,0,,,,,4.5
+102145,G1 Gas,,340 W Hermosa St,Lindsay,CA,93247-1912,,,,,,0,,,,,,,,0,,,,,3.3
+102139,Fastrip,,195 W Hermosa St,Lindsay,CA,93247,,,3.73,2025-10-26T18:54:43.075Z,orangesgalore,3.85,2025-10-26T18:54:43.075Z,orangesgalore,,,,,4.59,4.71,,,,,3.5
+210137,Valero,,8847 Ave 280,Visalia,CA,93277,,,0,,,0,,,,,,,0,0,,,,,4.5
+102144,Quality Gas,,122 W Hermosa St,Lindsay,CA,93247-2031,,,3.75,2025-10-27T15:38:41.465Z,DAVEFMCC,3.85,2025-10-27T15:38:41.605Z,DAVEFMCC,,,,,,,,,,,3.6
+119915,Sinclair,,1095 E Tulare Ave,Tulare,CA,93274-4439,,,3.99,2025-10-26T16:47:12.446Z,mighty0210,4.09,2025-10-26T16:47:12.461Z,mighty0210,,,,,4.79,4.89,,,,,3.9
+22324,Shell,,27908 CA-99,Visalia,CA,93277-9327,,,,,,0,,,,,,,,0,,,,,3.6
+102141,Day-N-Night Mini-Mart,,858 E Tulare Rd,Lindsay,CA,93247-2245,,,,,,0,,,,,,,,,,,,,
+153271,Sinclair,,1510 N J St,Tulare,CA,93274-1309,,,0,,,0,,,,,,,0,0,,,,,4.2
+106108,Chevron,,206 E Honolulu St,Lindsay,CA,93247-2566,,,0,,,0,,,,,,,,,,,,,2.5
+21227,Shell,,1595 E Bardsley Ave,Tulare,CA,93274-5984,,,0,,,0,,,,,,,,,,,,,3.2
+154302,Prosperity Food Land,,651 W Prosperity Ave,Tulare,CA,93274-1857,,,3.99,2025-10-27T18:41:36.640Z,frank9591,4.14,2025-10-27T18:41:36.781Z,frank9591,,,,,,,,,,,3.2
+150810,Quick Trip,,1370 E Bardsley Ave,Tulare,CA,93274-5882,,,3.89,2025-10-25T20:29:53.923Z,Phantom_916,0,,,,,,,0,0,,,,,2.9
+81933,Chevron,,1334 E Bardsley Ave,Tulare,CA,93274-5803,,,3.95,2025-10-26T19:04:12.628Z,visitor,0,,,,,,,,,,,,,3.1
+144643,Chevron,,202 Plaza Dr,Visalia,CA,93291-9356,,,0,,,4.99,2025-10-27T18:11:06.095Z,DataFeed,,,,,0,0,,,,,3.7
+148851,Shell,,400 E Tulare Ave,Tulare,CA,93274-3258,,,0,,,0,,,,,,,,,,,,,4.4
+177214,Sierra Express Mart,,508 S Mirage Ave,Lindsay,CA,93247-2550,,,,,,0,,,,,,,,,,,,,3.7
+135608,Valero,,115 E Cross Ave,Tulare,CA,93274-2849,,,0,,,0,,,,,,,0,0,,,,,4
+197130,ARCO,,9017 W Crowley Ave,Visalia,CA,93291,,,0,,,4.15,2025-10-27T18:41:25.309Z,DataFeed,,,,,0,0,,,,,4.6
+81932,Valero,,1010 S Blackstone St,Tulare,CA,93274-6502,,,3.99,2025-10-27T12:50:45.376Z,Sousa72,4.09,2025-10-27T12:50:45.508Z,Sousa72,,,,,4.69,4.79,,,,,3.4
+81931,ARCO,,1070 E Bardsley Ave,Tulare,CA,93274-5753,,,3.99,2025-10-27T12:51:06.412Z,Sousa72,4.09,2025-10-27T12:51:06.443Z,Sousa72,,,,,4.69,4.79,,,,,3.5
+135607,Chevron,,105 N J St,Tulare,CA,93274-4021,,,4.99,2025-10-27T11:57:22.793Z,DataFeed,5.19,2025-10-26T20:40:16.613Z,DataFeed,,,,,0,5.39,,,,,4.4
+135664,Shell,,1330 N Plaza Dr,Visalia,CA,93291-8838,,,0,,,5.49,2025-10-27T18:41:21.458Z,DataFeed,,,,,0,0,,,,,3.8
+134011,Valero,,1279 N West St,Tulare,CA,93274-1755,,,0,,,0,,,,,,,0,0,,,,,2.6
+150578,Super 7,,117 W Inyo Ave,Tulare,CA,93274-3923,,,,,,0,,,,,,,,,,,,,3.1
+148852,4B Gas,,265 W Inyo Ave,Tulare,CA,93274-3925,,,0,,,0,,,,,,,0,0,,,,,3.2
+35496,Shell,,525 W Inyo Ave,Tulare,CA,93274-3725,,,4.29,2025-10-27T12:04:55.724Z,DataFeed,4.49,2025-10-27T12:04:55.840Z,DataFeed,,,,,0,4.99,,,,,4.6
+148915,Quick Fill,,610 W Inyo Ave,Tulare,CA,93274-3728,,,0,,,0,,,,,,,0,0,,,,,4.6
+149971,99 Food Market & Gasoline,,1357 S K St,Tulare,CA,93274-6426,,,0,,,0,,,,,,,,,,,,,2.8
+148172,Gas N Save,,1297 E Paige Ave,Tulare,CA,93274-6921,,,0,,,0,,,,,,,0,0,,,,,3.8
+135612,Mobil,,1120 E Paige Ave,Tulare,CA,93274-6920,,,4.29,2025-10-26T03:44:24.719Z,Buddy_9gk35juf,4.39,2025-10-26T03:44:35.286Z,Buddy_9gk35juf,,,,,0,0,,,,,4.1
+128507,Love's Travel Stop,,2700 S Blackstone St,Tulare,CA,93274-6989,,,4.09,2025-10-27T17:52:10.095Z,Owner,4.09,2025-10-27T17:52:10.095Z,Owner,,,,,4.98,5.04,,,,,4.2
+139258,Amstar,,503 W Bardsley Ave,Tulare,CA,93274-5105,,,0,,,0,,,,,,,,,,,,,4.6
+199837,Flying J,,979 E Paige Ave,Tulare,CA,93274,,,0,,,4.09,2025-10-27T19:31:49.096Z,Owner,,,,,4.99,4.99,,,,,4.3
+91414,Lemon Cove Gas,,32861 Sierra Dr,Lemon Cove,CA,93244,,,0,,,0,,,,,,,0,0,,,,,3.3
+119925,West Tulare Food & Gas,,1414 W Tulare Ave,Tulare,CA,93274-3419,,,3.89,2025-10-25T23:56:10.862Z,mrgalante,3.99,2025-10-25T23:56:11.000Z,mrgalante,,,,,0,0,,,,,3.8
+151761,Day & Night,,1401 W Inyo Ave,Tulare,CA,93274-3401,,,3.79,2025-10-25T23:56:57.569Z,mrgalante,0,,,,,,,,,,,,,4.3
+201634,Valero,,7313 Ave 312,Visalia,CA,93291,,,3.99,2025-10-27T15:51:25.196Z,SABI NAGRA,4.15,2025-10-27T15:51:25.221Z,SABI NAGRA,,,,,4.69,4.85,,,,,4.9
+91372,Sinclair,,33423 Sierra Dr,Lemon Cove,CA,93244,,,0,,,0,,,,,,,0,0,,,,,2.8
+164406,Plainview Market,,19590 Ave 196,Plainview,CA,93267-9743,,,0,,,0,,,,,,,0,0,,,,,4.4
+91411,Valero,,15641 Ave 384,Seville,CA,93292,,,,,,0,,,,,,,,0,,,,,4.8
+202531,Chevron,,6603 Betty Dr,Visalia,CA,93291,,,0,,,4.59,2025-10-27T16:40:42.157Z,DataFeed,,,,,0,0,,,,,4.5
+167498,Shell,,6544 Ave 308,Visalia,CA,93291-8939,,,4.39,2025-10-27T12:14:50.599Z,cruzr2013,4.49,2025-10-27T12:14:50.724Z,cruzr2013,,,,,5.09,5.19,,,,,3.2
+134353,Pari Mart Truck Stop,,30821 CA-99,Goshen,CA,93227,,,,,,3.99,2025-10-27T12:14:33.489Z,cruzr2013,,,,,,4.65,,,,,3.7
+122452,Sinclair,,19575 Ave 192,Strathmore,CA,93267-9746,,,0,,,0,,,,,,,0,0,,,,,3.4
+205672,76,,6422 Betty Dr,Goshen,CA,93227,,,4.07,2025-10-27T12:12:15.687Z,cruzr2013,4.17,2025-10-27T12:12:15.812Z,cruzr2013,,,,,4.55,4.65,,,,,4.6
+185597,Sunland,,3872 S Pratt St,Tulare,CA,93274,,,,,,0,,,,,,,,,,,,,
+153699,Chevron,,1076 E Rankin Rd,Tulare,CA,93274-9593,,,0,,,5.09,2025-10-27T18:11:25.707Z,DataFeed,,,,,0,5.49,,,,,3.9
+211903,Shell,,22425 Ave 196,Strathmore,CA,93267,,,0,,,0,,,,,,,,,,,,,3.4
+122451,Handy Market,,23013 Ave 196,Strathmore,CA,93267-9404,,,,,,0,,,,,,,,,,,,,2.8
+196621,Cutler Food Mart,,40312 Rd 128,Cutler,CA,,,,,,,0,,,,,,,,0,,,,,4.3
+75055,Murphy USA,,2552 Airline Drive,Bossier City,LA,71111,,,,,,2.35,2025-10-27T19:11:02.916Z,nooboo,,,,,,2.96,,,,,4.3
+170835,Sam's Club,,2861 Beene Blvd,Bossier City,LA,71111,,,,,,2.45,2025-10-27T12:22:07.706Z,xruss8869,,,,,,3.05,,,,,4.7
+116646,Circle K,,2840 Airline Dr,Bossier City,LA,71112,,,,,,2.35,2025-10-27T18:41:49.533Z,nooboo,,,,,,2.97,,,,,4.1
+186691,Kroger,,1050 George Dement Blvd,Bossier City,LA,71111,,,,,,2.37,2025-10-27T18:42:23.657Z,nooboo,,,,,,3.09,,,,,4.5
+105783,Circle K,,2651 Benton Rd,Bossier City,LA,71111,,,,,,2.39,2025-10-27T12:22:08.293Z,xruss8869,,,,,,3.03,,,,,4.4
+163663,RaceWay,,3645 Benton Rd,Bossier City,LA,71111,,,,,,2.39,2025-10-27T12:21:38.999Z,xruss8869,,,,,,3.05,,,,,4
+134860,Circle K,,4151 Airline Dr,Bossier City,LA,71111,,,,,,2.36,2025-10-27T18:21:54.922Z,DataFeed,,,,,,2.98,,,,,4.3
+128429,Exxon,,4128 Benton Rd,Bossier City,LA,71111-2340,,,,,,2.41,2025-10-27T12:21:28.506Z,xruss8869,,,,,,3.05,,,,,3.7
+94385,Circle K,,2032 Airline Dr,Bossier City,LA,71111,,,,,,2.4,2025-10-27T00:09:06.664Z,newjanis,,,,,,3.02,,,,,3.7
+208495,Brookshire's,,4860 Airline Dr,Bossier City,LA,71111,,,,,,2.25,2025-10-27T16:17:59.360Z,JasonMall01,,,,,,2.96,,,,,4.7
+169625,Hwy 80 Fuel Station,,2580 E Texas St,Bossier City,LA,71111,,,,,,0,,,,,,,,,,,,,4
+138701,Exxon,,4903 Airline Dr,Bossier City,LA,71111-6660,,,,,,2.59,2025-10-27T12:22:31.682Z,xruss8869,,,,,,3.09,,,,,3.6
+118444,Valero,,2201 E Texas St,Bossier City,LA,71111,,,2.49,2025-10-27T11:58:13.350Z,DataFeed,2.49,2025-10-27T18:53:57.208Z,JamesL,,,,,,,,,,,3.3
+108204,CEFCO,,1975 Airline Dr,Bossier City,LA,71112-2448,,,,,,2.43,2025-10-27T00:10:30.954Z,newjanis,,,,,,3.09,,,,,3.9
+145855,Shell,,1400 Swan Lake Rd,Bossier City,LA,71111,,,,,,2.59,2025-10-25T17:42:51.742Z,mtrinko,,,,,,3.09,,,,,4.3
+119881,Fastrac,,1930 Airline Dr,Bossier City,LA,71112,,,,,,2.39,2025-10-27T08:47:02.930Z,leitchvance,,,,,,3.19,,,,,3.7
+207975,QuikTrip,,4344 E Texas St,Bossier City,LA,71111,,,,,,2.37,2025-10-26T16:43:28.139Z,71227,,,,,,3.09,,,,,4.8
+86440,RaceWay,,2125 Old Minden Rd,Bossier City,LA,71112,,,,,,2.37,2025-10-25T23:25:43.661Z,newjanis,,,,,,3.09,,,,,4.7
+63118,Shell,,4629 E Texas St,Bossier City,LA,71111,,,,,,0,,,,,,,,,,,,,4.5
+105468,Circle K,,2001 Old Minden Rd,Bossier City,LA,71111,,,,,,2.37,2025-10-25T23:25:10.926Z,newjanis,,,,,,3.09,,,,,4.5
+108800,Murphy USA,,100 Benton Spur Rd,Bossier City,LA,71111-4825,,,,,,2.35,2025-10-25T23:23:53.191Z,newjanis,,,,,,2.95,,,,,4.4
+98486,Chevron,,3818 Industrial Dr,Bossier City,LA,71112-2525,,,,,,2.32,2025-10-25T21:40:55.079Z,DataFeed,,,,,,2.99,,,,,3.8
+140376,Valero,,3820 Industrial Dr,Bossier City,LA,71112-2525,,,,,,2.49,2025-10-27T18:40:29.269Z,DataFeed,,,,,,0,,,,,3.7
+204437,QuikTrip,,LA-782-2,Bossier City,LA,71111,,,,,,2.37,2025-10-27T18:41:09.665Z,DataFeed,,,,,,3.09,,,,,4.6
+116762,Ride USA,,1300 Barksdale Blvd,Bossier City,LA,71111,,,,,,2.59,2025-10-27T18:37:32.284Z,newjanis,,,,,,2.99,,,,,3.2
+189650,Circle K,,1201 Barksdale Blvd,Bossier City,LA,71111,,,,,,2.4,2025-10-27T18:57:34.221Z,JamesL,,,,,,3.14,,,,,3.6
+115239,Chevron,,1604 Airline Dr,Bossier City,LA,71112,,,,,,2.49,2025-10-27T08:47:23.090Z,leitchvance,,,,,,,,,,,4
+115988,Exxon,,2264 Barksdale Blvd,Bossier City,LA,71111,,,,,,2.59,2025-10-26T13:07:07.110Z,mtrinko,,,,,,2.99,,,,,3.9
+63127,Grimmett Drive Grocery,,1266 Grimmett Dr,Shreveport,LA,71107-6604,,,,,,0,,,,,,,,,,,,,2.4
+176205,Walmart Neighborhood Market,,5702 Shed Rd,Bossier City,LA,71111,,,,,,2.21,2025-10-27T10:22:52.395Z,71227,,,,,,2.93,,,,,4.5
+148447,CITGO,,1324 Market St,Shreveport,LA,71107,,,,,,0,,,,,,,,2.74,,,,,2.1
+194464,Circle K,,2470 Barksdale Blvd,Bossier City,LA,71112,,,2.25,2025-10-27T08:48:12.622Z,leitchvance,2.35,2025-10-27T08:48:12.653Z,leitchvance,,,,,3,3.1,,,,,4.4
+176852,Circle K,,5302 Airline Dr,Bossier City,LA,71111,,,,,,2.35,2025-10-27T17:22:09.815Z,DataFeed,,,,,,2.97,,,,,4.2
+91850,RaceWay,,1920 N Market St,Shreveport,LA,71107,,,,,,2.39,2025-10-27T18:11:41.255Z,lmourning,,,,,,3.09,,,,,3.3
+122848,Shell,,1900 N Market St,Shreveport,LA,71101,,,,,,2.45,2025-10-27T18:40:18.603Z,DataFeed,,,,,,0,,,,,4.4
+82830,Brookshire's,,3000 N Market St,Shreveport,LA,71107,,,,,,2.35,2025-10-27T18:11:51.787Z,lmourning,,,,,,,,,,,4.5
+96380,Chevron,,3101 N Market St,Shreveport,LA,71107,,,,,,2.39,2025-10-27T18:11:58.732Z,lmourning,,,,,,2.99,,,,,4
+115828,Exxon,,3154 N Market St,Shreveport,LA,71107-4044,,,,,,0,,,,,,,,0,,,,,4.1
+63117,Chevron,,7305 E Texas St,Bossier City,LA,71111,,,,,,2.47,2025-10-27T04:39:53.947Z,bobrobrn,,,,,,0,,,,,4.1
+153907,Triple J,,554 Stoner Ave,Shreveport,LA,71101,,,,,,0,,,,,,,,,,,,,2.6
+145638,Exxon,,7770 Dogwood Trl,Haughton,LA,71037-7526,,,,,,2.41,2025-10-27T04:41:35.836Z,bobrobrn,,,,,,,,,,,3.6
+91134,AAFES,,200 Wilbur Wright Dr,Barksdale AFB,LA,71110,,,,,,2.25,2025-10-26T15:43:43.378Z,smooth318,,,,,,,,,,,4.5
+63119,Circle K,,7999 E Texas St,Bossier City,LA,71111,,,2.27,2025-10-26T14:43:20.390Z,leitchvance,2.37,2025-10-27T04:41:38.318Z,bobrobrn,,,,,,,,,,,4.2
+97988,RaceWay,,8048 E Texas St,Bossier City,LA,71111,,,,,,2.37,2025-10-27T04:42:30.257Z,bobrobrn,,,,,,3.09,,,,,4.2
+187223,Circle K,,809 Olive St,Shreveport,LA,71104,,,,,,2.49,2025-10-26T14:22:26.829Z,DataFeed,,,,,,3.17,,,,,3.6
+141053,Murphy USA,,1121 Shreveport - Barksdale Hwy. (La 3302),Shreveport,LA,71105,,,,,,2.24,2025-10-27T19:32:22.277Z,Owner,,,,,,2.94,,,,,4
+153614,AM-PM,,502 E Washington St,Shreveport,LA,71104,,,,,,0,,,,,,,,,,,,,2
+145942,Shell,,2803 Shreveport Blanchard Hwy,Shreveport,LA,71107-7903,,,,,,2.59,2025-10-27T19:09:40.462Z,wjbbently,,,,,,,,,,,3.3
+135074,Circle K,,1000 Shreveport Barksdale Hwy,Shreveport,LA,71105-2304,,,,,,2.39,2025-10-25T21:32:40.597Z,newjanis,,,,,,,,,,,3.4
+141844,Willow Chute,,4721 Palmetto Rd,Benton,LA,71006-9731,,,,,,0,,,,,,,,0,,,,,4
+125647,Super 1 Foods,,745 Shreveport Barksdale Hwy,Shreveport,LA,71105-2201,,,,,,2.24,2025-10-25T23:26:04.222Z,JamesL,,,,,,,,,,,3.5
+195767,Circle K,,402 E Kings Hwy,Shreveport,LA,71101,,,0,,,2.34,2025-10-26T19:08:37.083Z,JackieTreehorn,,,,,0,3.04,,,,,4.2
+123471,Exxon,,760 Kings Hwy,Shreveport,LA,71104-4332,,,,,,2.62,2025-10-26T19:04:58.879Z,JackieTreehorn,,,,,,3.12,,,,,3.2
+186386,Walmart Neighborhood Market,,4002 Barksdale Blvd,Bossier City,LA,71112,,,,,,2.24,2025-10-27T19:03:28.007Z,JamesL,,,,,,2.94,,,,,4.2
+63122,Brookshire's,,1125 US-80 E ,Haughton,LA,71037,,,,,,2.21,2025-10-27T04:39:55.368Z,bobrobrn,,,,,,2.93,,,,,4.3
+115454,Circle K,,4006 Barksdale Blvd,Bossier City,LA,71112,,,,,,2.25,2025-10-27T11:28:45.038Z,71227,,,,,,2.88,,,,,4.5
+129800,Circle K,,1304 Kings Hwy,Shreveport,LA,71103-4225,,,,,,2.45,2025-10-27T19:24:28.726Z,DataFeed,,,,,,3.19,,,,,4.1
+145687,Chevron,,2459 Lakeshore Dr,Shreveport,LA,71103,,,,,,0,,,,,,,,0,,,,,3.2
+105782,Shell,,4749 N Market St,Shreveport,LA,71107,,,,,,0,,,,,,,,,,,,,4.4
+145646,Shell,,1342 Captain Shreve Dr,Shreveport,LA,71105-2821,,,,,,2.98,2025-10-25T23:23:59.394Z,JamesL,,,,,,3.49,,,,,4.8
+145711,CITGO,,2138 Greenwood Rd,Shreveport,LA,71103-3554,,,,,,0,,,,,,,,0,,,,,3.2
+145639,Madison Park Chevron,,4005 Fern Ave,Shreveport,LA,71106-2007,,,,,,2.59,2025-10-26T19:12:41.428Z,JackieTreehorn,,,,,,0,,,,,3.8
+145856,Chevron,,1198 Linton Rd,Benton,LA,71006,,,,,,2.64,2025-10-25T23:59:53.525Z,atb007,,,,,,,,,,,3.3
+145758,Shell,,3326 Hearne Ave,Shreveport,LA,71103-3912,,,,,,0,,,,,,,,0,,,,,3.8
+121493,CITGO,,4040 Shreveport Blanchard Hwy,Shreveport,LA,71107-7723,,,,,,0,,,,,,,,0,,,,,3.5
+91849,RaceWay,,3701 Hearne Ave,Shreveport,LA,71103-4325,,,,,,2.42,2025-10-27T16:24:24.378Z,DataFeed,,,,,,3.09,,,,,3.4
+145759,Quick Stop,,3002 Greenwood Rd,Shreveport,LA,71109-4641,,,,,,0,,,,,,,,0,,,,,4.5
+145662,CITGO,,101 Southfield Rd,Shreveport,LA,71105-3702,,,,,,3.19,2025-10-25T23:17:20.398Z,JamesL,,,,,,,,,,,3.3
+194269,A & Y Quick Stop,,4400 Hilry Huckaby III Ave,Shreveport,LA,71107,,,,,,0,,,,,,,,,,,,,
+94986,Circle K,,305 Southfield Rd,Shreveport,LA,71105-4111,,,,,,2.45,2025-10-27T15:57:53.058Z,TheFoxKody,,,,,,3.09,,,,,3.9
+202987,Capehart Express,,7650 Range Rd,Barksdale AFB,LA,Barksdale ,,,0,,,0,,,,,,,,,,,,,4.6
+145937,Stop 'N Fly,,3102 Jewella Ave,Shreveport,LA,71109-4412,,,,,,0,,,,,,,,,,,,,3.9
+209715,Love's Travel Stop,,5430 N Market St,Shreveport,LA,71107,,,2.4,2025-10-27T17:51:42.422Z,Owner,2.4,2025-10-27T17:51:42.407Z,Owner,,,,,3.39,3.45,,,,,4.8
+94991,Exxon,,5805 Line Ave,Shreveport,LA,71106-1531,,,,,,2.89,2025-10-26T15:03:25.831Z,JackieTreehorn,,,,,,3.44,,,,,3.5
+105466,Shell,,4910 Barksdale Blvd,Bossier City,LA,71112,,,,,,2.69,2025-10-26T13:33:52.788Z,mtrinko,,,,,,3.09,,,,,4.2
+94987,Circle K,,762 Pierremont Rd,Shreveport,LA,71106-2212,,,,,,2.53,2025-10-25T23:14:16.690Z,JackieTreehorn,,,,,,3.19,,,,,4.2
+116513,Brookshire's,,4918 Barksdale Blvd,Bossier City,LA,71112,,,,,,2.39,2025-10-26T13:33:37.818Z,mtrinko,,,,,,,,,,,4.3
+145663,Chevron,,2525 E 70th St,Shreveport,LA,71105-4001,,,,,,0,,,,,,,,,,,,,3.2
+145685,Shell,,1400 Hollywood Ave,Shreveport,LA,71108,,,,,,2.59,2025-10-27T15:40:19.815Z,DataFeed,,,,,,0,,,,,3
+145712,Shell,,4000 Jewella Ave,Shreveport,LA,71109-5104,,,,,,0,,,,,,,,0,,,,,3.3
+187642,Walmart,,4701 Northport Blvd,Shreveport,LA,71107,,,,,,2.35,2025-10-27T12:17:24.500Z,xruss8869,,,,,,2.97,,,,,4.8
+203609,Kroger,,6652 Youree Dr.,Shreveport,LA,71105,,,,,,2.45,2025-10-26T19:41:30.780Z,JackieTreehorn,,,,,,3.19,,,,,4.1
+94988,CITGO,,1700 E 70th St,Shreveport,LA,71105,,,,,,2.69,2025-10-25T23:10:14.014Z,JamesL,,,,,,3.29,,,,,3.1
+166774,Super S,,3910 Roy Rd,Shreveport,LA,71107,,,,,,0,,,,,,,,0,,,,,4
+145683,Unbranded,,2635 Hollywood Ave,Shreveport,LA,71108-3807,,,,,,0,,,,,,,,,,,,,4.1
+145933,Stop-N-Shop,,4920 Jewella Ave,Shreveport,LA,71109-7302,,,,,,0,,,,,,,,,,,,,3.9
+63128,CEFCO,,5875 N Market St,Shreveport,LA,71107,,,,,,0,,,,,,,,2.45,,,,,4.1
+145647,Super 1 Foods,,2640 Waggoner Ave,Shreveport,LA,71108-3859,,,,,,0,,,,,,,,,,,,,3.7
+155763,Valero,,7902 Line Ave,Shreveport,LA,71106,,,,,,0,,,,,,,,0,,,,,3
+133691,Valero,,5412 Barksdale Blvd,Bossier City,LA,71112,,,,,,2.75,2025-10-26T13:34:30.679Z,mtrinko,,,,,,3.05,,,,,3.3
+101319,Sam's Club,,7400 Youree Dr ,Shreveport,LA,71105,,,,,,2.24,2025-10-27T14:16:53.205Z,ldroy,,,,,,,,,,,4.7
+81756,Brookshire's,,6280 LA-3,Benton,LA,71006-3492,,,,,,2.38,2025-10-27T10:42:27.959Z,jljenk,,,,,,3.02,,,,,4.4
+141843,CITGO,,6296 LA-3,Benton,LA,71006,,,,,,2.59,2025-10-26T10:07:46.315Z,jljenk,,,,,,3.19,,,,,4.3
+91853,RaceWay,,221 E 70th St,Shreveport,LA,71106-3831,,,,,,2.42,2025-10-26T16:27:43.445Z,DataFeed,,,,,,3.15,,,,,3.6
+117047,Circle K,,4250 Greenwood Rd,Shreveport,LA,71109,,,,,,0,,,,,,,,,,,,,4.3
+145654,Circle K,,339 W 70th St,Shreveport,LA,71106,,,,,,2.42,2025-10-27T16:10:32.212Z,DataFeed,,,,,,0,,,,,3.4
+145944,Zito's,,7511 Line Ave,Shreveport,LA,71106-4443,,,,,,0,,,,,,,,,,,,,2.4
+145934,Hollywood Mini Mart,,3655 Hollywood Ave,Shreveport,LA,71109-8005,,,,,,0,,,,,,,,,,,,,2.5
+124539,Circle K,,7950 Youree Dr,Shreveport,LA,71105-5537,,,,,,2.34,2025-10-27T13:14:21.429Z,leitchvance,,,,,,3.17,,,,,3.8
+63123,Shell,,5020 US-80,Haughton,LA,71037-7920,,,,,,2.39,2025-10-27T13:20:21.333Z,DataFeed,,,,,,3.11,,,,,4.7
+63125,Murphy USA,,8020 Youree Drive,Shreveport,LA,71115,,,,,,2.34,2025-10-27T18:31:48.791Z,Owner,,,,,,,,,,,3.9
+145727,CITGO,,7902 Line Ave,Shreveport,LA,71106-5157,,,,,,0,,,,,,,,0,,,,,4.3
+167907,P S Express,,911 W 70th St,Shreveport,LA,71106,,,,,,0,,,,,,,,,,,,,3.1
+145945,Triple J,,4250 Hollywood Ave,Shreveport,LA,71109-7820,,,,,,0,,,,,,,,,,,,,2.1
+145731,Hop In,,8590 Youree Dr,Shreveport,LA,71115-2312,,,,,,0,,,,,,,,,,,,,3.9
+116949,CITGO,,5785 S Lakeshore Dr,Shreveport,LA,71119,,,,,,0,,,,,,,,0,,,,,3.4
+162003,Dixie Mart,,135 Mahaffey Rd,Princeton,LA,71067,,,,,,0,,,,,,,,0,,,,,4.7
+126470,Gas & Go,,7414 Mansfield Rd,Shreveport,LA,71108,,,,,,0,,,,,,,,,,,,,3.9
+107615,Circle K,,6976 Jewella Ave,Shreveport,LA,71108-4220,,,,,,0,,,,,,,,,,,,,2.7
+145674,Shell,,8790 Youree Dr,Shreveport,LA,71115-2531,,,,,,2.73,2025-10-25T20:40:25.463Z,DataFeed,,,,,,3.68,,,,,4.5
+209577,Super Save 10,,5490 Jefferson Paige Rd,Shreveport,LA,71119,,,,,,0,,,,,,,,0,,,,,4.9
+145690,Exxon,,5109 Monkhouse Dr,Shreveport,LA,71109-6509,,,,,,0,,,,,,,,0,,,,,2.9
+145688,Fast Lane,,5112 Monkhouse Dr,Shreveport,LA,71109-6510,,,,,,0,,,,,,,,,,,,,3.8
+145691,Chevron,,5203 Monkhouse Dr,Shreveport,LA,71109-6511,,,,,,2.69,2025-10-25T14:23:49.154Z,mtrinko,,,,,,3.39,,,,,3
+145730,CITGO,,8601 Linwood Ave,Shreveport,LA,71106-5542,,,,,,0,,,,,,,,,,,,,2
+145859,Shell,,6602 LA-3,Benton,LA,71006,,,0,,,0,,,,,,,3.19,0,,,,,3.9
+84389,Mobil,,632 Pine Hill Rd,Blanchard,LA,71107,,,,,,0,,,,,,,,0,,,,,3.9
+141884,Circle K,,9009 Youree Dr,Shreveport,LA,71115-3301,,,0,,,2.35,2025-10-26T17:20:40.477Z,DataFeed,,,,,,,,,,,4.2
+125956,RaceWay,,1025 E Bert Kouns Industrial Loop,Shreveport,LA,71105,,,,,,2.34,2025-10-26T21:21:54.467Z,DataFeed,,,,,,3.15,,,,,3.7
+167867,Oscar's Country Store,,1898 Sligo Rd,Bossier City,LA,71112,,,,,,0,,,,,,,,0,,,,,5
+109191,Circle K,,6300 Jefferson Paige Rd,Shreveport,LA,71119,,,,,,2.55,2025-10-25T21:40:22.859Z,DataFeed,,,,,,,,,,,3.6
+109189,Brookshire's,,3620 Pines Rd  ,Shreveport,LA,71119,,,,,,0,,,,,,,,,,,,,3.9
+120620,Spirit,,127 N Main St,Blanchard,LA,71009,,,,,,0,,,,,,,,0,,,,,3.9
+112635,Valero,,8800 Jewella Ave,Shreveport,LA,71108,,,,,,2.63,2025-10-27T17:40:33.288Z,DataFeed,,,,,,,,,,,3.5
+193811,Chevron,,754 Flournoy Lucas Rd,Shreveport,LA,71115,,,,,,0,,,,,,,,0,,,,,4.7
+109192,Shell,,5454 W 70th St,Shreveport,LA,71109,,,,,,0,,,,,,,,0,,,,,3.6
+191211,Circle K,,130 E Bert Kouns Industrial Loop,Shreveport,LA,71106,,,,,,2.35,2025-10-27T19:24:09.847Z,DataFeed,,,,,,3.11,,,,,4.4
+83052,Chevron,,7101 LA-1,Shreveport,LA,71107-9715,,,,,,2.54,2025-10-27T12:00:35.753Z,DataFeed,,,,,,3.39,,,,,4.3
+209151,Diamond Shamrock,,4242 Pines Rd,Shreveport,LA,71119,,,,,,0,,,,,,,,,,,,,3
+135102,Haughton General Store,,9011 LA-157,Haughton,LA,71037,,,,,,2.79,2025-10-27T08:22:25.973Z,leitchvance,,,,,,,,,,,4.4
+123373,Chevron,,109 E Bert Kouns Industrial Loop,Shreveport,LA,71106,,,,,,0,,,,,,,,0,,,,,4.1
+75787,Pilot,,490 N Elm St,Haughton,LA,71037,,,2.37,2025-10-27T08:23:01.320Z,leitchvance,2.35,2025-10-27T18:31:11.382Z,Owner,,,,,3.59,3.65,,,,,4.6
+151994,Rogers Corner,,6511 US-80,Princeton,LA,71067,,,,,,2.59,2025-10-27T08:22:27.824Z,leitchvance,,,,,,3.59,,,,,4.4
+192800,Kroger,,9484 Ellerbe Rd,Shreveport,LA,71106,,,,,,2.39,2025-10-26T16:44:10.235Z,Gasolean2015,,,,,,0,,,,,4.8
+110626,Exxon,,9000 Mansfield Rd,Shreveport,LA,71118,,,,,,0,,,,,,,,0,,,,,3.8
+162122,Exxon,,201 N Elm St,Haughton,LA,71037-8722,,,,,,2.69,2025-10-27T19:10:17.706Z,DataFeed,,,,,,3.69,,,,,4.8
+174732,Valero,,5965 Old Mooringsport Rd,Shreveport,LA,71107,,,,,,0,,,,,,,,0,,,,,3.7
+92232,RaceWay,,403 Bert Kouns Industrial Loop,Shreveport,LA,71106,,,,,,2.35,2025-10-27T16:24:18.049Z,DataFeed,,,,,,3.08,,,,,4.1
+115645,Excel,,9080 Kingston Rd,Shreveport,LA,71118-3416,,,0,,,0,,,,,,,,,,,,,3.3
+108678,Exxon,,6701 Pines Rd,Shreveport,LA,71129,,,0,,,2.99,2025-10-27T18:40:26.252Z,DataFeed,,,,,0,0,,,,,3.2
+113338,Circle K,,6704 Pines Rd,Shreveport,LA,71129,,,,,,2.36,2025-10-26T02:21:38.619Z,DataFeed,,,,,,2.99,,,,,3.4
+92008,Circle K,,2095 Bert Kouns Industrial Loop,Shreveport,LA,71118,,,0,,,2.37,2025-10-26T13:21:20.957Z,DataFeed,,,,,0,3.08,,,,,3.9
+190771,Murphy USA,,6241 Westport Avenue,Shreveport,LA,71129,,,,,,2.33,2025-10-27T19:32:59.931Z,Owner,,,,,,2.94,,,,,4.2
+145737,Stop N Get,,9488 Linwood Ave,Shreveport,LA,71106-8108,,,,,,0,,,,,,,,,,,,,2.2
+63129,Brookshire's,,9250 Mansfield Rd,Shreveport,LA,71118,,,,,,2.34,2025-10-27T14:29:49.288Z,jb47,,,,,,3,,,,,4.2
+112777,Circle K,,3050 Bert Kouns Industrial Loop,Shreveport,LA,71118,,,,,,2.35,2025-10-27T14:29:21.976Z,jb47,,,,,,3.01,,,,,3.4
+123374,Circle K,,7702 Pines Rd,Shreveport,LA,71129,,,,,,2.45,2025-10-27T00:32:26.562Z,eagle13bt12,,,,,,,,,,,3.8
+137337,Exxon,,7996 Barksdale Blvd,Bossier City,LA,71112,,,,,,0,,,,,,,,0,,,,,4.3
+192115,Circle K,,9428 Mansfield Rd,Shreveport,LA,71118,,,2.34,2025-10-27T16:01:12.646Z,jb47,2.34,2025-10-27T16:01:12.661Z,jb47,,,,,2.99,2.99,,,,,3.7
+140172,Relay Station,,10281 LA-1,Shreveport,LA,71115,,,,,,0,,,,,,,,0,,,,,4.7
+123312,Circle K,,3301 Bert Kouns Industrial Loop,Shreveport,LA,71118,,,,,,2.35,2025-10-27T12:21:03.187Z,DataFeed,,,,,,,,,,,3.4
+145740,First & Last Stop,,10277 Linwood Ave,Shreveport,LA,71106-7973,,,,,,0,,,,,,,,0,,,,,3.8
+152316,Exxon,,6050 LA-157,Haughton,LA,71037,,,,,,0,,,,,,,,0,,,,,5
+164649,RaceWay,,9567 Mansfield Rd,Shreveport,LA,71118,,,,,,2.34,2025-10-27T16:02:58.624Z,jb47,,,,,,2.96,,,,,3.8
+63130,Murphy USA,,9570 Mansfield Road,Shreveport,LA,71118,,,,,,2.34,2025-10-27T19:00:22.752Z,Owner,,,,,,2.96,,,,,3.6
+107617,QuikTrip,,6901 W Bert Kouns Industrial Loop,Shreveport,LA,71129,,,,,,2.39,2025-10-27T00:36:15.281Z,eagle13bt12,,,,,,3.09,,,,,4.5
+128515,Shell,,6920 W Bert Kouns Industrial Loop,Shreveport,LA,71129-2350,,,2.49,2025-10-27T00:36:50.629Z,eagle13bt12,2.49,2025-10-27T00:36:50.661Z,eagle13bt12,,,,,3.55,3.55,,,,,3.6
+209020,Brookshire’s,,10465 Norris Ferry Rd,Shreveport,LA,71106,,,,,,0,,,,,,,,,,,,,4.5
+145736,Exxon,,1907 Southern Loop,Shreveport,LA,71106-8351,,,,,,2.49,2025-10-27T18:40:25.876Z,DataFeed,,,,,,0,,,,,4.8
+145742,Phillips 66,,6850 Buncombe Rd,Shreveport,LA,71129-9308,,,,,,0,,,,,,,,,,,,,3.3
+137346,4 Way Country Store,,4482 LA-157,Haughton,LA,71052,,,,,,0,,,,,,,,0,,,,,4.2

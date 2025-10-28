@@ -1,0 +1,132 @@
+======================================================================
+TESTING: LARGE SCALE SCRAPING WITH PROXIES
+======================================================================
+
+Testing with 300 ZIPs...
+
+1. Establishing session via proxy with anti-detection...
+   Session established via isp.oxylabs.io:8001
+   CSRF: 1.XSmtMwygB2VjkOEn...
+
+======================================================================
+TEST: 10 concurrent workers
+======================================================================
+   [14:55:04] 1/300 (0%) | Rate: 1.6 ZIP/s | Stations: 0 | Errors: 0 | ETA: 3m
+   [14:55:06] 2/300 (1%) | Rate: 0.7 ZIP/s | Stations: 2 | Errors: 0 | ETA: 8m
+   [14:55:07] 3/300 (1%) | Rate: 0.8 ZIP/s | Stations: 2 | Errors: 0 | ETA: 6m
+   [14:55:08] 4/300 (1%) | Rate: 0.9 ZIP/s | Stations: 7 | Errors: 0 | ETA: 6m
+   [14:55:08] 5/300 (2%) | Rate: 1.0 ZIP/s | Stations: 7 | Errors: 0 | ETA: 5m
+   [14:55:08] 6/300 (2%) | Rate: 1.2 ZIP/s | Stations: 7 | Errors: 0 | ETA: 4m
+   [14:55:09] 7/300 (2%) | Rate: 1.3 ZIP/s | Stations: 7 | Errors: 0 | ETA: 4m
+   [14:55:09] 8/300 (3%) | Rate: 1.4 ZIP/s | Stations: 7 | Errors: 0 | ETA: 4m
+   [14:55:09] 9/300 (3%) | Rate: 1.5 ZIP/s | Stations: 41 | Errors: 0 | ETA: 3m
+   [14:55:10] 10/300 (3%) | Rate: 1.5 ZIP/s | Stations: 41 | Errors: 0 | ETA: 3m
+   [14:55:11] 11/300 (4%) | Rate: 1.5 ZIP/s | Stations: 48 | Errors: 0 | ETA: 3m
+   [14:55:11] 12/300 (4%) | Rate: 1.5 ZIP/s | Stations: 48 | Errors: 0 | ETA: 3m
+   [14:55:12] 13/300 (4%) | Rate: 1.5 ZIP/s | Stations: 49 | Errors: 0 | ETA: 3m
+   [14:55:13] 14/300 (5%) | Rate: 1.5 ZIP/s | Stations: 50 | Errors: 0 | ETA: 3m
+   [14:55:13] 15/300 (5%) | Rate: 1.5 ZIP/s | Stations: 57 | Errors: 0 | ETA: 3m
+   [14:55:17] 20/300 (7%) | Rate: 1.5 ZIP/s | Stations: 118 | Errors: 0 | ETA: 3m
+   [14:55:20] 30/300 (10%) | Rate: 1.8 ZIP/s | Stations: 169 | Errors: 0 | ETA: 3m
+   [14:55:25] 40/300 (13%) | Rate: 1.8 ZIP/s | Stations: 191 | Errors: 0 | ETA: 2m
+   [14:55:32] 50/300 (17%) | Rate: 1.7 ZIP/s | Stations: 421 | Errors: 0 | ETA: 2m
+   [14:55:39] 60/300 (20%) | Rate: 1.7 ZIP/s | Stations: 900 | Errors: 0 | ETA: 2m
+   [14:55:42] 70/300 (23%) | Rate: 1.8 ZIP/s | Stations: 1,133 | Errors: 0 | ETA: 2m
+   [14:55:46] 80/300 (27%) | Rate: 1.9 ZIP/s | Stations: 1,227 | Errors: 0 | ETA: 2m
+   [14:55:53] 90/300 (30%) | Rate: 1.8 ZIP/s | Stations: 1,434 | Errors: 0 | ETA: 2m
+   [14:56:00] 100/300 (33%) | Rate: 1.8 ZIP/s | Stations: 1,940 | Errors: 0 | ETA: 2m
+   [14:56:08] 110/300 (37%) | Rate: 1.7 ZIP/s | Stations: 2,280 | Errors: 0 | ETA: 2m
+   [14:56:14] 120/300 (40%) | Rate: 1.7 ZIP/s | Stations: 2,746 | Errors: 0 | ETA: 2m
+   [14:56:20] 130/300 (43%) | Rate: 1.7 ZIP/s | Stations: 3,086 | Errors: 0 | ETA: 2m
+   [14:56:27] 140/300 (47%) | Rate: 1.7 ZIP/s | Stations: 3,426 | Errors: 0 | ETA: 2m
+   [14:56:33] 150/300 (50%) | Rate: 1.7 ZIP/s | Stations: 3,766 | Errors: 0 | ETA: 1m
+   [14:56:39] 160/300 (53%) | Rate: 1.7 ZIP/s | Stations: 4,106 | Errors: 0 | ETA: 1m
+   [14:56:45] 170/300 (57%) | Rate: 1.7 ZIP/s | Stations: 4,446 | Errors: 0 | ETA: 1m
+   [14:56:51] 180/300 (60%) | Rate: 1.7 ZIP/s | Stations: 4,786 | Errors: 0 | ETA: 1m
+   [14:56:59] 190/300 (63%) | Rate: 1.6 ZIP/s | Stations: 5,126 | Errors: 0 | ETA: 1m
+   [14:57:06] 200/300 (67%) | Rate: 1.6 ZIP/s | Stations: 5,466 | Errors: 0 | ETA: 1m
+   [14:57:13] 210/300 (70%) | Rate: 1.6 ZIP/s | Stations: 5,806 | Errors: 0 | ETA: 1m
+   [14:57:20] 220/300 (73%) | Rate: 1.6 ZIP/s | Stations: 6,146 | Errors: 0 | ETA: 1m
+   [14:57:26] 230/300 (77%) | Rate: 1.6 ZIP/s | Stations: 6,486 | Errors: 0 | ETA: 1m
+   [14:57:33] 240/300 (80%) | Rate: 1.6 ZIP/s | Stations: 6,826 | Errors: 0 | ETA: 1m
+   [14:57:40] 250/300 (83%) | Rate: 1.6 ZIP/s | Stations: 7,166 | Errors: 0 | ETA: 1m
+   [14:57:47] 260/300 (87%) | Rate: 1.6 ZIP/s | Stations: 7,506 | Errors: 0 | ETA: 0m
+   [14:57:52] 270/300 (90%) | Rate: 1.6 ZIP/s | Stations: 7,846 | Errors: 0 | ETA: 0m
+   [14:57:59] 280/300 (93%) | Rate: 1.6 ZIP/s | Stations: 8,186 | Errors: 0 | ETA: 0m
+   [14:58:06] 290/300 (97%) | Rate: 1.6 ZIP/s | Stations: 8,526 | Errors: 0 | ETA: 0m
+   [14:58:14] 300/300 (100%) | Rate: 1.6 ZIP/s | Stations: 8,866 | Errors: 0 | ETA: 0m
+
+======================================================================
+RESULTS: 10 workers
+======================================================================
+Total time: 190.5s (3.2 minutes)
+Total stations: 8,866
+ZIPs completed: 300/300
+Rate limits (429): 0
+Other errors: 0
+Throughput: 1.58 ZIPs/second
+Average per ZIP: 0.6s
+
+✅ No rate limits with 10 workers!
+
+📊 Extrapolated to 42,000 ZIPs (all US ZIPs):
+   Estimated time: 7.4 hours per scrape
+   Daily (2x): 14.8 hours
+   With 10 proxies rotating
+   Bandwidth per scrape: 47.3 GB
+   Bandwidth per month (60x): 2841.0 GB
+   💰 Cost @ $16/month unlimited: $16/month flat rate!
+
+📄 PAGINATION ANALYSIS:
+   ZIPs requiring pagination: 225/300
+   Max pages for single ZIP: 10
+
+   Top 5 ZIPs by page count:
+      ZIP 85001: 200 stations across 10 pages
+      ZIP 95101: 200 stations across 10 pages
+      ZIP 02101: 161 stations across 9 pages
+      ZIP 65801: 160 stations across 8 pages
+      ZIP 19019: 139 stations across 7 pages
+
+📦 SAMPLE DATA (showing 5 random stations with prices):
+
+   Sample 1 - ZIP 77494:
+      Name: Shell
+      Address: 2620 FM-1463, Katy, TX
+      ID: 135628
+      Regular gas: No recent price reports
+
+   Sample 2 - ZIP 95101:
+      Name: Rotten Robbie
+      Address: 3471 Lafayette St, Santa Clara, CA
+      ID: 4068
+      Regular (credit): $3.99 by DataFeed
+
+   Sample 3 - ZIP 77494:
+      Name: Shell
+      Address: 6750 FM-1463, Fulshear, TX
+      ID: 158694
+      Regular (credit): $2.39 by Desertfly
+
+   Sample 4 - ZIP 77494:
+      Name: Exxon
+      Address: 1540 Katy Gap Rd, Katy, TX
+      ID: 187355
+      Regular (credit): $2.79 by DataFeed
+
+   Sample 5 - ZIP 77494:
+      Name: Kroger
+      Address: 1712 Spring Green Blvd , Katy, TX
+      ID: 186216
+      Regular (credit): $2.34 by Desertfly
+
+======================================================================
+CONCLUSIONS
+======================================================================
+
+✅ Key findings will show:
+  1. Optimal worker count for 30K ZIPs
+  2. Whether 10 proxies are sufficient
+  3. Expected completion time
+  4. Rate limiting behavior at scale
+======================================================================

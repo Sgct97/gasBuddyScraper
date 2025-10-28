@@ -1,0 +1,6 @@
+We need to add Canadian province filtering in the scrape_zip function.
+After extracting stations from both Apollo state and GraphQL responses,
+filter out any station where address.region is in:
+{'AB', 'BC', 'MB', 'NB', 'NL', 'NT', 'NS', 'NU', 'ON', 'PE', 'QC', 'SK', 'YT'}
+
+This ensures we never process Canadian data at all.
