@@ -19,25 +19,48 @@ while true; do
     
     ssh root@$DROPLET1_IP << 'EOF' 2>/dev/null
 cd /opt/gasbuddy 2>/dev/null || exit 1
-if [ -f "completed_zips_droplet1.txt" ]; then
-    COMPLETED=$(wc -l < completed_zips_droplet1.txt)
-    FAILED=$(wc -l < failed_zips_droplet1.txt 2>/dev/null || echo 0)
-    PCT=$(echo "scale=1; $COMPLETED / 20743 * 100" | bc)
-    echo "Progress: $COMPLETED / 20,743 ZIPs ($PCT%)"
+
+# Check if there's a current run
+if [ -f "current_run_droplet1.txt" ]; then
+    RUN_ID=$(cat current_run_droplet1.txt)
+    echo "Run ID: $RUN_ID"
+    
+    # Count progress for this specific run
+    COMPLETED=0
+    FAILED=0
+    if [ -f "runs/completed_${RUN_ID}_droplet1.txt" ]; then
+        COMPLETED=$(wc -l < "runs/completed_${RUN_ID}_droplet1.txt")
+    fi
+    if [ -f "runs/failed_${RUN_ID}_droplet1.txt" ]; then
+        FAILED=$(wc -l < "runs/failed_${RUN_ID}_droplet1.txt")
+    fi
+    
+    TOTAL=20743
+    PCT=$(echo "scale=1; $COMPLETED / $TOTAL * 100" | bc 2>/dev/null || echo "0")
+    
+    echo "Progress: $COMPLETED / $TOTAL ZIPs ($PCT%)"
     echo "Failed: $FAILED"
     
     # Check if scraper is running
-    if pgrep -f "python3.*production_scraper.py" > /dev/null; then
+    if pgrep -f "python3.*production_scraper_droplet1" > /dev/null; then
         echo "Status: 🟢 RUNNING"
-        # Show last 3 log lines
+        
+        # Show recent log activity
         echo ""
         echo "Recent activity:"
-        tail -3 data/gasbuddy_droplet1_*.csv 2>/dev/null | head -3 | cut -d',' -f1-4 | sed 's/^/  /' || echo "  (no data yet)"
+        tail -3 logs/scraper_run.log 2>/dev/null | grep -E "Rate:|scraping" | sed 's/^/  /' || echo "  (no logs yet)"
     else
-        echo "Status: 🔴 STOPPED"
+        # Check if run is complete
+        if [ -f "runs/complete_${RUN_ID}_droplet1.txt" ]; then
+            echo "Status: ✅ COMPLETE"
+            echo ""
+            cat "runs/complete_${RUN_ID}_droplet1.txt" | sed 's/^/  /'
+        else
+            echo "Status: 🔴 STOPPED (incomplete)"
+        fi
     fi
 else
-    echo "Status: ⚪ Not started"
+    echo "Status: ⚪ No run in progress"
 fi
 EOF
     
@@ -48,25 +71,48 @@ EOF
     
     ssh root@$DROPLET2_IP << 'EOF' 2>/dev/null
 cd /opt/gasbuddy 2>/dev/null || exit 1
-if [ -f "completed_zips_droplet2.txt" ]; then
-    COMPLETED=$(wc -l < completed_zips_droplet2.txt)
-    FAILED=$(wc -l < failed_zips_droplet2.txt 2>/dev/null || echo 0)
-    PCT=$(echo "scale=1; $COMPLETED / 20744 * 100" | bc)
-    echo "Progress: $COMPLETED / 20,744 ZIPs ($PCT%)"
+
+# Check if there's a current run
+if [ -f "current_run_droplet2.txt" ]; then
+    RUN_ID=$(cat current_run_droplet2.txt)
+    echo "Run ID: $RUN_ID"
+    
+    # Count progress for this specific run
+    COMPLETED=0
+    FAILED=0
+    if [ -f "runs/completed_${RUN_ID}_droplet2.txt" ]; then
+        COMPLETED=$(wc -l < "runs/completed_${RUN_ID}_droplet2.txt")
+    fi
+    if [ -f "runs/failed_${RUN_ID}_droplet2.txt" ]; then
+        FAILED=$(wc -l < "runs/failed_${RUN_ID}_droplet2.txt")
+    fi
+    
+    TOTAL=20744
+    PCT=$(echo "scale=1; $COMPLETED / $TOTAL * 100" | bc 2>/dev/null || echo "0")
+    
+    echo "Progress: $COMPLETED / $TOTAL ZIPs ($PCT%)"
     echo "Failed: $FAILED"
     
     # Check if scraper is running
-    if pgrep -f "python3.*production_scraper.py" > /dev/null; then
+    if pgrep -f "python3.*production_scraper_droplet2" > /dev/null; then
         echo "Status: 🟢 RUNNING"
-        # Show last 3 log lines
+        
+        # Show recent log activity
         echo ""
         echo "Recent activity:"
-        tail -3 data/gasbuddy_droplet2_*.csv 2>/dev/null | head -3 | cut -d',' -f1-4 | sed 's/^/  /' || echo "  (no data yet)"
+        tail -3 logs/scraper_run.log 2>/dev/null | grep -E "Rate:|scraping" | sed 's/^/  /' || echo "  (no logs yet)"
     else
-        echo "Status: 🔴 STOPPED"
+        # Check if run is complete
+        if [ -f "runs/complete_${RUN_ID}_droplet2.txt" ]; then
+            echo "Status: ✅ COMPLETE"
+            echo ""
+            cat "runs/complete_${RUN_ID}_droplet2.txt" | sed 's/^/  /'
+        else
+            echo "Status: 🔴 STOPPED (incomplete)"
+        fi
     fi
 else
-    echo "Status: ⚪ Not started"
+    echo "Status: ⚪ No run in progress"
 fi
 EOF
     

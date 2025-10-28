@@ -44,10 +44,14 @@ PROXY_URLS = [
 NUM_WORKERS = 10
 SESSION_REFRESH_MINUTES = 25  # Refresh before Cloudflare cookie expires (30min)
 ZIP_FILE = 'droplet1_zips.txt'  # First half of ZIPs
-PROGRESS_FILE = 'scraper_progress_droplet1.pkl'
-COMPLETED_FILE = 'completed_zips_droplet1.txt'
-FAILED_FILE = 'failed_zips_droplet1.txt'
 MAX_RETRIES = 3
+
+# Run-specific files (set at runtime with timestamp)
+RUN_ID = None
+PROGRESS_FILE = None
+COMPLETED_FILE = None
+FAILED_FILE = None
+CURRENT_RUN_FILE = 'current_run_droplet1.txt'
 
 # Thread-local storage for sessions
 thread_local = threading.local()
@@ -313,14 +317,27 @@ if __name__ == "__main__":
     
     start_time = datetime.now()
     
-    # Initialize CSV filename for incremental writing
-    csv_filename = f"data/gasbuddy_droplet1_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+    # Initialize RUN_ID and timestamped files for this run
+    global RUN_ID, PROGRESS_FILE, COMPLETED_FILE, FAILED_FILE, csv_filename
+    RUN_ID = datetime.now().strftime('%Y%m%d_%H%M%S')
+    PROGRESS_FILE = f'runs/progress_{RUN_ID}_droplet1.pkl'
+    COMPLETED_FILE = f'runs/completed_{RUN_ID}_droplet1.txt'
+    FAILED_FILE = f'runs/failed_{RUN_ID}_droplet1.txt'
+    csv_filename = f"data/gasbuddy_droplet1_{RUN_ID}.csv"
+    
+    # Create directories
     os.makedirs('data', exist_ok=True)
+    os.makedirs('runs', exist_ok=True)
+    
+    # Write current run ID for monitoring
+    with open(CURRENT_RUN_FILE, 'w') as f:
+        f.write(RUN_ID)
     
     print("="*70)
     print("🚀 PRODUCTION GASBUDDY SCRAPER - DROPLET 1")
     print("="*70)
     print(f"PID: {os.getpid()}")
+    print(f"RUN_ID: {RUN_ID}")
     print(f"ZIP Range: 1-20,743 (first half)")
     print(f"Proxies: {PROXY_HOST}:8001-8010")
     print(f"Started: {start_time.strftime('%Y-%m-%d %H:%M:%S')}\n")
@@ -489,6 +506,16 @@ if __name__ == "__main__":
     print(f"Completed ZIPs logged: {COMPLETED_FILE}")
     print(f"Failed ZIPs logged: {FAILED_FILE}")
     print(f"{'='*70}\n")
+    
+    # Mark run as complete
+    run_complete_file = f'runs/complete_{RUN_ID}_droplet1.txt'
+    with open(run_complete_file, 'w') as f:
+        f.write(f"completed_at={datetime.now().isoformat()}\n")
+        f.write(f"csv_file={csv_filename}\n")
+        f.write(f"total_stations={total_stations}\n")
+        f.write(f"zips_processed={len(results)}\n")
+        f.write(f"failed_zips={failed}\n")
+    print(f"✅ Run marked complete: {run_complete_file}")
     
     # ENTERPRISE SAFETY: Clean up PID file
     try:
