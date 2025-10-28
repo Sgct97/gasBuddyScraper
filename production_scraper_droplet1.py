@@ -328,8 +328,30 @@ if __name__ == "__main__":
     start_time_scraping = time.time()
     
     with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
+        # ENTERPRISE MONITORING: Verify workers started correctly
+        time.sleep(2)  # Give threads time to spawn
+        import subprocess
+        thread_count = int(subprocess.check_output(
+            "ps -eLf | grep production_scraper | grep -v grep | wc -l",
+            shell=True
+        ).decode().strip())
+        expected_min_threads = NUM_WORKERS + 5  # Workers + main + overhead
+        
+        print(f"🔍 WORKER VERIFICATION:")
+        print(f"   Expected: ≥{expected_min_threads} threads")
+        print(f"   Actual: {thread_count} threads")
+        
+        if thread_count < expected_min_threads:
+            print(f"   ⚠️  WARNING: Only {thread_count} threads detected!")
+            print(f"   ⚠️  Expected at least {expected_min_threads} for {NUM_WORKERS} workers")
+            print(f"   ⚠️  Performance may be degraded!")
+        else:
+            print(f"   ✅ All workers initialized successfully\n")
+        
         # Submit all ZIPs to workers with proper proxy rotation
         future_to_zip = {}
+        last_health_check = time.time()
+        
         for i, zip_code in enumerate(zip_codes_to_scrape):
             # Check if session needs refresh before submitting
             if needs_session_refresh():
@@ -375,8 +397,18 @@ if __name__ == "__main__":
                     save_progress(zip_code, success=True)
                     completed += 1
                 
-                # Periodic memory cleanup - flush to disk every 500 ZIPs
-                    # This will be handled at the end, just noting progress
+                # ENTERPRISE MONITORING: Periodic health check every 10 minutes
+                if time.time() - last_health_check > 600:  # 10 minutes
+                    try:
+                        current_threads = int(subprocess.check_output(
+                            "ps -eLf | grep production_scraper | grep -v grep | wc -l",
+                            shell=True
+                        ).decode().strip())
+                        if current_threads < expected_min_threads:
+                            print(f"\n⚠️  HEALTH WARNING: Thread count dropped to {current_threads}")
+                        last_health_check = time.time()
+                    except:
+                        pass  # Don't fail scrape on monitoring error
                 
                 # Live progress updates (every 50 ZIPs or first 20)
                 if completed % 50 == 0 or completed <= 20:
