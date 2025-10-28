@@ -21,6 +21,7 @@ import csv
 import pickle
 from datetime import datetime, timedelta
 import os
+from write_csv_incremental import write_stations_to_csv
 
 GRAPHQL_QUERY = open('full_graphql_query.txt').read()
 
@@ -56,7 +57,7 @@ state_lock = threading.Lock()
 session_start_time = None
 total_completed = 0
 total_failed = 0
-all_station_data = []
+csv_filename = None  # Set at runtime
 
 def get_session():
     if not hasattr(thread_local, "session"):
@@ -380,6 +381,11 @@ def export_to_csv(results, start_time):
 if __name__ == "__main__":
     start_time = datetime.now()
     
+    # Initialize CSV filename for incremental writing
+    csv_filename = f"data/gasbuddy_full_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+    import os
+    os.makedirs('data', exist_ok=True)
+    
     print("="*70)
     print("🚀 PRODUCTION GASBUDDY SCRAPER")
     print("="*70)
@@ -431,11 +437,13 @@ if __name__ == "__main__":
             zip_code = future_to_zip[future]
             try:
                 result = future.result()
-                # Write station data to CSV immediately to save memory
-                with state_lock:
-                    all_station_data.extend(result.get('data', []))
+                # Write station data to CSV immediately (no memory accumulation)
+                stations_data = result.get('data', [])
+                if stations_data:
+                    with state_lock:
+                        write_stations_to_csv(stations_data, csv_filename)
                 
-                # Store result without full data to save memory
+                # Store result without full data
                 result_summary = {
                     'zip': result['zip'],
                     'stations': result['stations'],
@@ -492,13 +500,24 @@ if __name__ == "__main__":
     print(f"Failed: {failed}")
     print(f"Throughput: {len(results)/total_time:.2f} ZIPs/second")
     
-    # Export to CSV
-    csv_file = export_to_csv(results, start_time)
+    # CSV already written incrementally
+    print(f"\n{'='*70}")
+    print(f"CSV EXPORT COMPLETE")
+    print(f"{'='*70}")
+    print(f"✅ CSV file: {csv_filename}")
+    
+    # Count total lines in CSV
+    try:
+        with open(csv_filename, 'r') as f:
+            total_stations_in_csv = sum(1 for line in f) - 1  # -1 for header
+        print(f"✅ Total stations in CSV: {total_stations_in_csv:,}")
+    except:
+        pass
     
     print(f"\n{'='*70}")
     print("✅ PRODUCTION RUN COMPLETE")
     print(f"{'='*70}")
-    print(f"CSV exported: {csv_file}")
+    print(f"CSV file: {csv_filename}")
     print(f"Completed ZIPs logged: {COMPLETED_FILE}")
     print(f"Failed ZIPs logged: {FAILED_FILE}")
     print(f"{'='*70}\n")
@@ -582,11 +601,13 @@ for num_workers in [10]:
         for future in as_completed(futures):
             try:
                 result = future.result()
-                # Write station data to CSV immediately to save memory
-                with state_lock:
-                    all_station_data.extend(result.get('data', []))
+                # Write station data to CSV immediately (no memory accumulation)
+                stations_data = result.get('data', [])
+                if stations_data:
+                    with state_lock:
+                        write_stations_to_csv(stations_data, csv_filename)
                 
-                # Store result without full data to save memory
+                # Store result without full data
                 result_summary = {
                     'zip': result['zip'],
                     'stations': result['stations'],
