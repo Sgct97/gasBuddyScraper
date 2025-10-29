@@ -105,6 +105,13 @@ EOF
                     
                     echo "   ✅ Both droplets archived and ready for next run"
                     echo ""
+                    
+                    # Trigger review email
+                    echo "   📧 Triggering review email..."
+                    STATION_COUNT=$(wc -l < "$MERGE_OUTPUT" | tail -1)
+                    STATION_COUNT=$((STATION_COUNT - 1))  # Subtract header
+                    python3 /opt/gasbuddy/send_review_email.py "$MERGE_ID" "$MERGE_OUTPUT" "$STATION_COUNT" && echo "      ✅ Review email sent"
+                    echo ""
                 else
                     echo "   ❌ Merge failed! Will retry..."
                     echo ""

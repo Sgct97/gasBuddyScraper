@@ -1,141 +1,302 @@
 #!/usr/bin/env python3
 """
-Approval Watcher - Checks inbox for approval replies
-Runs continuously, checking every 5 minutes for approval emails
-When approved, triggers client delivery after 20 minute delay
+Approval Watcher - Monitors inbox for approval replies
+Checks Gmail inbox for replies containing "APPROVED" or "OK"
+Runs continuously, checking every 60 seconds
 """
-import os
+import imaplib
+import email
+from email.header import decode_header
 import time
-from datetime import datetime, timedelta
-from email_utils import EmailConfig, check_for_approval
+import os
+import sys
+import subprocess
+from datetime import datetime
 
-CHECK_INTERVAL = 300  # Check every 5 minutes
-SENT_LOG = '/opt/gasbuddy/review_emails_sent.log'
-APPROVED_LOG = '/opt/gasbuddy/approved_runs.log'
-PENDING_DELIVERY_DIR = '/opt/gasbuddy/pending_delivery'
+class EmailConfig:
+    """Load email configuration"""
+    def __init__(self, config_file='/opt/gasbuddy/email_config.txt'):
+        # For IMAP, we need Gmail credentials (not SendGrid)
+        # These should be added to the config file
+        self.imap_email = None
+        self.imap_password = None  # Gmail app password for IMAP
+        
+        if os.path.exists(config_file):
+            with open(config_file, 'r') as f:
+                for line in f:
+                    if '=' in line:
+                        key, value = line.strip().split('=', 1)
+                        if key == 'imap_email':
+                            self.imap_email = value
+                        elif key == 'imap_password':
+                            self.imap_password = value
 
-def get_pending_approvals():
-    """Get list of runs waiting for approval"""
-    pending = {}
+def log_message(message):
+    """Log message with timestamp"""
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    log_line = f"[{timestamp}] {message}"
+    print(log_line)
     
-    if not os.path.exists(SENT_LOG):
+    log_file = '/opt/gasbuddy/logs/approval_watcher.log'
+    os.makedirs(os.path.dirname(log_file), exist_ok=True)
+    with open(log_file, 'a') as f:
+        f.write(log_line + '\n')
+
+def get_pending_reviews():
+    """Get list of merge IDs waiting for approval"""
+    pending = []
+    review_log = '/opt/gasbuddy/logs/review_requests.log'
+    approval_log = '/opt/gasbuddy/logs/approvals.log'
+    
+    if not os.path.exists(review_log):
         return pending
     
-    # Load sent review emails
-    with open(SENT_LOG, 'r') as f:
+    # Get all sent reviews
+    sent_reviews = set()
+    with open(review_log, 'r') as f:
         for line in f:
-            if '|' in line:
-                parts = line.strip().split('|')
-                if len(parts) >= 3:
-                    run_id = parts[0]
-                    sent_time = parts[1]
-                    csv_path = parts[2]
-                    pending[run_id] = {'sent_time': sent_time, 'csv_path': csv_path}
+            parts = line.strip().split('|')
+            if len(parts) >= 5 and parts[4] == 'SENT':
+                sent_reviews.add(parts[1])  # merge_id
     
     # Remove already approved
-    if os.path.exists(APPROVED_LOG):
-        with open(APPROVED_LOG, 'r') as f:
+    if os.path.exists(approval_log):
+        with open(approval_log, 'r') as f:
             for line in f:
-                if '|' in line:
-                    run_id = line.split('|')[0]
-                    if run_id in pending:
-                        del pending[run_id]
+                parts = line.strip().split('|')
+                if len(parts) >= 2:
+                    merge_id = parts[1]
+                    if merge_id in sent_reviews:
+                        sent_reviews.remove(merge_id)
     
-    return pending
+    return list(sent_reviews)
 
-def schedule_client_delivery(run_id, csv_path, stats):
-    """Schedule a CSV for delivery to client after 20 minute delay"""
-    delivery_time = datetime.now() + timedelta(minutes=20)
+def check_for_approval(config):
+    """
+    Check Gmail inbox AND Sent Mail for approval emails
+    Gmail stores replies in Sent Mail folder, not Inbox!
     
-    # Create pending delivery file
-    os.makedirs(PENDING_DELIVERY_DIR, exist_ok=True)
-    delivery_file = os.path.join(PENDING_DELIVERY_DIR, f'deliver_{run_id}.txt')
+    Returns:
+        List of approved merge_ids
+    """
+    if not config.imap_email or not config.imap_password:
+        log_message("⚠️  IMAP credentials not configured")
+        return []
     
-    with open(delivery_file, 'w') as f:
-        f.write(f"run_id={run_id}\n")
-        f.write(f"csv_path={csv_path}\n")
-        f.write(f"approved_at={datetime.now().isoformat()}\n")
-        f.write(f"deliver_at={delivery_time.isoformat()}\n")
-        for key, value in stats.items():
-            f.write(f"{key}={value}\n")
+    try:
+        # Connect to Gmail IMAP
+        log_message("📧 Connecting to Gmail IMAP...")
+        mail = imaplib.IMAP4_SSL('imap.gmail.com', 993)
+        log_message("   ✅ SSL connection established")
+        
+        mail.login(config.imap_email, config.imap_password)
+        log_message("   ✅ Login successful")
+        
+        # CHECK SENT MAIL FOLDER (where replies are stored!)
+        mail.select('"[Gmail]/Sent Mail"')
+        log_message("   ✅ Sent Mail selected")
+        
+        # Search for emails TO info@aiearlybird.com (approval replies)
+        from datetime import datetime, timedelta
+        since_date = (datetime.now() - timedelta(hours=24)).strftime("%d-%b-%Y")
+        log_message(f"   🔍 Searching Sent Mail for replies TO info@aiearlybird.com since: {since_date}")
+        status, messages = mail.search(None, f'(TO info@aiearlybird.com SINCE {since_date})')
+        log_message(f"   📬 Search status: {status}, Found: {len(messages[0].split()) if messages[0] else 0} emails")
+        
+        if status != 'OK' or not messages[0]:
+            mail.logout()
+            return []
+        
+        approved_merges = []
+        email_ids = messages[0].split()
+        
+        # Check ALL emails sent to info@aiearlybird.com
+        log_message(f"   📨 Checking {len(email_ids)} sent emails for approval...")
+        emails_checked = 0
+        for email_id in email_ids:
+            try:
+                status, msg_data = mail.fetch(email_id, '(RFC822)')
+                if status != 'OK':
+                    continue
+                
+                for response_part in msg_data:
+                    if isinstance(response_part, tuple):
+                        msg = email.message_from_bytes(response_part[1])
+                        
+                        # Get subject, from, and body
+                        subject = str(msg.get('subject', ''))
+                        from_addr = str(msg.get('from', ''))
+                        
+                        emails_checked += 1
+                        if emails_checked <= 10:  # Log first 10 for debugging
+                            log_message(f"      Email {emails_checked}: From={from_addr[:40]}, Subject={subject[:60]}")
+                        
+                        # Get body (text and HTML)
+                        body_text = ''
+                        body_html = ''
+                        
+                        if msg.is_multipart():
+                            for part in msg.walk():
+                                ctype = part.get_content_type()
+                                if ctype == 'text/plain':
+                                    try:
+                                        body_text = part.get_payload(decode=True).decode('utf-8', errors='ignore')
+                                    except:
+                                        pass
+                                elif ctype == 'text/html':
+                                    try:
+                                        body_html = part.get_payload(decode=True).decode('utf-8', errors='ignore')
+                                    except:
+                                        pass
+                        else:
+                            try:
+                                body_text = msg.get_payload(decode=True).decode('utf-8', errors='ignore')
+                            except:
+                                pass
+                        
+                        # Check if body starts with "OK" (approval reply)
+                        body_clean = body_text.strip()
+                        
+                        # Look for approval keywords at the START of the body
+                        has_approval = (body_clean.upper().startswith('OK') or
+                                       body_clean.upper().startswith('APPROVED') or
+                                       body_clean.upper().startswith('APPROVE'))
+                        
+                        # Check if this references GasBuddy (reply to review email)
+                        subject_upper = subject.upper()
+                        has_gasbuddy_ref = ('GASBUDDY' in subject_upper or 
+                                           'GAS BUDDY' in subject_upper or
+                                           'RE:' in subject_upper)
+                        
+                        if emails_checked <= 10:
+                            log_message(f"         Subject: {subject[:80]}")
+                            log_message(f"         Body start: {body_clean[:50]}")
+                            log_message(f"         HasApproval={has_approval}, HasGasBuddy={has_gasbuddy_ref}")
+                        
+                        # Must have approval keyword AND reference GasBuddy
+                        if has_approval and has_gasbuddy_ref:
+                            # Found a genuine approval reply from user!
+                            pending = get_pending_reviews()
+                            if pending:
+                                # Approve the most recent pending
+                                merge_id = pending[-1]
+                                log_message(f"✅ Found approval email FROM USER!")
+                                log_message(f"   From: {from_addr[:50]}")
+                                log_message(f"   Subject: {subject[:80]}")
+                                log_message(f"   Body snippet: {body_text[:100]}")
+                                log_message(f"   Approving: {merge_id}")
+                                
+                                # Only approve once
+                                if merge_id not in approved_merges:
+                                    approved_merges.append(merge_id)
+            
+            except Exception as e:
+                log_message(f"⚠️  Error processing email: {e}")
+                continue
+        
+        mail.logout()
+        return approved_merges
     
-    print(f"   📅 Scheduled for delivery at {delivery_time.strftime('%I:%M %p')}")
-    print(f"   📁 Delivery file: {delivery_file}")
+    except Exception as e:
+        log_message(f"❌ Failed to check inbox: {e}")
+        return []
+
+def log_approval(merge_id):
+    """Log approval event"""
+    approval_log = '/opt/gasbuddy/logs/approvals.log'
+    os.makedirs(os.path.dirname(approval_log), exist_ok=True)
+    with open(approval_log, 'a') as f:
+        f.write(f"{datetime.now().isoformat()}|{merge_id}|APPROVED\n")
+
+def trigger_client_delivery(merge_id):
+    """Trigger client delivery after delay"""
+    try:
+        log_message(f"🚀 Triggering client delivery for {merge_id}")
+        
+        # Call send_to_client.py script
+        result = subprocess.run(
+            ['python3', '/opt/gasbuddy/send_to_client.py', merge_id],
+            capture_output=True,
+            text=True,
+            timeout=300  # 5 minute timeout
+        )
+        
+        if result.returncode == 0:
+            log_message(f"✅ Client delivery completed successfully")
+            return True
+        else:
+            log_message(f"❌ Client delivery failed")
+            log_message(f"   Error: {result.stderr}")
+            return False
     
-    return delivery_file
+    except Exception as e:
+        log_message(f"❌ Failed to trigger client delivery: {e}")
+        return False
 
 def main():
-    print("="*70)
-    print("👀 APPROVAL WATCHER")
-    print("="*70)
-    print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Check interval: {CHECK_INTERVAL}s (5 minutes)")
-    print("="*70)
-    print()
+    """Main approval watcher loop"""
+    log_message("=" * 60)
+    log_message("👀 APPROVAL WATCHER STARTED")
+    log_message("=" * 60)
+    log_message("Monitoring inbox for approval emails...")
+    log_message("Check interval: 60 seconds")
+    log_message("")
     
-    # Load email config
     config = EmailConfig()
-    if not config.email_address:
-        print("❌ Email not configured! Please set up email_config.txt")
-        return
     
-    print(f"✅ Email configured: {config.email_address}")
-    print()
+    if not config.imap_email or not config.imap_password:
+        log_message("❌ IMAP credentials not configured!")
+        log_message("   Add to /opt/gasbuddy/email_config.txt:")
+        log_message("   imap_email=your_email@gmail.com")
+        log_message("   imap_password=your_gmail_app_password")
+        sys.exit(1)
     
-    # Create log files
-    if not os.path.exists(APPROVED_LOG):
-        open(APPROVED_LOG, 'w').close()
+    check_count = 0
     
-    os.makedirs(PENDING_DELIVERY_DIR, exist_ok=True)
-    
-    # Main watch loop
     while True:
         try:
-            pending = get_pending_approvals()
+            check_count += 1
+            
+            # Check for pending reviews
+            pending = get_pending_reviews()
             
             if pending:
-                print(f"[{datetime.now().strftime('%H:%M:%S')}] 🔍 Checking {len(pending)} pending approval(s)...")
+                log_message(f"📋 Pending reviews: {len(pending)}")
+                for merge_id in pending:
+                    log_message(f"   - {merge_id}")
                 
-                for run_id, info in pending.items():
-                    # Check inbox for approval
-                    if check_for_approval(run_id, config):
-                        print(f"\n   ✅ APPROVED: {run_id}")
-                        print(f"   CSV: {os.path.basename(info['csv_path'])}")
-                        
-                        # Parse stats from merge complete file
-                        stats = {}
-                        complete_file = f'/opt/gasbuddy/merged/complete_{run_id}.txt'
-                        if os.path.exists(complete_file):
-                            with open(complete_file, 'r') as f:
-                                for line in f:
-                                    if '=' in line:
-                                        key, value = line.strip().split('=', 1)
-                                        stats[key] = value
-                        
-                        # Schedule for client delivery
-                        delivery_file = schedule_client_delivery(run_id, info['csv_path'], stats)
+                # Check inbox for approvals
+                log_message("📬 Checking inbox...")
+                approved = check_for_approval(config)
+                
+                if approved:
+                    for merge_id in approved:
+                        log_message(f"")
+                        log_message(f"🎉 APPROVAL RECEIVED: {merge_id}")
+                        log_message(f"")
                         
                         # Log approval
-                        with open(APPROVED_LOG, 'a') as f:
-                            f.write(f"{run_id}|{datetime.now().isoformat()}|{info['csv_path']}|{delivery_file}\n")
+                        log_approval(merge_id)
                         
-                        print(f"   ✅ Logged to approved_runs.log\n")
-                
-            time.sleep(CHECK_INTERVAL)
+                        # Trigger client delivery
+                        trigger_client_delivery(merge_id)
+                else:
+                    log_message("   No approvals found")
+            else:
+                if check_count % 10 == 1:  # Log every 10 checks
+                    log_message("✓ No pending reviews")
+            
+            # Wait before next check
+            time.sleep(60)
         
         except KeyboardInterrupt:
-            raise
+            log_message("")
+            log_message("👋 Approval watcher stopped by user")
+            sys.exit(0)
+        
         except Exception as e:
-            print(f"\n❌ Error in approval check: {e}")
-            print("   Continuing...")
-            time.sleep(CHECK_INTERVAL)
+            log_message(f"❌ Error in main loop: {e}")
+            time.sleep(60)
 
 if __name__ == '__main__':
-    try:
-        main()
-    except KeyboardInterrupt:
-        print("\n\n🛑 Stopped by user")
-    except Exception as e:
-        print(f"\n\n❌ Fatal error: {e}")
-        raise
-
+    main()

@@ -1,190 +1,211 @@
 #!/usr/bin/env python3
 """
-Email Review Sender - Watches for merge completion and sends review email
-Runs continuously, checking for new merged CSVs every 60 seconds
+Send Review Email - Sends merged CSV to user for approval
+Called by post_run_droplet2.sh after successful merge
 """
 import os
-import time
+import sys
 from datetime import datetime
-from email_utils import EmailConfig, send_email
+from sendgrid import SendGridAPIClient
+from sendgrid.helpers.mail import Mail, Attachment, FileContent, FileName, FileType, Disposition
+import base64
 
-CHECK_INTERVAL = 60  # Check every 60 seconds
-MERGE_DIR = '/opt/gasbuddy/merged'
-SENT_LOG = '/opt/gasbuddy/review_emails_sent.log'
+class EmailConfig:
+    """Load email configuration"""
+    def __init__(self, config_file='/opt/gasbuddy/email_config.txt'):
+        if os.path.exists(config_file):
+            with open(config_file, 'r') as f:
+                for line in f:
+                    if '=' in line:
+                        key, value = line.strip().split('=', 1)
+                        if key == 'email':
+                            self.email_address = value
+                        elif key == 'sendgrid_api_key':
+                            self.sendgrid_api_key = value
+                        elif key == 'client_email':
+                            self.client_email = value
+        else:
+            self.email_address = None
+            self.sendgrid_api_key = None
+            self.client_email = None
 
-def parse_complete_file(complete_file):
-    """Parse a complete_RUNID.txt file and return stats dict"""
-    stats = {}
-    with open(complete_file, 'r') as f:
-        for line in f:
-            if '=' in line:
-                key, value = line.strip().split('=', 1)
-                stats[key] = value
-    return stats
-
-def format_review_email(run_id, stats):
-    """Generate HTML email body for review"""
+def send_review_email(merge_id, csv_path, station_count, review_email):
+    """
+    Send merged CSV to user for review
     
-    # Parse timestamp from run_id
-    try:
-        timestamp = datetime.strptime(run_id, '%Y%m%d_%H%M%S')
-        date_str = timestamp.strftime('%B %d, %Y at %I:%M %p')
-    except:
-        date_str = run_id
+    Args:
+        merge_id: Unique ID for this merge (RUN_ID_D1_RUN_ID_D2)
+        csv_path: Path to merged CSV file
+        station_count: Number of stations in CSV
+        review_email: Email address to send review to
     
-    html = f"""
-    <html>
-    <head>
-        <style>
-            body {{ font-family: Arial, sans-serif; line-height: 1.6; }}
-            .header {{ background-color: #4CAF50; color: white; padding: 20px; text-align: center; }}
-            .content {{ padding: 20px; }}
-            .stats {{ background-color: #f5f5f5; padding: 15px; border-left: 4px solid #4CAF50; margin: 20px 0; }}
-            .stats-item {{ margin: 10px 0; }}
-            .label {{ font-weight: bold; color: #333; }}
-            .value {{ color: #555; }}
-            .footer {{ background-color: #f9f9f9; padding: 15px; text-align: center; color: #777; font-size: 12px; }}
-            .button {{ background-color: #4CAF50; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; display: inline-block; margin: 20px 0; }}
-        </style>
-    </head>
-    <body>
-        <div class="header">
-            <h1>🔍 GasBuddy Scrape Complete - Awaiting Review</h1>
-        </div>
-        
-        <div class="content">
-            <p>Hi Spencer,</p>
-            
-            <p>The GasBuddy scrape has completed successfully on <strong>{date_str}</strong>.</p>
-            
-            <div class="stats">
-                <h3>📊 Scrape Statistics</h3>
-                <div class="stats-item">
-                    <span class="label">Run ID:</span>
-                    <span class="value">{run_id}</span>
-                </div>
-                <div class="stats-item">
-                    <span class="label">Total Stations:</span>
-                    <span class="value">{stats.get('total_stations', 'N/A'):,}</span>
-                </div>
-                <div class="stats-item">
-                    <span class="label">Merged CSV:</span>
-                    <span class="value">{os.path.basename(stats.get('merged_csv', 'N/A'))}</span>
-                </div>
-                <div class="stats-item">
-                    <span class="label">Completed At:</span>
-                    <span class="value">{stats.get('completed_at', 'N/A')}</span>
-                </div>
-            </div>
-            
-            <p><strong>📎 The merged CSV file is attached to this email.</strong></p>
-            
-            <p>Please review the data and reply with <strong>"APPROVED"</strong> to send it to the client.</p>
-            
-            <p>The system will automatically send the CSV to the client 20 minutes after receiving your approval.</p>
-        </div>
-        
-        <div class="footer">
-            <p>GasBuddy Scraper Automation System</p>
-            <p>Run ID: {run_id}</p>
-        </div>
-    </body>
-    </html>
+    Returns:
+        True if successful, False otherwise
     """
     
-    return html
+    if not os.path.exists(csv_path):
+        print(f"❌ CSV file not found: {csv_path}")
+        return False
+    
+    # Get file size
+    file_size_mb = os.path.getsize(csv_path) / (1024 * 1024)
+    
+    config = EmailConfig()
+    
+    if not config.email_address or not config.sendgrid_api_key:
+        print("❌ SendGrid not configured!")
+        return False
+    
+    try:
+        # Create HTML email body
+        html = f"""
+        <html>
+        <head>
+            <style>
+                body {{ font-family: Arial, sans-serif; line-height: 1.6; }}
+                .header {{ background-color: #2196F3; color: white; padding: 20px; text-align: center; }}
+                .content {{ padding: 20px; }}
+                .stats {{ background-color: #f5f5f5; padding: 15px; border-left: 4px solid #2196F3; margin: 20px 0; }}
+                .approval {{ background-color: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; margin: 20px 0; }}
+                .button {{ 
+                    display: inline-block;
+                    padding: 12px 24px;
+                    background-color: #4CAF50;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 4px;
+                    margin: 10px 0;
+                }}
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>📊 GasBuddy Scrape Complete - Review Required</h1>
+            </div>
+            
+            <div class="content">
+                <h2>Scrape Successful!</h2>
+                <p>Both droplets have completed their scraping run and the data has been merged and deduplicated.</p>
+                
+                <div class="stats">
+                    <h3>📈 Run Statistics</h3>
+                    <p><strong>Merge ID:</strong> {merge_id}</p>
+                    <p><strong>Total Unique Stations:</strong> {station_count:,}</p>
+                    <p><strong>File Size:</strong> {file_size_mb:.1f} MB</p>
+                    <p><strong>Completed:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
+                </div>
+                
+                <h3>📎 Attached File</h3>
+                <p>The merged and deduplicated CSV is attached to this email.</p>
+                
+                <div class="approval">
+                    <h3>⚠️ Action Required: Review & Approve</h3>
+                    <p><strong>To approve this data for client delivery:</strong></p>
+                    <ol>
+                        <li>Download and review the attached CSV file</li>
+                        <li>Reply to this email with: <strong>"APPROVED"</strong> or <strong>"OK"</strong></li>
+                        <li>The system will automatically send to the client 30 seconds after approval</li>
+                    </ol>
+                    <p><em>Note: You can reply from any device - just include "APPROVED" or "OK" in your reply.</em></p>
+                </div>
+                
+                <h3>🔍 Quick Quality Checks</h3>
+                <ul>
+                    <li>Verify station count is reasonable (~100K-150K expected)</li>
+                    <li>Check file opens correctly</li>
+                    <li>Spot-check a few familiar stations</li>
+                </ul>
+            </div>
+        </body>
+        </html>
+        """
+        
+        # Create message
+        message = Mail(
+            from_email=config.email_address,
+            to_emails=review_email,
+            subject=f'🔔 GasBuddy Scrape Complete - Review Required ({station_count:,} stations)',
+            html_content=html
+        )
+        
+        # Attach CSV file
+        with open(csv_path, 'rb') as f:
+            csv_data = f.read()
+        
+        encoded_file = base64.b64encode(csv_data).decode()
+        
+        attached_file = Attachment(
+            FileContent(encoded_file),
+            FileName(os.path.basename(csv_path)),
+            FileType('text/csv'),
+            Disposition('attachment')
+        )
+        message.attachment = attached_file
+        
+        # Send via SendGrid
+        sg = SendGridAPIClient(config.sendgrid_api_key)
+        response = sg.send(message)
+        
+        if response.status_code in [200, 202]:
+            print(f"✅ Review email sent successfully")
+            print(f"   To: {review_email}")
+            print(f"   Attachment: {os.path.basename(csv_path)} ({file_size_mb:.1f} MB)")
+            print(f"   SendGrid Status: {response.status_code}")
+            
+            # Log the review request
+            log_file = '/opt/gasbuddy/logs/review_requests.log'
+            os.makedirs(os.path.dirname(log_file), exist_ok=True)
+            with open(log_file, 'a') as f:
+                f.write(f"{datetime.now().isoformat()}|{merge_id}|{station_count}|{review_email}|SENT\n")
+            
+            return True
+        else:
+            print(f"❌ SendGrid returned status: {response.status_code}")
+            return False
+    
+    except Exception as e:
+        print(f"❌ Failed to send review email: {e}")
+        if hasattr(e, 'body'):
+            print(f"   Error details: {e.body}")
+        return False
 
 def main():
-    print("="*70)
-    print("📧 REVIEW EMAIL SENDER")
-    print("="*70)
-    print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Merge directory: {MERGE_DIR}")
-    print(f"Check interval: {CHECK_INTERVAL}s")
-    print("="*70)
+    """Main execution"""
+    if len(sys.argv) != 4:
+        print("Usage: send_review_email.py <MERGE_ID> <CSV_PATH> <STATION_COUNT>")
+        sys.exit(1)
+    
+    merge_id = sys.argv[1]
+    csv_path = sys.argv[2]
+    station_count = int(sys.argv[3])
+    
+    # For now, hardcode review email (can be made configurable later)
+    review_email = "scourvilletaylor@gmail.com"
+    
+    print("=" * 60)
+    print("📧 SENDING REVIEW EMAIL")
+    print("=" * 60)
+    print(f"Merge ID: {merge_id}")
+    print(f"CSV: {csv_path}")
+    print(f"Stations: {station_count:,}")
+    print(f"To: {review_email}")
     print()
     
-    # Load email config
-    config = EmailConfig()
-    if not config.email_address:
-        print("❌ Email not configured! Please set up email_config.txt")
-        return
+    success = send_review_email(merge_id, csv_path, station_count, review_email)
     
-    print(f"✅ Email configured: {config.email_address}")
-    print()
-    
-    # Create directories
-    os.makedirs(MERGE_DIR, exist_ok=True)
-    
-    # Track sent emails
-    if not os.path.exists(SENT_LOG):
-        open(SENT_LOG, 'w').close()
-    
-    sent_run_ids = set()
-    with open(SENT_LOG, 'r') as f:
-        for line in f:
-            if '|' in line:
-                run_id = line.split('|')[0]
-                sent_run_ids.add(run_id)
-    
-    print(f"📋 Already sent review emails for {len(sent_run_ids)} runs")
-    print()
-    
-    # Watch for new merges
-    while True:
-        # Find all complete_*.txt files in merged directory
-        complete_files = [f for f in os.listdir(MERGE_DIR) if f.startswith('complete_') and f.endswith('.txt')]
-        
-        for complete_file in complete_files:
-            # Extract run_id
-            run_id = complete_file.replace('complete_', '').replace('.txt', '')
-            
-            # Skip if already sent
-            if run_id in sent_run_ids:
-                continue
-            
-            print(f"[{datetime.now().strftime('%H:%M:%S')}] 🆕 New merge detected: {run_id}")
-            
-            # Parse stats
-            complete_path = os.path.join(MERGE_DIR, complete_file)
-            stats = parse_complete_file(complete_path)
-            
-            csv_path = stats.get('merged_csv')
-            if not csv_path or not os.path.exists(csv_path):
-                print(f"   ⚠️  CSV file not found: {csv_path}")
-                continue
-            
-            print(f"   CSV: {os.path.basename(csv_path)}")
-            print(f"   Stations: {stats.get('total_stations', 'N/A')}")
-            
-            # Generate email
-            subject = f"🔍 GasBuddy Scrape {run_id[:8]} - Awaiting Review"
-            body_html = format_review_email(run_id, stats)
-            
-            # Send email
-            print(f"   📧 Sending review email to {config.email_address}...")
-            
-            if send_email(config.email_address, subject, body_html, csv_path, config):
-                print(f"   ✅ Review email sent!")
-                
-                # Log this send
-                with open(SENT_LOG, 'a') as f:
-                    f.write(f"{run_id}|{datetime.now().isoformat()}|{csv_path}\n")
-                
-                sent_run_ids.add(run_id)
-                print()
-            else:
-                print(f"   ❌ Failed to send email. Will retry...")
-                print()
-        
-        time.sleep(CHECK_INTERVAL)
+    if success:
+        print()
+        print("=" * 60)
+        print("✅ REVIEW EMAIL SENT")
+        print("=" * 60)
+        print("Waiting for approval reply...")
+        sys.exit(0)
+    else:
+        print()
+        print("=" * 60)
+        print("❌ FAILED TO SEND")
+        print("=" * 60)
+        sys.exit(1)
 
 if __name__ == '__main__':
-    try:
-        main()
-    except KeyboardInterrupt:
-        print("\n\n🛑 Stopped by user")
-    except Exception as e:
-        print(f"\n\n❌ Fatal error: {e}")
-        raise
-
+    main()
