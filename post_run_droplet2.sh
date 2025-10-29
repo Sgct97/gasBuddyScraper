@@ -76,6 +76,14 @@ EOF
                     echo ""
                     echo "   🎯 Ready for email review!"
                     echo ""
+                    
+                    # Archive and cleanup on both droplets
+                    echo "   📦 Archiving completed run on both droplets..."
+                    ssh root@134.199.198.81 "cd /opt/gasbuddy && bash archive_completed_run.sh $RUN_ID 1" &
+                    bash archive_completed_run.sh $RUN_ID 2
+                    wait
+                    echo "   ✅ Both droplets archived and ready for next run"
+                    echo ""
                 else
                     echo "   ❌ Merge failed! Will retry..."
                     echo ""
