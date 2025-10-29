@@ -314,7 +314,16 @@ if __name__ == "__main__":
     
     # Initialize RUN_ID and timestamped files for this run
     global RUN_ID, PROGRESS_FILE, COMPLETED_FILE, FAILED_FILE, csv_filename
-    RUN_ID = datetime.now().strftime('%Y%m%d_%H%M%S')
+    
+    # Check if there's an existing run to resume
+    if os.path.exists(CURRENT_RUN_FILE):
+        with open(CURRENT_RUN_FILE, 'r') as f:
+            RUN_ID = f.read().strip()
+        print(f"📂 RESUMING existing run: {RUN_ID}")
+    else:
+        RUN_ID = datetime.now().strftime('%Y%m%d_%H%M%S')
+        print(f"🆕 Starting NEW run: {RUN_ID}")
+    
     PROGRESS_FILE = f'runs/progress_{RUN_ID}_droplet1.pkl'
     COMPLETED_FILE = f'runs/completed_{RUN_ID}_droplet1.txt'
     FAILED_FILE = f'runs/failed_{RUN_ID}_droplet1.txt'
@@ -414,6 +423,9 @@ if __name__ == "__main__":
                 if stations_data:
                     with state_lock:
                         write_stations_to_csv(stations_data, csv_filename)
+                    # CSV write succeeded - clear data from memory immediately
+                    result['data'] = None
+                    del stations_data
                 
                 # Store result without full data
                 result_summary = {
