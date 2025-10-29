@@ -34,13 +34,28 @@ def log_message(message):
 def is_process_running():
     """Check if scraper process is running"""
     try:
+        # More specific pattern to avoid false positives
         result = subprocess.run(
-            f'pgrep -f "python3.*{SCRAPER_SCRIPT}"',
+            f'pgrep -f "^python3 .*{SCRAPER_SCRIPT}"',
             shell=True,
             capture_output=True,
             text=True
         )
-        return result.returncode == 0
+        # Also verify the PID actually belongs to our scraper
+        if result.returncode == 0:
+            pids = result.stdout.strip().split('\n')
+            for pid in pids:
+                if pid:
+                    # Double-check this PID is actually the scraper
+                    check = subprocess.run(
+                        f'ps -p {pid} -o cmd=',
+                        shell=True,
+                        capture_output=True,
+                        text=True
+                    )
+                    if SCRAPER_SCRIPT in check.stdout and 'watchdog' not in check.stdout:
+                        return True
+        return False
     except:
         return False
 
