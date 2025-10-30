@@ -9,8 +9,8 @@
 */2 * * * * cd /opt/gasbuddy && DROPLET_ID=1 python3 watchdog.py >> logs/watchdog_droplet1.log 2>&1
 
 # ========== SCRAPER SCHEDULING ==========
-# Runs twice daily at 6 AM and 6 PM EST (11:00 and 23:00 UTC)
-0 11,23 * * * cd /opt/gasbuddy && nohup python3 production_scraper_droplet1.py > /dev/null 2>&1 &
+# Runs twice daily at 5 AM and 5 PM EST (10:00 and 22:00 UTC)
+0 10,22 * * * cd /opt/gasbuddy && nohup python3 production_scraper_droplet1.py > /dev/null 2>&1 &
 
 # ========== AUTO-START WATCHERS ON REBOOT ==========
 @reboot cd /opt/gasbuddy && nohup bash post_run_droplet1.sh > logs/auto_transfer.log 2>&1 &
@@ -23,8 +23,8 @@
 */2 * * * * cd /opt/gasbuddy && DROPLET_ID=2 python3 watchdog.py >> logs/watchdog_droplet2.log 2>&1
 
 # ========== SCRAPER SCHEDULING ==========
-# Runs twice daily at 6 AM and 6 PM EST (11:00 and 23:00 UTC) with 10-second stagger
-0 11,23 * * * sleep 10 && cd /opt/gasbuddy && nohup python3 production_scraper_droplet2.py > /dev/null 2>&1 &
+# Runs twice daily at 5 AM and 5 PM EST (10:00 and 22:00 UTC) with 10-second stagger
+0 10,22 * * * sleep 10 && cd /opt/gasbuddy && nohup python3 production_scraper_droplet2.py > /dev/null 2>&1 &
 
 # ========== AUTO-START WATCHERS ON REBOOT ==========
 @reboot cd /opt/gasbuddy && nohup bash post_run_droplet2.sh > logs/auto_merge.log 2>&1 &
@@ -51,7 +51,7 @@ crontab -e
 
 ## Schedule Summary
 
-- **Scraper Runs:** Twice daily at 6:00 AM and 6:00 PM EST (11:00 & 23:00 UTC)
+- **Scraper Runs:** Twice daily at 5:00 AM and 5:00 PM EST (10:00 & 22:00 UTC)
 - **Droplet 2 Stagger:** Starts 10 seconds after Droplet 1 to prevent proxy conflicts
 - **Watchdog Monitoring:** Every 2 minutes on both droplets
 - **Auto-Restart:** All watchers restart automatically if droplets reboot
